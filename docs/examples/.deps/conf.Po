@@ -1,0 +1,3 @@
+conf.o: qiniu/conf.c ../../include/qiniu/conf.h
+
+../../include/qiniu/conf.h:

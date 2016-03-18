@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+F1	HTTPClientAuth.c	492;"	d	file:
+F2	HTTPClientAuth.c	493;"	d	file:
+F3	HTTPClientAuth.c	494;"	d	file:
+F4	HTTPClientAuth.c	495;"	d	file:
+HTTPBase64Decoder	HTTPClientAuth.c	/^int HTTPBase64Decoder(char *out, const char *in)$/;"	f
+HTTPBase64Encoder	HTTPClientAuth.c	/^void HTTPBase64Encoder(unsigned char *out, const unsigned char *in, int inlen)$/;"	f
+HTTPClientAddRequestHeaders	HTTPClient.c	/^UINT32 HTTPClientAddRequestHeaders (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientCloseRequest	HTTPClient.c	/^UINT32 HTTPClientCloseRequest (HTTP_SESSION_HANDLE *pSession)$/;"	f
+HTTPClientFindCloseHeader	HTTPClient.c	/^UINT32 HTTPClientFindCloseHeader (HTTP_SESSION_HANDLE pSession)$/;"	f
+HTTPClientFindFirstHeader	HTTPClient.c	/^UINT32 HTTPClientFindFirstHeader (HTTP_SESSION_HANDLE pSession, CHAR *pSearchClue,CHAR *pHeaderBuffer, UINT32 *nLength)$/;"	f
+HTTPClientGetInfo	HTTPClient.c	/^UINT32 HTTPClientGetInfo (HTTP_SESSION_HANDLE pSession, HTTP_CLIENT *HTTPClient)$/;"	f
+HTTPClientGetNextHeader	HTTPClient.c	/^UINT32 HTTPClientGetNextHeader (HTTP_SESSION_HANDLE pSession, CHAR *pHeaderBuffer, UINT32 *nLength)$/;"	f
+HTTPClientOpenRequest	HTTPClient.c	/^HTTP_SESSION_HANDLE  HTTPClientOpenRequest (HTTP_CLIENT_SESSION_FLAGS Flags)$/;"	f
+HTTPClientReadData	HTTPClient.c	/^                            UINT32 HTTPClientReadData (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientRecvResponse	HTTPClient.c	/^UINT32 HTTPClientRecvResponse (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientReset	HTTPClient.c	/^UINT32  HTTPClientReset (HTTP_SESSION_HANDLE pSession)$/;"	f
+HTTPClientSendRequest	HTTPClient.c	/^UINT32 HTTPClientSendRequest (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetAuth	HTTPClient.c	/^UINT32  HTTPClientSetAuth (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetCredentials	HTTPClient.c	/^UINT32 HTTPClientSetCredentials (HTTP_SESSION_HANDLE pSession, $/;"	f
+HTTPClientSetDebugHook	HTTPClient.c	/^UINT32  HTTPClientSetDebugHook (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetLocalConnection	HTTPClient.c	/^UINT32 HTTPClientSetLocalConnection  (HTTP_SESSION_HANDLE pSession, UINT32 nPort)$/;"	f
+HTTPClientSetProxy	HTTPClient.c	/^UINT32 HTTPClientSetProxy (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetVerb	HTTPClient.c	/^UINT32  HTTPClientSetVerb (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientWriteData	HTTPClient.c	/^UINT32 HTTPClientWriteData (HTTP_SESSION_HANDLE pSession, $/;"	f
+HTTPDigestCalcHA1	HTTPClientAuth.c	/^void HTTPDigestCalcHA1($/;"	f
+HTTPDigestCalcResponse	HTTPClientAuth.c	/^void HTTPDigestCalcResponse($/;"	f
+HTTPDigestCvtHex	HTTPClientAuth.c	/^void HTTPDigestCvtHex(IN HASH Bin,OUT HASHHEX Hex)$/;"	f
+HTTPDigestGenerateCNonce	HTTPClientAuth.c	/^void HTTPDigestGenerateCNonce(char *outbuff) $/;"	f
+HTTPIntrnAuthHandler	HTTPClient.c	/^UINT32 HTTPIntrnAuthHandler (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthSendBasic	HTTPClient.c	/^UINT32 HTTPIntrnAuthSendBasic (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthSendDigest	HTTPClient.c	/^UINT32 HTTPIntrnAuthSendDigest (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthenticate	HTTPClient.c	/^UINT32 HTTPIntrnAuthenticate(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnConnectionClose	HTTPClient.c	/^UINT32 HTTPIntrnConnectionClose (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnConnectionOpen	HTTPClient.c	/^UINT32 HTTPIntrnConnectionOpen (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnGetRemoteChunkLength	HTTPClient.c	/^UINT32 HTTPIntrnGetRemoteChunkLength (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnGetRemoteHeaders	HTTPClient.c	/^UINT32 HTTPIntrnGetRemoteHeaders (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnHeadersAdd	HTTPClient.c	/^UINT32 HTTPIntrnHeadersAdd (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersFind	HTTPClient.c	/^UINT32 HTTPIntrnHeadersFind (P_HTTP_SESSION pHTTPSession,CHAR *pHeaderName,$/;"	f
+HTTPIntrnHeadersParse	HTTPClient.c	/^UINT32 HTTPIntrnHeadersParse (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnHeadersReceive	HTTPClient.c	/^UINT32 HTTPIntrnHeadersReceive (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersRemove	HTTPClient.c	/^UINT32 HTTPIntrnHeadersRemove (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersSend	HTTPClient.c	/^UINT32 HTTPIntrnHeadersSend(P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnParseAuthHeader	HTTPClient.c	/^UINT32 HTTPIntrnParseAuthHeader(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnRecv	HTTPClient.c	/^UINT32 HTTPIntrnRecv (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnResizeBuffer	HTTPClient.c	/^UINT32 HTTPIntrnResizeBuffer (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnSend	HTTPClient.c	/^UINT32 HTTPIntrnSend (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnSessionEvalTimeout	HTTPClient.c	/^BOOL HTTPIntrnSessionEvalTimeout(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnSessionGetUpTime	HTTPClient.c	/^UINT32 HTTPIntrnSessionGetUpTime(VOID)$/;"	f
+HTTPIntrnSessionReset	HTTPClient.c	/^UINT32 HTTPIntrnSessionReset (P_HTTP_SESSION pHTTPSession, BOOL EntireSession)$/;"	f
+HTTPIntrnSetURL	HTTPClient.c	/^UINT32 HTTPIntrnSetURL (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPMD5ByteReverse	HTTPClientAuth.c	/^void HTTPMD5ByteReverse(unsigned char *buf, unsigned longs)$/;"	f
+HTTPMD5ByteReverse	HTTPClientAuth.c	310;"	d	file:
+HTTPMD5Final	HTTPClientAuth.c	/^void HTTPMD5Final(unsigned char digest[16], struct MD5Context *ctx)$/;"	f
+HTTPMD5Init	HTTPClientAuth.c	/^void HTTPMD5Init(struct MD5Context *ctx)$/;"	f
+HTTPMD5Transform	HTTPClientAuth.c	/^void HTTPMD5Transform(uint32 buf[4], uint32 const in[16])$/;"	f
+HTTPMD5Update	HTTPClientAuth.c	/^void HTTPMD5Update(struct MD5Context *ctx, unsigned char const *buf, unsigned len)$/;"	f
+HTTPStrCaseStr	HTTPClientString.c	/^CHAR *HTTPStrCaseStr(const char *pSrc,UINT32 nSrcLength,const char *pFind)$/;"	f
+HTTPStrExtract	HTTPClientString.c	/^CHAR HTTPStrExtract(CHAR *pParam,       \/\/ [IN] a pointer to the input parameter$/;"	f
+HTTPStrGetDigestToken	HTTPClientString.c	/^UINT32 HTTPStrGetDigestToken (HTTP_PARAM pParamSrc, CHAR *pSearched, HTTP_PARAM *pParamDest)$/;"	f
+HTTPStrGetToken	HTTPClientString.c	/^CHAR* HTTPStrGetToken (CHAR *pSrc, UINT32 nSrcLength, CHAR *pDest, UINT32 *nDestLength)$/;"	f
+HTTPStrHToL	HTTPClientString.c	/^UINT32 HTTPStrHToL (CHAR * s) $/;"	f
+HTTPStrInsensitiveCompare	HTTPClientString.c	/^BOOL HTTPStrInsensitiveCompare(CHAR *pSrc,      \/\/ [IN] a pointer to the source string$/;"	f
+HTTPStrLToH	HTTPClientString.c	/^CHAR* HTTPStrLToH (CHAR * dest,UINT32 nSrc)$/;"	f
+HTTPStrSearch	HTTPClientString.c	/^BOOL HTTPStrSearch(CHAR *pSrc,              \/\/ [IN] The source string $/;"	f
+HTTPWrapperGetHostByName	HTTPClientWrapper.c	/^unsigned long HTTPWrapperGetHostByName(char *name,unsigned long *address)$/;"	f
+HTTPWrapperGetRandomeNumber	HTTPClientWrapper.c	/^int HTTPWrapperGetRandomeNumber()$/;"	f
+HTTPWrapperGetSocketError	HTTPClientWrapper.c	/^int HTTPWrapperGetSocketError (int s)$/;"	f
+HTTPWrapperGetUpTime	HTTPClientWrapper.c	/^long HTTPWrapperGetUpTime()$/;"	f
+HTTPWrapperInitRandomeNumber	HTTPClientWrapper.c	/^void HTTPWrapperInitRandomeNumber()$/;"	f
+HTTPWrapperIsAlNum	HTTPClientWrapper.c	/^int HTTPWrapperIsAlNum(int c)$/;"	f
+HTTPWrapperIsAlpha	HTTPClientWrapper.c	/^int HTTPWrapperIsAlpha(int c)$/;"	f
+HTTPWrapperIsAscii	HTTPClientWrapper.c	/^int HTTPWrapperIsAscii(int c)$/;"	f
+HTTPWrapperItoa	HTTPClientWrapper.c	/^char* HTTPWrapperItoa(char *s,int a)$/;"	f
+HTTPWrapperSSLClose	HTTPClientWrapper.c	/^int HTTPWrapperSSLClose(int s)$/;"	f
+HTTPWrapperSSLConnect	HTTPClientWrapper.c	/^int HTTPWrapperSSLConnect(int s,const struct sockaddr *name,int namelen,char *hostname)$/;"	f
+HTTPWrapperSSLNegotiate	HTTPClientWrapper.c	/^int HTTPWrapperSSLNegotiate(int s,const struct sockaddr *name,int namelen,char *hostname)$/;"	f
+HTTPWrapperSSLRecv	HTTPClientWrapper.c	/^int HTTPWrapperSSLRecv(int s,char *buf, int len,int flags)$/;"	f
+HTTPWrapperSSLRecvPending	HTTPClientWrapper.c	/^int HTTPWrapperSSLRecvPending(int s)$/;"	f
+HTTPWrapperSSLSend	HTTPClientWrapper.c	/^int HTTPWrapperSSLSend(int s,char *buf, int len,int flags)$/;"	f
+HTTPWrapperShutDown	HTTPClientWrapper.c	/^int HTTPWrapperShutDown (int s,int how) $/;"	f
+HTTPWrapperToLower	HTTPClientWrapper.c	/^int HTTPWrapperToLower(int c)$/;"	f
+HTTPWrapperToUpper	HTTPClientWrapper.c	/^int HTTPWrapperToUpper(int c)$/;"	f
+MD5STEP	HTTPClientAuth.c	499;"	d	file:
+MD5STEP	HTTPClientAuth.c	502;"	d	file:
+sktSetNonblocking	HTTPClient.c	/^int sktSetNonblocking( int socket , int on_off )$/;"	f

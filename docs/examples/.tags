@@ -1,0 +1,1013 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCSEE_KEY_LENGTH	AC_DeviceService.c	106;"	d	file:
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AC_AwsPutFile	AC_DeviceService.c	/^int AC_AwsPutFile(char *file,char *url)$/;"	f
+AC_CheckOtaFileInfo	AC_DeviceService.c	/^int AC_CheckOtaFileInfo(int otaMode)$/;"	f
+AC_CheckOtaFileInfoCallback	AC_DeviceService.c	/^static size_t AC_CheckOtaFileInfoCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+AC_DeviceService_DEPENDENCIES	Makefile	/^AC_DeviceService_DEPENDENCIES =  \\$/;"	m
+AC_DeviceService_LDADD	Makefile	/^AC_DeviceService_LDADD = $(LDADD)$/;"	m
+AC_DeviceService_OBJECTS	Makefile	/^AC_DeviceService_OBJECTS = $(am_AC_DeviceService_OBJECTS)$/;"	m
+AC_DeviceService_SOURCES	Makefile	/^AC_DeviceService_SOURCES = AC_DeviceService.c \\$/;"	m
+AC_DownloadFile	AC_DeviceService.c	/^int AC_DownloadFile(char *remotefilename,char *localfilename)$/;"	f
+AC_Downloadnfo	AC_DeviceService.c	/^}AC_Downloadnfo;$/;"	t	typeref:struct:__anon5	file:
+AC_GetDownloadFileInfo	AC_DeviceService.c	/^int AC_GetDownloadFileInfo(char *filename)$/;"	f
+AC_GetDownloadFileInfoCallback	AC_DeviceService.c	/^static size_t AC_GetDownloadFileInfoCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+AC_GetFile	AC_DeviceService.c	/^int AC_GetFile(char *url,char *filename,pFunWriteCallback funWriteCallback)$/;"	f
+AC_GetToken	AC_DeviceService.c	/^int AC_GetToken()$/;"	f
+AC_GetUploadFileInfo	AC_DeviceService.c	/^int AC_GetUploadFileInfo(char *filename)$/;"	f
+AC_GetUploadFileInfoCallback	AC_DeviceService.c	/^static size_t AC_GetUploadFileInfoCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+AC_HexToString	AC_DeviceService.c	/^void AC_HexToString(unsigned char *StringBuf,unsigned char* HexBuf,unsigned char len)$/;"	f
+AC_HttpAuthSchema	AC_DeviceService.c	/^}AC_HttpAuthSchema;$/;"	t	typeref:enum:__anon1	file:
+AC_Init	AC_DeviceService.c	/^int AC_Init(char *domain, char *subdomain, char *devid, char *version)$/;"	f
+AC_InitRsaContextWithPrivateKey	AC_DeviceService.c	/^void AC_InitRsaContextWithPrivateKey(mbedtls_rsa_context *pstrRsa, const unsigned char *pu8PrivateKey)$/;"	f
+AC_InitRsaContextWithPulicKey	AC_DeviceService.c	/^void AC_InitRsaContextWithPulicKey(mbedtls_rsa_context *pstrRsa, const unsigned char *pu8Pubkey)$/;"	f
+AC_OtaFileInfo	AC_DeviceService.c	/^}AC_OtaFileInfo;$/;"	t	typeref:struct:__anon6	file:
+AC_OtaInfo	AC_DeviceService.c	/^}AC_OtaInfo;$/;"	t	typeref:struct:__anon7	file:
+AC_OtaUpdate	AC_DeviceService.c	/^int AC_OtaUpdate(int otaMode, char *DonwloadOtaFilePath,AC_OtaFileInfo *DonwloadOtaFileInfo, int *FileNum, char *OtaDescription)$/;"	f
+AC_OtaUpdateFileEnd	AC_DeviceService.c	/^int AC_OtaUpdateFileEnd(int otaMode)$/;"	f
+AC_QiniuPutFile	AC_DeviceService.c	/^int AC_QiniuPutFile(char *localfilepath,char *uploadtoken)$/;"	f
+AC_RETSTATUS	AC_DeviceService.c	/^}AC_RETSTATUS;$/;"	t	typeref:enum:__anon2	file:
+AC_Rand	AC_DeviceService.c	/^void AC_Rand(unsigned char *pu8Rand)$/;"	f
+AC_ReadFileCallback	AC_DeviceService.c	/^static size_t AC_ReadFileCallback(void *ptr, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+AC_ReadTokenInfo	AC_DeviceService.c	/^int AC_ReadTokenInfo()$/;"	f
+AC_RsaPssSign	AC_DeviceService.c	/^int AC_RsaPssSign(unsigned short u16Len, unsigned char *sha1sum, unsigned char * rsa_ciphertext)$/;"	f
+AC_RsaPssVerify	AC_DeviceService.c	/^int AC_RsaPssVerify(unsigned short u16Len, unsigned char *sha1sum, unsigned char * rsa_ciphertext)$/;"	f
+AC_SendHttpRequest	AC_DeviceService.c	/^int AC_SendHttpRequest(AC_HttpAuthSchema scheme ,const char *body,const char *interface,char *token,pFunWriteCallback funWriteCallback)$/;"	f
+AC_TokenInfo	AC_DeviceService.c	/^}AC_TokenInfo;$/;"	t	typeref:struct:__anon3	file:
+AC_UpdateToken	AC_DeviceService.c	/^int AC_UpdateToken()$/;"	f
+AC_UploadFile	AC_DeviceService.c	/^int AC_UploadFile(char *remotefilename,char *localfilename)$/;"	f
+AC_UploadInfo	AC_DeviceService.c	/^}AC_UploadInfo;$/;"	t	typeref:struct:__anon4	file:
+AC_WriteFileCallback	AC_DeviceService.c	/^static size_t AC_WriteFileCallback(void *ptr, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+AC_WriteTokenInfo	AC_DeviceService.c	/^int AC_WriteTokenInfo()$/;"	f
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I$(top_builddir)\/include\/curl \\$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = \/usr\/bin\/ar$/;"	m
+AS	Makefile	/^AS = as$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign nostdinc$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+Append	qiniu/base.c	/^	Qiniu_FnAppender Append;$/;"	m	struct:_Qiniu_formatProc	file:
+AuthSchemaHttp	AC_DeviceService.c	/^        AuthSchemaHttp = 0,$/;"	e	enum:__anon1	file:
+AuthSchemaHttps	AC_DeviceService.c	/^        AuthSchemaHttps,$/;"	e	enum:__anon1	file:
+B64_ENFORCE_ASSUMPTION	b64/b64.c	79;"	d	file:
+B64_ENFORCE_ASSUMPTION	b64/b64.c	82;"	d	file:
+B64_ENFORCE_ASSUMPTION	b64/urlsafe_b64.c	79;"	d	file:
+B64_ENFORCE_ASSUMPTION	b64/urlsafe_b64.c	82;"	d	file:
+B64_ENFORCE_PRECONDITION	b64/b64.c	78;"	d	file:
+B64_ENFORCE_PRECONDITION	b64/b64.c	81;"	d	file:
+B64_ENFORCE_PRECONDITION	b64/urlsafe_b64.c	78;"	d	file:
+B64_ENFORCE_PRECONDITION	b64/urlsafe_b64.c	81;"	d	file:
+B64_USING_XCONTRACT_	b64/b64.c	63;"	d	file:
+B64_USING_XCONTRACT_	b64/urlsafe_b64.c	63;"	d	file:
+B64_VER_C_B64_EDIT	b64/b64.c	52;"	d	file:
+B64_VER_C_B64_EDIT	b64/urlsafe_b64.c	52;"	d	file:
+B64_VER_C_B64_MAJOR	b64/b64.c	49;"	d	file:
+B64_VER_C_B64_MAJOR	b64/urlsafe_b64.c	49;"	d	file:
+B64_VER_C_B64_MINOR	b64/b64.c	50;"	d	file:
+B64_VER_C_B64_MINOR	b64/urlsafe_b64.c	50;"	d	file:
+B64_VER_C_B64_REVISION	b64/b64.c	51;"	d	file:
+B64_VER_C_B64_REVISION	b64/urlsafe_b64.c	51;"	d	file:
+BITS_TO_LIMBS	bignum.c	67;"	d	file:
+BLANK_AT_MAKETIME	Makefile	/^BLANK_AT_MAKETIME = $/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2$/;"	m
+CFLAG_CURL_SYMBOL_HIDING	Makefile	/^CFLAG_CURL_SYMBOL_HIDING = -fvisibility=hidden$/;"	m
+CHARS_TO_LIMBS	bignum.c	68;"	d	file:
+COMPARE	htmltitle.cpp	45;"	d	file:
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIGURE_OPTIONS	Makefile	/^CONFIGURE_OPTIONS = " '--with-ssl=\/usr\/local\/ssl'"$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/lib\/curl_config.h \\$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -I\/usr\/local\/ssl\/include$/;"	m
+CPPFLAG_CURL_STATICLIB	Makefile	/^CPPFLAG_CURL_STATICLIB = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CURLVERSION	Makefile	/^CURLVERSION = 7.47.0$/;"	m
+CURL_CA_BUNDLE	Makefile	/^CURL_CA_BUNDLE = "\/etc\/ssl\/certs\/ca-certificates.crt"$/;"	m
+CURL_CFLAG_EXTRAS	Makefile	/^CURL_CFLAG_EXTRAS = $/;"	m
+CURL_DISABLE_DICT	Makefile	/^CURL_DISABLE_DICT = $/;"	m
+CURL_DISABLE_FILE	Makefile	/^CURL_DISABLE_FILE = $/;"	m
+CURL_DISABLE_FTP	Makefile	/^CURL_DISABLE_FTP = $/;"	m
+CURL_DISABLE_GOPHER	Makefile	/^CURL_DISABLE_GOPHER = $/;"	m
+CURL_DISABLE_HTTP	Makefile	/^CURL_DISABLE_HTTP = $/;"	m
+CURL_DISABLE_IMAP	Makefile	/^CURL_DISABLE_IMAP = $/;"	m
+CURL_DISABLE_LDAP	Makefile	/^CURL_DISABLE_LDAP = 1$/;"	m
+CURL_DISABLE_LDAPS	Makefile	/^CURL_DISABLE_LDAPS = 1$/;"	m
+CURL_DISABLE_POP3	Makefile	/^CURL_DISABLE_POP3 = $/;"	m
+CURL_DISABLE_PROXY	Makefile	/^CURL_DISABLE_PROXY = $/;"	m
+CURL_DISABLE_RTSP	Makefile	/^CURL_DISABLE_RTSP = $/;"	m
+CURL_DISABLE_SMB	Makefile	/^CURL_DISABLE_SMB = $/;"	m
+CURL_DISABLE_SMTP	Makefile	/^CURL_DISABLE_SMTP = $/;"	m
+CURL_DISABLE_TELNET	Makefile	/^CURL_DISABLE_TELNET = $/;"	m
+CURL_DISABLE_TFTP	Makefile	/^CURL_DISABLE_TFTP = $/;"	m
+CURL_LT_SHLIB_VERSIONED_FLAVOUR	Makefile	/^CURL_LT_SHLIB_VERSIONED_FLAVOUR = $/;"	m
+CURL_NETWORK_AND_TIME_LIBS	Makefile	/^CURL_NETWORK_AND_TIME_LIBS = $/;"	m
+CURL_NETWORK_LIBS	Makefile	/^CURL_NETWORK_LIBS = $/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+Characters	htmltitle.cpp	/^static void Characters(void *voidContext,$/;"	f	file:
+Context	htmltitle.cpp	/^  Context(): addTitle(false) { }$/;"	f	struct:Context
+Context	htmltitle.cpp	/^struct Context$/;"	s	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = $/;"	m
+DEFAULT_IOT_PRIVATE_KEY	AC_DeviceService.c	47;"	d	file:
+DEFAULT_IOT_PUBliC_KEY	AC_DeviceService.c	78;"	d	file:
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEVICE_ID	AC_DeviceService.c	45;"	d	file:
+DEVICE_VERSION	AC_DeviceService.c	104;"	d	file:
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(AC_DeviceService_SOURCES)$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DNS	AC_DeviceService.c	116;"	d	file:
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_SHARED	Makefile	/^ENABLE_SHARED = yes$/;"	m
+ENABLE_STATIC	Makefile	/^ENABLE_STATIC = yes$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = README Makefile.example Makefile.inc Makefile.m32 \\$/;"	m
+EndElement	htmltitle.cpp	/^static void EndElement(void *voidContext,$/;"	f	file:
+F	sha1.c	145;"	d	file:
+F	sha1.c	170;"	d	file:
+F	sha1.c	172;"	d	file:
+F	sha1.c	197;"	d	file:
+F	sha1.c	199;"	d	file:
+F	sha1.c	224;"	d	file:
+F	sha1.c	226;"	d	file:
+F	sha1.c	251;"	d	file:
+F1	httpclient/HTTPClientAuth.c	492;"	d	file:
+F2	httpclient/HTTPClientAuth.c	493;"	d	file:
+F3	httpclient/HTTPClientAuth.c	494;"	d	file:
+F4	httpclient/HTTPClientAuth.c	495;"	d	file:
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FirmwarePath	AC_DeviceService.c	114;"	d	file:
+GCD_PAIR_COUNT	bignum.c	2189;"	d	file:
+GET_UINT32_BE	sha1.c	50;"	d	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GetTokenCallback	AC_DeviceService.c	/^static size_t GetTokenCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+HAVE_GNUTLS_SRP	Makefile	/^HAVE_GNUTLS_SRP = $/;"	m
+HAVE_LDAP_SSL	Makefile	/^HAVE_LDAP_SSL = 1$/;"	m
+HAVE_LIBZ	Makefile	/^HAVE_LIBZ = 1$/;"	m
+HAVE_OPENSSL_SRP	Makefile	/^HAVE_OPENSSL_SRP = 1$/;"	m
+HTTPBase64Decoder	httpclient/HTTPClientAuth.c	/^int HTTPBase64Decoder(char *out, const char *in)$/;"	f
+HTTPBase64Encoder	httpclient/HTTPClientAuth.c	/^void HTTPBase64Encoder(unsigned char *out, const unsigned char *in, int inlen)$/;"	f
+HTTPClientAddRequestHeaders	httpclient/HTTPClient.c	/^UINT32 HTTPClientAddRequestHeaders (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientCloseRequest	httpclient/HTTPClient.c	/^UINT32 HTTPClientCloseRequest (HTTP_SESSION_HANDLE *pSession)$/;"	f
+HTTPClientFindCloseHeader	httpclient/HTTPClient.c	/^UINT32 HTTPClientFindCloseHeader (HTTP_SESSION_HANDLE pSession)$/;"	f
+HTTPClientFindFirstHeader	httpclient/HTTPClient.c	/^UINT32 HTTPClientFindFirstHeader (HTTP_SESSION_HANDLE pSession, CHAR *pSearchClue,CHAR *pHeaderBuffer, UINT32 *nLength)$/;"	f
+HTTPClientGetInfo	httpclient/HTTPClient.c	/^UINT32 HTTPClientGetInfo (HTTP_SESSION_HANDLE pSession, HTTP_CLIENT *HTTPClient)$/;"	f
+HTTPClientGetNextHeader	httpclient/HTTPClient.c	/^UINT32 HTTPClientGetNextHeader (HTTP_SESSION_HANDLE pSession, CHAR *pHeaderBuffer, UINT32 *nLength)$/;"	f
+HTTPClientOpenRequest	httpclient/HTTPClient.c	/^HTTP_SESSION_HANDLE  HTTPClientOpenRequest (HTTP_CLIENT_SESSION_FLAGS Flags)$/;"	f
+HTTPClientReadData	httpclient/HTTPClient.c	/^                            UINT32 HTTPClientReadData (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientRecvResponse	httpclient/HTTPClient.c	/^UINT32 HTTPClientRecvResponse (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientReset	httpclient/HTTPClient.c	/^UINT32  HTTPClientReset (HTTP_SESSION_HANDLE pSession)$/;"	f
+HTTPClientSendRequest	httpclient/HTTPClient.c	/^UINT32 HTTPClientSendRequest (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetAuth	httpclient/HTTPClient.c	/^UINT32  HTTPClientSetAuth (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetCredentials	httpclient/HTTPClient.c	/^UINT32 HTTPClientSetCredentials (HTTP_SESSION_HANDLE pSession, $/;"	f
+HTTPClientSetDebugHook	httpclient/HTTPClient.c	/^UINT32  HTTPClientSetDebugHook (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetLocalConnection	httpclient/HTTPClient.c	/^UINT32 HTTPClientSetLocalConnection  (HTTP_SESSION_HANDLE pSession, UINT32 nPort)$/;"	f
+HTTPClientSetProxy	httpclient/HTTPClient.c	/^UINT32 HTTPClientSetProxy (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientSetVerb	httpclient/HTTPClient.c	/^UINT32  HTTPClientSetVerb (HTTP_SESSION_HANDLE pSession,$/;"	f
+HTTPClientWriteData	httpclient/HTTPClient.c	/^UINT32 HTTPClientWriteData (HTTP_SESSION_HANDLE pSession, $/;"	f
+HTTPDigestCalcHA1	httpclient/HTTPClientAuth.c	/^void HTTPDigestCalcHA1($/;"	f
+HTTPDigestCalcResponse	httpclient/HTTPClientAuth.c	/^void HTTPDigestCalcResponse($/;"	f
+HTTPDigestCvtHex	httpclient/HTTPClientAuth.c	/^void HTTPDigestCvtHex(IN HASH Bin,OUT HASHHEX Hex)$/;"	f
+HTTPDigestGenerateCNonce	httpclient/HTTPClientAuth.c	/^void HTTPDigestGenerateCNonce(char *outbuff) $/;"	f
+HTTPIntrnAuthHandler	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnAuthHandler (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthSendBasic	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnAuthSendBasic (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthSendDigest	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnAuthSendDigest (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnAuthenticate	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnAuthenticate(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnConnectionClose	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnConnectionClose (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnConnectionOpen	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnConnectionOpen (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnGetRemoteChunkLength	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnGetRemoteChunkLength (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnGetRemoteHeaders	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnGetRemoteHeaders (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnHeadersAdd	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersAdd (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersFind	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersFind (P_HTTP_SESSION pHTTPSession,CHAR *pHeaderName,$/;"	f
+HTTPIntrnHeadersParse	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersParse (P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnHeadersReceive	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersReceive (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersRemove	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersRemove (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnHeadersSend	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnHeadersSend(P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnParseAuthHeader	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnParseAuthHeader(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnRecv	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnRecv (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnResizeBuffer	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnResizeBuffer (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnSend	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnSend (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPIntrnSessionEvalTimeout	httpclient/HTTPClient.c	/^BOOL HTTPIntrnSessionEvalTimeout(P_HTTP_SESSION pHTTPSession)$/;"	f
+HTTPIntrnSessionGetUpTime	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnSessionGetUpTime(VOID)$/;"	f
+HTTPIntrnSessionReset	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnSessionReset (P_HTTP_SESSION pHTTPSession, BOOL EntireSession)$/;"	f
+HTTPIntrnSetURL	httpclient/HTTPClient.c	/^UINT32 HTTPIntrnSetURL (P_HTTP_SESSION pHTTPSession,$/;"	f
+HTTPMD5ByteReverse	httpclient/HTTPClientAuth.c	/^void HTTPMD5ByteReverse(unsigned char *buf, unsigned longs)$/;"	f
+HTTPMD5ByteReverse	httpclient/HTTPClientAuth.c	310;"	d	file:
+HTTPMD5Final	httpclient/HTTPClientAuth.c	/^void HTTPMD5Final(unsigned char digest[16], struct MD5Context *ctx)$/;"	f
+HTTPMD5Init	httpclient/HTTPClientAuth.c	/^void HTTPMD5Init(struct MD5Context *ctx)$/;"	f
+HTTPMD5Transform	httpclient/HTTPClientAuth.c	/^void HTTPMD5Transform(uint32 buf[4], uint32 const in[16])$/;"	f
+HTTPMD5Update	httpclient/HTTPClientAuth.c	/^void HTTPMD5Update(struct MD5Context *ctx, unsigned char const *buf, unsigned len)$/;"	f
+HTTPS_PORT	AC_DeviceService.c	110;"	d	file:
+HTTPStrCaseStr	httpclient/HTTPClientString.c	/^CHAR *HTTPStrCaseStr(const char *pSrc,UINT32 nSrcLength,const char *pFind)$/;"	f
+HTTPStrExtract	httpclient/HTTPClientString.c	/^CHAR HTTPStrExtract(CHAR *pParam,       \/\/ [IN] a pointer to the input parameter$/;"	f
+HTTPStrGetDigestToken	httpclient/HTTPClientString.c	/^UINT32 HTTPStrGetDigestToken (HTTP_PARAM pParamSrc, CHAR *pSearched, HTTP_PARAM *pParamDest)$/;"	f
+HTTPStrGetToken	httpclient/HTTPClientString.c	/^CHAR* HTTPStrGetToken (CHAR *pSrc, UINT32 nSrcLength, CHAR *pDest, UINT32 *nDestLength)$/;"	f
+HTTPStrHToL	httpclient/HTTPClientString.c	/^UINT32 HTTPStrHToL (CHAR * s) $/;"	f
+HTTPStrInsensitiveCompare	httpclient/HTTPClientString.c	/^BOOL HTTPStrInsensitiveCompare(CHAR *pSrc,      \/\/ [IN] a pointer to the source string$/;"	f
+HTTPStrLToH	httpclient/HTTPClientString.c	/^CHAR* HTTPStrLToH (CHAR * dest,UINT32 nSrc)$/;"	f
+HTTPStrSearch	httpclient/HTTPClientString.c	/^BOOL HTTPStrSearch(CHAR *pSrc,              \/\/ [IN] The source string $/;"	f
+HTTPWrapperGetHostByName	httpclient/HTTPClientWrapper.c	/^unsigned long HTTPWrapperGetHostByName(char *name,unsigned long *address)$/;"	f
+HTTPWrapperGetRandomeNumber	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperGetRandomeNumber()$/;"	f
+HTTPWrapperGetSocketError	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperGetSocketError (int s)$/;"	f
+HTTPWrapperGetUpTime	httpclient/HTTPClientWrapper.c	/^long HTTPWrapperGetUpTime()$/;"	f
+HTTPWrapperInitRandomeNumber	httpclient/HTTPClientWrapper.c	/^void HTTPWrapperInitRandomeNumber()$/;"	f
+HTTPWrapperIsAlNum	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperIsAlNum(int c)$/;"	f
+HTTPWrapperIsAlpha	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperIsAlpha(int c)$/;"	f
+HTTPWrapperIsAscii	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperIsAscii(int c)$/;"	f
+HTTPWrapperItoa	httpclient/HTTPClientWrapper.c	/^char* HTTPWrapperItoa(char *s,int a)$/;"	f
+HTTPWrapperSSLClose	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLClose(int s)$/;"	f
+HTTPWrapperSSLConnect	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLConnect(int s,const struct sockaddr *name,int namelen,char *hostname)$/;"	f
+HTTPWrapperSSLNegotiate	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLNegotiate(int s,const struct sockaddr *name,int namelen,char *hostname)$/;"	f
+HTTPWrapperSSLRecv	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLRecv(int s,char *buf, int len,int flags)$/;"	f
+HTTPWrapperSSLRecvPending	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLRecvPending(int s)$/;"	f
+HTTPWrapperSSLSend	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperSSLSend(int s,char *buf, int len,int flags)$/;"	f
+HTTPWrapperShutDown	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperShutDown (int s,int how) $/;"	f
+HTTPWrapperToLower	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperToLower(int c)$/;"	f
+HTTPWrapperToUpper	httpclient/HTTPClientWrapper.c	/^int HTTPWrapperToUpper(int c)$/;"	f
+HTTP_PORT	AC_DeviceService.c	112;"	d	file:
+HttpHeaderCallback	AC_DeviceService.c	/^static size_t HttpHeaderCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+IDN_ENABLED	Makefile	/^IDN_ENABLED = $/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INVLIADBODYFORMAT	AC_DeviceService.c	/^	    INVLIADBODYFORMAT = 1000,$/;"	e	enum:__anon2	file:
+IPV6_ENABLED	Makefile	/^IPV6_ENABLED = 1$/;"	m
+IntChecksum	AC_DeviceService.c	/^    int IntChecksum;$/;"	m	struct:__anon6	file:
+IntFileNum	AC_DeviceService.c	/^    int IntFileNum; $/;"	m	struct:__anon7	file:
+IntFileType	AC_DeviceService.c	/^    int IntFileType;$/;"	m	struct:__anon6	file:
+IntOtaMode	AC_DeviceService.c	/^    int IntOtaMode;$/;"	m	struct:__anon7	file:
+IntStatus	AC_DeviceService.c	/^    int IntStatus;$/;"	m	struct:__anon7	file:
+K	sha1.c	146;"	d	file:
+K	sha1.c	169;"	d	file:
+K	sha1.c	173;"	d	file:
+K	sha1.c	196;"	d	file:
+K	sha1.c	200;"	d	file:
+K	sha1.c	223;"	d	file:
+K	sha1.c	227;"	d	file:
+K	sha1.c	250;"	d	file:
+KEY_LEN	AC_DeviceService.c	108;"	d	file:
+KEY_LEN	rsa.c	1567;"	d	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDADD	Makefile	/^LDADD = $(LIBDIR)\/libcurl.la -lm -lcrypto -lssl$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L\/usr\/local\/ssl\/lib$/;"	m
+LIBCURL_LIBS	Makefile	/^LIBCURL_LIBS = -lssl -lcrypto -lssl -lcrypto -lz$/;"	m
+LIBDIR	Makefile	/^LIBDIR = $(top_builddir)\/lib$/;"	m
+LIBMETALINK_CPPFLAGS	Makefile	/^LIBMETALINK_CPPFLAGS = $/;"	m
+LIBMETALINK_LDFLAGS	Makefile	/^LIBMETALINK_LDFLAGS = $/;"	m
+LIBMETALINK_LIBS	Makefile	/^LIBMETALINK_LIBS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $(BLANK_AT_MAKETIME)$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = cp -pR$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAJOR_DOMAIN	AC_DeviceService.c	41;"	d	file:
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANOPT	Makefile	/^MANOPT = -man$/;"	m
+MAX_OTAFILENUM	AC_DeviceService.c	120;"	d	file:
+MD5STEP	httpclient/HTTPClientAuth.c	499;"	d	file:
+MD5STEP	httpclient/HTTPClientAuth.c	502;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MPI_SIZE_T_MAX	bignum.c	61;"	d	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	Makefile	/^NROFF = \/usr\/bin\/nroff$/;"	m
+NSS_LIBS	Makefile	/^NSS_LIBS = $/;"	m
+NUM_ELEMENTS	b64/b64.c	99;"	d	file:
+NUM_ELEMENTS	b64/urlsafe_b64.c	99;"	d	file:
+NUM_ENCODED_DATA_BYTES	b64/b64.c	91;"	d	file:
+NUM_ENCODED_DATA_BYTES	b64/urlsafe_b64.c	91;"	d	file:
+NUM_PLAIN_DATA_BYTES	b64/b64.c	90;"	d	file:
+NUM_PLAIN_DATA_BYTES	b64/urlsafe_b64.c	90;"	d	file:
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+O_BINARY	qiniu/base_io.c	28;"	d	file:
+P	sha1.c	134;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = curl$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = a suitable curl mailing list: http:\/\/curl.haxx.se\/mail\/$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = curl$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = curl -$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = curl$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = -$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PERL	Makefile	/^PERL = \/usr\/bin\/perl$/;"	m
+PKGADD_NAME	Makefile	/^PKGADD_NAME = cURL - a client that groks URLs$/;"	m
+PKGADD_PKG	Makefile	/^PKGADD_PKG = HAXXcurl$/;"	m
+PKGADD_VENDOR	Makefile	/^PKGADD_VENDOR = curl.haxx.se$/;"	m
+PKGCONFIG	Makefile	/^PKGCONFIG = no$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PT_LEN	rsa.c	1614;"	d	file:
+PUT_UINT32_BE	sha1.c	60;"	d	file:
+QINIU_ACCESS_KEY	qiniu/conf.c	/^const char* QINIU_ACCESS_KEY			= "<Please apply your access key>";$/;"	v
+QINIU_API_HOST	qiniu/conf.c	/^const char* QINIU_API_HOST				= "http:\/\/api.qiniu.com";$/;"	v
+QINIU_RS_HOST	qiniu/conf.c	/^const char* QINIU_RS_HOST				= "http:\/\/rs.qiniu.com";$/;"	v
+QINIU_SECRET_KEY	qiniu/conf.c	/^const char* QINIU_SECRET_KEY			= "<Dont send your secret key to anyone>";$/;"	v
+QINIU_UP_HOST	qiniu/conf.c	/^const char* QINIU_UP_HOST				= "http:\/\/upload.qiniu.com";$/;"	v
+Qiniu_BufReader	qiniu/base_io.c	/^Qiniu_Reader Qiniu_BufReader(Qiniu_ReadBuf* self, const char* buf, size_t bytes)$/;"	f
+Qiniu_BufReaderAt	qiniu/base_io.c	/^Qiniu_ReaderAt Qiniu_BufReaderAt(Qiniu_ReadBuf* self, const char* buf, size_t bytes)$/;"	f
+Qiniu_BufWriter	qiniu/base.c	/^Qiniu_Writer Qiniu_BufWriter(Qiniu_Buffer* self)$/;"	f
+Qiniu_Buffer_AppendEncodedBinary	qiniu/base.c	/^void Qiniu_Buffer_AppendEncodedBinary(Qiniu_Buffer* self, const char* buf, size_t cb)$/;"	f
+Qiniu_Buffer_AppendError	qiniu/base.c	/^void Qiniu_Buffer_AppendError(Qiniu_Buffer* self, Qiniu_Error v)$/;"	f
+Qiniu_Buffer_AppendFormat	qiniu/base.c	/^void Qiniu_Buffer_AppendFormat(Qiniu_Buffer* self, const char* fmt, ...)$/;"	f
+Qiniu_Buffer_AppendFormatV	qiniu/base.c	/^void Qiniu_Buffer_AppendFormatV(Qiniu_Buffer* self, const char* fmt, Qiniu_Valist* args)$/;"	f
+Qiniu_Buffer_AppendInt	qiniu/base.c	/^void Qiniu_Buffer_AppendInt(Qiniu_Buffer* self, Qiniu_Int64 v)$/;"	f
+Qiniu_Buffer_AppendUint	qiniu/base.c	/^void Qiniu_Buffer_AppendUint(Qiniu_Buffer* self, Qiniu_Uint64 v)$/;"	f
+Qiniu_Buffer_CStr	qiniu/base.c	/^const char* Qiniu_Buffer_CStr(Qiniu_Buffer* self)$/;"	f
+Qiniu_Buffer_Cleanup	qiniu/base.c	/^void Qiniu_Buffer_Cleanup(Qiniu_Buffer* self)$/;"	f
+Qiniu_Buffer_Commit	qiniu/base.c	/^void Qiniu_Buffer_Commit(Qiniu_Buffer* self, char* p)$/;"	f
+Qiniu_Buffer_Expand	qiniu/base.c	/^char* Qiniu_Buffer_Expand(Qiniu_Buffer* self, size_t n)$/;"	f
+Qiniu_Buffer_Format	qiniu/base.c	/^const char* Qiniu_Buffer_Format(Qiniu_Buffer* self, const char* fmt, ...)$/;"	f
+Qiniu_Buffer_Fwrite	qiniu/base.c	/^size_t Qiniu_Buffer_Fwrite(const void *buf, size_t size, size_t nmemb, void *self)$/;"	f
+Qiniu_Buffer_Init	qiniu/base.c	/^void Qiniu_Buffer_Init(Qiniu_Buffer* self, size_t initSize)$/;"	f
+Qiniu_Buffer_Len	qiniu/base.c	/^size_t Qiniu_Buffer_Len(Qiniu_Buffer* self)$/;"	f
+Qiniu_Buffer_PutChar	qiniu/base.c	/^void Qiniu_Buffer_PutChar(Qiniu_Buffer* self, char ch)$/;"	f
+Qiniu_Buffer_Reset	qiniu/base.c	/^void Qiniu_Buffer_Reset(Qiniu_Buffer* self)$/;"	f
+Qiniu_Buffer_Write	qiniu/base.c	/^size_t Qiniu_Buffer_Write(Qiniu_Buffer* self, const void* buf, size_t n)$/;"	f
+Qiniu_Buffer_appendEncodedString	qiniu/base.c	/^void Qiniu_Buffer_appendEncodedString(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendError	qiniu/base.c	/^void Qiniu_Buffer_appendError(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendInt	qiniu/base.c	/^void Qiniu_Buffer_appendInt(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendInt64	qiniu/base.c	/^void Qiniu_Buffer_appendInt64(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendPercent	qiniu/base.c	/^void Qiniu_Buffer_appendPercent(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendString	qiniu/base.c	/^void Qiniu_Buffer_appendString(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendUint	qiniu/base.c	/^void Qiniu_Buffer_appendUint(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_appendUint64	qiniu/base.c	/^void Qiniu_Buffer_appendUint64(Qiniu_Buffer* self, Qiniu_Valist* ap)$/;"	f
+Qiniu_Buffer_expand	qiniu/base.c	/^static void Qiniu_Buffer_expand(Qiniu_Buffer* self, size_t expandSize)$/;"	f	file:
+Qiniu_Buffer_formatInit	qiniu/base.c	/^void Qiniu_Buffer_formatInit()$/;"	f
+Qiniu_Client_BindNic	qiniu/http.c	/^void Qiniu_Client_BindNic(Qiniu_Client* self, const char* nic)$/;"	f
+Qiniu_Client_Call	qiniu/http.c	/^Qiniu_Error Qiniu_Client_Call(Qiniu_Client* self, Qiniu_Json** ret, const char* url)$/;"	f
+Qiniu_Client_CallNoRet	qiniu/http.c	/^Qiniu_Error Qiniu_Client_CallNoRet(Qiniu_Client* self, const char* url)$/;"	f
+Qiniu_Client_CallWithBinary	qiniu/http.c	/^Qiniu_Error Qiniu_Client_CallWithBinary($/;"	f
+Qiniu_Client_CallWithBuffer	qiniu/http.c	/^Qiniu_Error Qiniu_Client_CallWithBuffer($/;"	f
+Qiniu_Client_Cleanup	qiniu/http.c	/^void Qiniu_Client_Cleanup(Qiniu_Client* self)$/;"	f
+Qiniu_Client_InitEx	qiniu/http.c	/^void Qiniu_Client_InitEx(Qiniu_Client* self, Qiniu_Auth auth, size_t bufSize)$/;"	f
+Qiniu_Client_InitNoAuth	qiniu/http.c	/^void Qiniu_Client_InitNoAuth(Qiniu_Client* self, size_t bufSize)$/;"	f
+Qiniu_Client_SetLowSpeedLimit	qiniu/http.c	/^void Qiniu_Client_SetLowSpeedLimit(Qiniu_Client* self, long lowSpeedLimit, long lowSpeedTime)$/;"	f
+Qiniu_Client_callWithBody	qiniu/http.c	/^static Qiniu_Error Qiniu_Client_callWithBody($/;"	f	file:
+Qiniu_Client_initcall	qiniu/http.c	/^static CURL* Qiniu_Client_initcall(Qiniu_Client* self, const char* url)$/;"	f	file:
+Qiniu_Client_reset	qiniu/http.c	/^CURL* Qiniu_Client_reset(Qiniu_Client* self)$/;"	f
+Qiniu_Copy	qiniu/base.c	/^Qiniu_Error Qiniu_Copy(Qiniu_Writer w, Qiniu_Reader r, void* buf, size_t n, Qiniu_Int64* ret)$/;"	f
+Qiniu_Count_Dec	qiniu/base.c	/^Qiniu_Count Qiniu_Count_Dec(Qiniu_Count* self)$/;"	f
+Qiniu_Count_Inc	qiniu/base.c	/^Qiniu_Count Qiniu_Count_Inc(Qiniu_Count* self)$/;"	f
+Qiniu_Crc32Writer	qiniu/base_io.c	/^Qiniu_Writer Qiniu_Crc32Writer(Qiniu_Crc32* self, unsigned long inCrc32)$/;"	f
+Qiniu_Crc32_Fwrite	qiniu/base_io.c	/^size_t Qiniu_Crc32_Fwrite(const void* buf, size_t cbelem, size_t n, Qiniu_Crc32* self)$/;"	f
+Qiniu_Crc32_Update	qiniu/base_io.c	/^unsigned long Qiniu_Crc32_Update(unsigned long inCrc32, const void *buf, size_t bufLen)$/;"	f
+Qiniu_Discard	qiniu/base.c	/^Qiniu_Writer Qiniu_Discard = {$/;"	v
+Qiniu_FILE_Reader	qiniu/base.c	/^Qiniu_Reader Qiniu_FILE_Reader(FILE* fp)$/;"	f
+Qiniu_FILE_Writer	qiniu/base.c	/^Qiniu_Writer Qiniu_FILE_Writer(FILE* fp)$/;"	f
+Qiniu_FileReaderAt	qiniu/base_io.c	/^Qiniu_ReaderAt Qiniu_FileReaderAt(Qiniu_File* self)$/;"	f
+Qiniu_File_Close	qiniu/base_io.c	/^void Qiniu_File_Close(void* self)$/;"	f
+Qiniu_File_Open	qiniu/base_io.c	/^Qiniu_Error Qiniu_File_Open(Qiniu_File** pp, const char* file)$/;"	f
+Qiniu_File_ReadAt	qiniu/base_io.c	/^ssize_t Qiniu_File_ReadAt(void* self, void *buf, size_t bytes, Qiniu_Off_T offset)$/;"	f
+Qiniu_File_Stat	qiniu/base_io.c	/^Qiniu_Error Qiniu_File_Stat(Qiniu_File* self, Qiniu_FileInfo* fi)$/;"	f
+Qiniu_Format_Register	qiniu/base.c	/^void Qiniu_Format_Register(char esc, Qiniu_FnAppender appender)$/;"	f
+Qiniu_Free	qiniu/base.c	/^void Qiniu_Free(void* addr)$/;"	f
+Qiniu_Global_Cleanup	qiniu/http.c	/^void Qiniu_Global_Cleanup()$/;"	f
+Qiniu_Global_Init	qiniu/http.c	/^void Qiniu_Global_Init(long flags)$/;"	f
+Qiniu_Io_PutBuffer	qiniu/io.c	/^Qiniu_Error Qiniu_Io_PutBuffer($/;"	f
+Qiniu_Io_PutFile	qiniu/io.c	/^Qiniu_Error Qiniu_Io_PutFile($/;"	f
+Qiniu_Io_call	qiniu/io.c	/^static Qiniu_Error Qiniu_Io_call($/;"	f	file:
+Qiniu_Io_form	qiniu/io.c	/^} Qiniu_Io_form;$/;"	t	typeref:struct:_Qiniu_Io_form	file:
+Qiniu_Io_form_init	qiniu/io.c	/^static void Qiniu_Io_form_init($/;"	f	file:
+Qiniu_Json_GetInt	qiniu/http.c	/^Qiniu_Uint32 Qiniu_Json_GetInt(Qiniu_Json* self, const char* key, Qiniu_Uint32 defval)$/;"	f
+Qiniu_Json_GetInt64	qiniu/http.c	/^Qiniu_Int64 Qiniu_Json_GetInt64(Qiniu_Json* self, const char* key, Qiniu_Int64 defval)$/;"	f
+Qiniu_Json_GetString	qiniu/http.c	/^const char* Qiniu_Json_GetString(Qiniu_Json* self, const char* key, const char* defval)$/;"	f
+Qiniu_Logv	qiniu/base.c	/^void Qiniu_Logv(Qiniu_Writer w, int ilvl, const char* fmt, Qiniu_Valist* args)$/;"	f
+Qiniu_Memory_Encode	qiniu/base.c	/^char* Qiniu_Memory_Encode(const char* buf, const size_t cb)$/;"	f
+Qiniu_Mutex_Cleanup	qiniu/http.c	/^void Qiniu_Mutex_Cleanup(Qiniu_Mutex* self)$/;"	f
+Qiniu_Mutex_Init	qiniu/http.c	/^void Qiniu_Mutex_Init(Qiniu_Mutex* self)$/;"	f
+Qiniu_Mutex_Lock	qiniu/http.c	/^void Qiniu_Mutex_Lock(Qiniu_Mutex* self)$/;"	f
+Qiniu_Mutex_Unlock	qiniu/http.c	/^void Qiniu_Mutex_Unlock(Qiniu_Mutex* self)$/;"	f
+Qiniu_NoAuth	qiniu/http.c	/^Qiniu_Auth Qiniu_NoAuth = {$/;"	v
+Qiniu_Null_Fwrite	qiniu/base.c	/^size_t Qiniu_Null_Fwrite(const void *buf, size_t size, size_t nmemb, void *self)$/;"	f
+Qiniu_Null_Log	qiniu/base.c	/^void Qiniu_Null_Log(const char* fmt, ...)$/;"	f
+Qiniu_OK	qiniu/base.c	/^Qiniu_Error Qiniu_OK = {$/;"	v
+Qiniu_PathEscape	qiniu/base.c	/^char* Qiniu_PathEscape(const char* s, Qiniu_Bool* fesc)$/;"	f
+Qiniu_Posix_Close	qiniu/base_io.c	23;"	d	file:
+Qiniu_Posix_Fstat	qiniu/base_io.c	/^int Qiniu_Posix_Fstat(Qiniu_Posix_Handle fd, Qiniu_FileInfo* fi)$/;"	f
+Qiniu_Posix_Fstat	qiniu/base_io.c	22;"	d	file:
+Qiniu_Posix_Handle	qiniu/base_io.c	19;"	d	file:
+Qiniu_Posix_InvalidHandle	qiniu/base_io.c	24;"	d	file:
+Qiniu_Posix_Open	qiniu/base_io.c	20;"	d	file:
+Qiniu_Posix_Pread	qiniu/base_io.c	21;"	d	file:
+Qiniu_Posix_Pread	qiniu/base_io.c	223;"	d	file:
+Qiniu_QueryEscape	qiniu/base.c	/^char* Qiniu_QueryEscape(const char* s, Qiniu_Bool* fesc)$/;"	f
+Qiniu_ReadBuf_Read	qiniu/base_io.c	/^static size_t Qiniu_ReadBuf_Read(void *buf, size_t unused, size_t n, Qiniu_ReadBuf* self)$/;"	f	file:
+Qiniu_ReadBuf_ReadAt	qiniu/base_io.c	/^ssize_t Qiniu_ReadBuf_ReadAt(Qiniu_ReadBuf* self, void *buf, size_t n, Qiniu_Off_T off)$/;"	f
+Qiniu_Seconds	qiniu/base.c	/^Qiniu_Int64 Qiniu_Seconds()$/;"	f
+Qiniu_SectionReader	qiniu/base_io.c	/^Qiniu_Reader Qiniu_SectionReader(Qiniu_Section* self, Qiniu_ReaderAt r, Qiniu_Off_T off, size_t n)$/;"	f
+Qiniu_Section_Read	qiniu/base_io.c	/^size_t Qiniu_Section_Read(void* buf, size_t unused, size_t n, Qiniu_Section* self)$/;"	f
+Qiniu_Stderr_Info	qiniu/base.c	/^void Qiniu_Stderr_Info(const char* fmt, ...)$/;"	f
+Qiniu_Stderr_Warn	qiniu/base.c	/^void Qiniu_Stderr_Warn(const char* fmt, ...)$/;"	f
+Qiniu_String_Concat	qiniu/base.c	/^char* Qiniu_String_Concat(const char* s1, ...)$/;"	f
+Qiniu_String_Concat2	qiniu/base.c	/^char* Qiniu_String_Concat2(const char* s1, const char* s2)$/;"	f
+Qiniu_String_Concat3	qiniu/base.c	/^char* Qiniu_String_Concat3(const char* s1, const char* s2, const char* s3)$/;"	f
+Qiniu_String_Decode	qiniu/base.c	/^char* Qiniu_String_Decode(const char* buf)$/;"	f
+Qiniu_String_Dup	qiniu/base.c	/^char* Qiniu_String_Dup(const char* src)$/;"	f
+Qiniu_String_Encode	qiniu/base.c	/^char* Qiniu_String_Encode(const char* buf)$/;"	f
+Qiniu_String_Format	qiniu/base.c	/^char* Qiniu_String_Format(size_t initSize, const char* fmt, ...)$/;"	f
+Qiniu_String_Join	qiniu/base.c	/^char* Qiniu_String_Join(const char* deli, char* strs[], int strCount)$/;"	f
+Qiniu_TeeReader	qiniu/base_io.c	/^Qiniu_Reader Qiniu_TeeReader(Qiniu_Tee* self, Qiniu_Reader r, Qiniu_Writer w)$/;"	f
+Qiniu_Tee_Read	qiniu/base_io.c	/^size_t Qiniu_Tee_Read(void* buf, size_t unused, size_t n, Qiniu_Tee* self)$/;"	f
+Qiniu_callex	qiniu/http.c	/^Qiniu_Error Qiniu_callex(CURL* curl, Qiniu_Buffer *resp, Qiniu_Json** ret, Qiniu_Bool simpleError, Qiniu_Buffer *resph)$/;"	f
+Qiniu_escape	qiniu/base.c	/^static char* Qiniu_escape(const char* s, escapeMode mode, Qiniu_Bool* fesc)$/;"	f	file:
+Qiniu_formatProc	qiniu/base.c	/^} Qiniu_formatProc;$/;"	t	typeref:struct:_Qiniu_formatProc	file:
+Qiniu_hexTable	qiniu/base.c	/^static const char Qiniu_hexTable[] = "0123456789ABCDEF";$/;"	v	file:
+Qiniu_shouldEscape	qiniu/base.c	/^static int Qiniu_shouldEscape(int c, escapeMode mode)$/;"	f	file:
+R	sha1.c	127;"	d	file:
+RANDOM_FILE	Makefile	/^RANDOM_FILE = \/dev\/urandom$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+REQUIRE_LIB_DEPS	Makefile	/^REQUIRE_LIB_DEPS = no$/;"	m
+RSA_D	rsa.c	1580;"	d	file:
+RSA_DP	rsa.c	1599;"	d	file:
+RSA_DQ	rsa.c	1604;"	d	file:
+RSA_E	rsa.c	1578;"	d	file:
+RSA_N	rsa.c	1569;"	d	file:
+RSA_P	rsa.c	1589;"	d	file:
+RSA_PT	rsa.c	1615;"	d	file:
+RSA_Q	rsa.c	1594;"	d	file:
+RSA_QP	rsa.c	1609;"	d	file:
+S	sha1.c	125;"	d	file:
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SEVERITY_STR_DECL	b64/b64.c	565;"	d	file:
+SEVERITY_STR_ENTRY	b64/b64.c	571;"	d	file:
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(AC_DeviceService_SOURCES)$/;"	m
+SSL_ENABLED	Makefile	/^SSL_ENABLED = 1$/;"	m
+SSL_LIBS	Makefile	/^SSL_LIBS = -lssl -lcrypto  $/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SUB_DOMAIN	AC_DeviceService.c	43;"	d	file:
+SUPPORT_FEATURES	Makefile	/^SUPPORT_FEATURES = SSL IPv6 UnixSockets libz NTLM NTLM_WB TLS-SRP$/;"	m
+SUPPORT_PROTOCOLS	Makefile	/^SUPPORT_PROTOCOLS = DICT FILE FTP FTPS GOPHER HTTP HTTPS IMAP IMAPS POP3 POP3S RTSP SMB SMBS SMTP SMTPS TELNET TFTP$/;"	m
+StartElement	htmltitle.cpp	/^static void StartElement(void *voidContext,$/;"	f	file:
+UPDATESTATUS_FILIENUMERROR	AC_DeviceService.c	/^        UPDATESTATUS_FILIENUMERROR,$/;"	e	enum:__anon2	file:
+UPDATESTATUS_NOTFILIEINFOR	AC_DeviceService.c	/^        UPDATESTATUS_NOTFILIEINFOR,$/;"	e	enum:__anon2	file:
+UPDATESTATUS_NOTVERSION	AC_DeviceService.c	/^        UPDATESTATUS_NOTVERSION = 1100,$/;"	e	enum:__anon2	file:
+USE_ARES	Makefile	/^USE_ARES = $/;"	m
+USE_AXTLS	Makefile	/^USE_AXTLS = $/;"	m
+USE_CYASSL	Makefile	/^USE_CYASSL = $/;"	m
+USE_DARWINSSL	Makefile	/^USE_DARWINSSL = $/;"	m
+USE_GNUTLS	Makefile	/^USE_GNUTLS = $/;"	m
+USE_GNUTLS_NETTLE	Makefile	/^USE_GNUTLS_NETTLE = $/;"	m
+USE_LIBRTMP	Makefile	/^USE_LIBRTMP = $/;"	m
+USE_LIBSSH2	Makefile	/^USE_LIBSSH2 = $/;"	m
+USE_MBEDTLS	Makefile	/^USE_MBEDTLS = $/;"	m
+USE_NGHTTP2	Makefile	/^USE_NGHTTP2 = $/;"	m
+USE_NSS	Makefile	/^USE_NSS = $/;"	m
+USE_OPENLDAP	Makefile	/^USE_OPENLDAP = $/;"	m
+USE_POLARSSL	Makefile	/^USE_POLARSSL = $/;"	m
+USE_SCHANNEL	Makefile	/^USE_SCHANNEL = $/;"	m
+USE_UNIX_SOCKETS	Makefile	/^USE_UNIX_SOCKETS = 1$/;"	m
+USE_WINDOWS_SSPI	Makefile	/^USE_WINDOWS_SSPI = $/;"	m
+UpdateTokenCallback	AC_DeviceService.c	/^static size_t UpdateTokenCallback(void *buffer, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+VERBOSE	AC_DeviceService.c	118;"	d	file:
+VERSION	Makefile	/^VERSION = -$/;"	m
+VERSIONNUM	Makefile	/^VERSIONNUM = 072f00$/;"	m
+ZLIB_LIBS	Makefile	/^ZLIB_LIBS = -lz$/;"	m
+ZSH_FUNCTIONS_DIR	Makefile	/^ZSH_FUNCTIONS_DIR = ${prefix}\/share\/zsh\/site-functions$/;"	m
+_Qiniu_Io_form	qiniu/io.c	/^typedef struct _Qiniu_Io_form {$/;"	s	file:
+_Qiniu_formatProc	qiniu/base.c	/^typedef struct _Qiniu_formatProc {$/;"	s	file:
+abs_builddir	Makefile	/^abs_builddir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/docs\/examples$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/docs\/examples$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = $/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+addTitle	htmltitle.cpp	/^  bool addTitle;$/;"	m	struct:Context	file:
+am_AC_DeviceService_OBJECTS	Makefile	/^am_AC_DeviceService_OBJECTS = AC_DeviceService.$(OBJEXT) \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/curl-compilers.m4 \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+b64ErrorString_t_	b64/b64.c	/^struct b64ErrorString_t_$/;"	s	file:
+b64_LookupCodeA_	b64/b64.c	/^b64_char_t const* b64_LookupCodeA_(int code, b64ErrorString_t_ const** mappings, size_t cMappings, size_t* len)$/;"	f
+b64_LookupErrorStringA_	b64/b64.c	/^b64_char_t const* b64_LookupErrorStringA_(int error, size_t* len)$/;"	f
+b64_decode	b64/b64.c	/^size_t b64_decode($/;"	f
+b64_decode2	b64/b64.c	/^size_t b64_decode2($/;"	f
+b64_decode_	b64/b64.c	/^size_t b64_decode_($/;"	f
+b64_encode	b64/b64.c	/^size_t b64_encode($/;"	f
+b64_encode2	b64/b64.c	/^size_t b64_encode2($/;"	f
+b64_encode_	b64/b64.c	/^size_t b64_encode_($/;"	f
+b64_getErrorString	b64/b64.c	/^b64_char_t const* b64_getErrorString(B64_RC code)$/;"	f
+b64_getErrorStringLength	b64/b64.c	/^size_t b64_getErrorStringLength(B64_RC code)$/;"	f
+b64_strchr_	b64/b64.c	115;"	d	file:
+b64_strchr_	b64/urlsafe_b64.c	115;"	d	file:
+base64_decode	base64.c	/^unsigned char * base64_decode(const unsigned char *src, int len,$/;"	f
+base64_encode	base64.c	/^unsigned char * base64_encode(const unsigned char *src, int len,$/;"	f
+base64_table	base64.c	/^static const unsigned char base64_table[64] =$/;"	v	file:
+biH	bignum.c	59;"	d	file:
+biL	bignum.c	58;"	d	file:
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = AC_DeviceService$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+buffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon8	file:
+buffer	htmltitle.cpp	/^static std::string buffer;$/;"	v	file:
+buffer	localtest.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon9	file:
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToArray	localtest.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	localtest.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToArray	localtest.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObject	localtest.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObjectCS	cJSON.c	/^void   cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (!(item->type&cJSON_StringIsConst) && item->string) cJSON_free(item->string);item->string=(char*)string;item->type|=cJSON_StringIsConst;cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObjectCS	localtest.c	/^void   cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (!(item->type&cJSON_StringIsConst) && item->string) cJSON_free(item->string);item->string=(char*)string;item->type|=cJSON_StringIsConst;cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateArray	localtest.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateBool	localtest.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateDoubleArray	localtest.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFalse	localtest.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFloatArray	localtest.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	localtest.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNull	localtest.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateNumber	localtest.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateObject	localtest.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateString	localtest.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateStringArray	localtest.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_CreateTrue	localtest.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_Delete	localtest.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromArray	localtest.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DeleteItemFromObject	localtest.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromArray	localtest.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_DetachItemFromObject	localtest.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_Duplicate	localtest.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArrayItem	localtest.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetArraySize	localtest.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetErrorPtr	localtest.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_GetObjectItem	localtest.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InitHooks	localtest.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InsertItemInArray	cJSON.c	/^void   cJSON_InsertItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) {cJSON_AddItemToArray(array,newitem);return;}$/;"	f
+cJSON_InsertItemInArray	localtest.c	/^void   cJSON_InsertItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) {cJSON_AddItemToArray(array,newitem);return;}$/;"	f
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_Minify	localtest.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_New_Item	localtest.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_Parse	localtest.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_ParseWithOpts	localtest.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1,0);}$/;"	f
+cJSON_Print	localtest.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1,0);}$/;"	f
+cJSON_PrintBuffered	cJSON.c	/^char *cJSON_PrintBuffered(cJSON *item,int prebuffer,int fmt)$/;"	f
+cJSON_PrintBuffered	localtest.c	/^char *cJSON_PrintBuffered(cJSON *item,int prebuffer,int fmt)$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0,0);}$/;"	f
+cJSON_PrintUnformatted	localtest.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInArray	localtest.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_ReplaceItemInObject	localtest.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_free	localtest.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_malloc	localtest.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strcasecmp	localtest.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+cJSON_strdup	localtest.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+cdata	htmltitle.cpp	/^static void cdata(void *voidContext,$/;"	f	file:
+chAccessToken	AC_DeviceService.c	/^    char chAccessToken[64];$/;"	m	struct:__anon3	file:
+chAccessTokenExpire	AC_DeviceService.c	/^    char chAccessTokenExpire[21];$/;"	m	struct:__anon3	file:
+chDownloadUrl	AC_DeviceService.c	/^    char chDownloadUrl[512];$/;"	m	struct:__anon5	file:
+chDownloadUrl	AC_DeviceService.c	/^    char chDownloadUrl[512];$/;"	m	struct:__anon6	file:
+chName	AC_DeviceService.c	/^    char chName[64];$/;"	m	struct:__anon6	file:
+chStoreType	AC_DeviceService.c	/^    char chStoreType[21];$/;"	m	struct:__anon4	file:
+chStoreType	AC_DeviceService.c	/^    char chStoreType[21];$/;"	m	struct:__anon5	file:
+chTargetVersion	AC_DeviceService.c	/^    char chTargetVersion[32];$/;"	m	struct:__anon7	file:
+chUpgradeLog	AC_DeviceService.c	/^    char chUpgradeLog[128];$/;"	m	struct:__anon7	file:
+chUploadToken	AC_DeviceService.c	/^    char chUploadToken[512];$/;"	m	struct:__anon4	file:
+chrefreshToken	AC_DeviceService.c	/^    char chrefreshToken[33];$/;"	m	struct:__anon3	file:
+chrefreshTokenExpire	AC_DeviceService.c	/^    char chrefreshTokenExpire[21];$/;"	m	struct:__anon3	file:
+ciL	bignum.c	57;"	d	file:
+code	b64/b64.c	/^    int                 code;   \/*!< The error code.    *\/$/;"	m	struct:b64ErrorString_t_	file:
+crcTable	qiniu/base_io.c	/^static const unsigned long crcTable[256] =$/;"	v	file:
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+create_reference	localtest.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+encodeFragment	qiniu/base.c	/^	encodeFragment,$/;"	e	enum:__anon10	file:
+encodePath	qiniu/base.c	/^	encodePath,$/;"	e	enum:__anon10	file:
+encodeQueryComponent	qiniu/base.c	/^	encodeQueryComponent,$/;"	e	enum:__anon10	file:
+encodeUserPassword	qiniu/base.c	/^	encodeUserPassword,$/;"	e	enum:__anon10	file:
+ensure	cJSON.c	/^static char* ensure(printbuffer *p,int needed)$/;"	f	file:
+ensure	localtest.c	/^static char* ensure(printbuffer *p,int needed)$/;"	f	file:
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+ep	localtest.c	/^static const char *ep;$/;"	v	file:
+errorBuffer	htmltitle.cpp	/^static char errorBuffer[CURL_ERROR_SIZE];$/;"	v	file:
+esc	qiniu/base.c	/^	char esc;$/;"	m	struct:_Qiniu_formatProc	file:
+escapeMode	qiniu/base.c	/^} escapeMode;$/;"	t	typeref:enum:__anon10	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+firstByteMark	localtest.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+formpost	qiniu/io.c	/^	struct curl_httppost* formpost;$/;"	m	struct:_Qiniu_Io_form	typeref:struct:_Qiniu_Io_form::curl_httppost	file:
+func_exec_program	AC_DeviceService	/^func_exec_program ()$/;"	f
+func_exec_program_core	AC_DeviceService	/^func_exec_program_core ()$/;"	f
+func_fallback_echo	AC_DeviceService	/^func_fallback_echo ()$/;"	f
+func_lt_dump_args	AC_DeviceService	/^func_lt_dump_args ()$/;"	f
+func_parse_lt_options	AC_DeviceService	/^func_parse_lt_options ()$/;"	f
+g_chDeviceId	AC_DeviceService.c	/^char g_chDeviceId[17];$/;"	v
+g_chDomain	AC_DeviceService.c	/^char g_chDomain[32];$/;"	v
+g_chModuleVersion	AC_DeviceService.c	/^char g_chModuleVersion[17];$/;"	v
+g_chPrivateKey	AC_DeviceService.c	/^char g_chPrivateKey[112] = DEFAULT_IOT_PRIVATE_KEY;$/;"	v
+g_chPublicKey	AC_DeviceService.c	/^char g_chPublicKey[36] = DEFAULT_IOT_PUBliC_KEY;$/;"	v
+g_chSubDomain	AC_DeviceService.c	/^char g_chSubDomain[32];$/;"	v
+g_chaccessKey	AC_DeviceService.c	/^char g_chaccessKey[18] = {0};$/;"	v
+g_int32ErrorCode	AC_DeviceService.c	/^AC_RETSTATUS  g_int32ErrorCode = 0;$/;"	v
+g_int32fd	AC_DeviceService.c	/^int  g_int32fd = 0;$/;"	v
+g_statusCodeError	qiniu/http.c	/^static const char g_statusCodeError[] = "http status code is not OK";$/;"	v	file:
+g_struAcDownloadInfo	AC_DeviceService.c	/^AC_Downloadnfo g_struAcDownloadInfo;$/;"	v
+g_struAcOtaFileInfo	AC_DeviceService.c	/^AC_OtaInfo g_struAcOtaFileInfo;$/;"	v
+g_struAcTokenInfo	AC_DeviceService.c	/^AC_TokenInfo g_struAcTokenInfo;$/;"	v
+g_struAcUploadInfo	AC_DeviceService.c	/^AC_UploadInfo g_struAcUploadInfo;$/;"	v
+gcd_pairs	bignum.c	/^static const int gcd_pairs[GCD_PAIR_COUNT][3] =$/;"	v	file:
+handleCharacters	htmltitle.cpp	/^static void handleCharacters(Context *context,$/;"	f	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	htmltitle.cpp	/^static bool init(CURL *&conn, char *url)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+lastptr	qiniu/io.c	/^	struct curl_httppost* lastptr;$/;"	m	struct:_Qiniu_Io_form	typeref:struct:_Qiniu_Io_form::curl_httppost	file:
+len	b64/b64.c	/^    size_t              len;    \/*!< The string length. *\/$/;"	m	struct:b64ErrorString_t_	file:
+length	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon8	file:
+length	localtest.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon9	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libext	Makefile	/^libext = a$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	AC_DeviceService.c	/^void main()$/;"	f
+main	htmltitle.cpp	/^int main(int argc, char *argv[])$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mbedtls_calloc	bignum.c	48;"	d	file:
+mbedtls_calloc	md.c	41;"	d	file:
+mbedtls_calloc	md_wrap.c	68;"	d	file:
+mbedtls_calloc	rsa.c	45;"	d	file:
+mbedtls_free	bignum.c	49;"	d	file:
+mbedtls_free	md.c	42;"	d	file:
+mbedtls_free	md_wrap.c	69;"	d	file:
+mbedtls_free	rsa.c	46;"	d	file:
+mbedtls_md	md.c	/^int mbedtls_md( const mbedtls_md_info_t *md_info, const unsigned char *input, size_t ilen,$/;"	f
+mbedtls_md2_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_md2_info = {$/;"	v
+mbedtls_md4_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_md4_info = {$/;"	v
+mbedtls_md5_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_md5_info = {$/;"	v
+mbedtls_md_clone	md.c	/^int mbedtls_md_clone( mbedtls_md_context_t *dst,$/;"	f
+mbedtls_md_file	md.c	/^int mbedtls_md_file( const mbedtls_md_info_t *md_info, const char *path, unsigned char *output )$/;"	f
+mbedtls_md_finish	md.c	/^int mbedtls_md_finish( mbedtls_md_context_t *ctx, unsigned char *output )$/;"	f
+mbedtls_md_free	md.c	/^void mbedtls_md_free( mbedtls_md_context_t *ctx )$/;"	f
+mbedtls_md_get_name	md.c	/^const char *mbedtls_md_get_name( const mbedtls_md_info_t *md_info )$/;"	f
+mbedtls_md_get_size	md.c	/^unsigned char mbedtls_md_get_size( const mbedtls_md_info_t *md_info )$/;"	f
+mbedtls_md_get_type	md.c	/^mbedtls_md_type_t mbedtls_md_get_type( const mbedtls_md_info_t *md_info )$/;"	f
+mbedtls_md_hmac	md.c	/^int mbedtls_md_hmac( const mbedtls_md_info_t *md_info, const unsigned char *key, size_t keylen,$/;"	f
+mbedtls_md_hmac_finish	md.c	/^int mbedtls_md_hmac_finish( mbedtls_md_context_t *ctx, unsigned char *output )$/;"	f
+mbedtls_md_hmac_reset	md.c	/^int mbedtls_md_hmac_reset( mbedtls_md_context_t *ctx )$/;"	f
+mbedtls_md_hmac_starts	md.c	/^int mbedtls_md_hmac_starts( mbedtls_md_context_t *ctx, const unsigned char *key, size_t keylen )$/;"	f
+mbedtls_md_hmac_update	md.c	/^int mbedtls_md_hmac_update( mbedtls_md_context_t *ctx, const unsigned char *input, size_t ilen )$/;"	f
+mbedtls_md_info_from_string	md.c	/^const mbedtls_md_info_t *mbedtls_md_info_from_string( const char *md_name )$/;"	f
+mbedtls_md_info_from_type	md.c	/^const mbedtls_md_info_t *mbedtls_md_info_from_type( mbedtls_md_type_t md_type )$/;"	f
+mbedtls_md_init	md.c	/^void mbedtls_md_init( mbedtls_md_context_t *ctx )$/;"	f
+mbedtls_md_init_ctx	md.c	/^int mbedtls_md_init_ctx( mbedtls_md_context_t *ctx, const mbedtls_md_info_t *md_info )$/;"	f
+mbedtls_md_list	md.c	/^const int *mbedtls_md_list( void )$/;"	f
+mbedtls_md_process	md.c	/^int mbedtls_md_process( mbedtls_md_context_t *ctx, const unsigned char *data )$/;"	f
+mbedtls_md_setup	md.c	/^int mbedtls_md_setup( mbedtls_md_context_t *ctx, const mbedtls_md_info_t *md_info, int hmac )$/;"	f
+mbedtls_md_starts	md.c	/^int mbedtls_md_starts( mbedtls_md_context_t *ctx )$/;"	f
+mbedtls_md_update	md.c	/^int mbedtls_md_update( mbedtls_md_context_t *ctx, const unsigned char *input, size_t ilen )$/;"	f
+mbedtls_mpi_add_abs	bignum.c	/^int mbedtls_mpi_add_abs( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_add_int	bignum.c	/^int mbedtls_mpi_add_int( mbedtls_mpi *X, const mbedtls_mpi *A, mbedtls_mpi_sint b )$/;"	f
+mbedtls_mpi_add_mpi	bignum.c	/^int mbedtls_mpi_add_mpi( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_bitlen	bignum.c	/^size_t mbedtls_mpi_bitlen( const mbedtls_mpi *X )$/;"	f
+mbedtls_mpi_cmp_abs	bignum.c	/^int mbedtls_mpi_cmp_abs( const mbedtls_mpi *X, const mbedtls_mpi *Y )$/;"	f
+mbedtls_mpi_cmp_int	bignum.c	/^int mbedtls_mpi_cmp_int( const mbedtls_mpi *X, mbedtls_mpi_sint z )$/;"	f
+mbedtls_mpi_cmp_mpi	bignum.c	/^int mbedtls_mpi_cmp_mpi( const mbedtls_mpi *X, const mbedtls_mpi *Y )$/;"	f
+mbedtls_mpi_copy	bignum.c	/^int mbedtls_mpi_copy( mbedtls_mpi *X, const mbedtls_mpi *Y )$/;"	f
+mbedtls_mpi_div_int	bignum.c	/^int mbedtls_mpi_div_int( mbedtls_mpi *Q, mbedtls_mpi *R, const mbedtls_mpi *A, mbedtls_mpi_sint b )$/;"	f
+mbedtls_mpi_div_mpi	bignum.c	/^int mbedtls_mpi_div_mpi( mbedtls_mpi *Q, mbedtls_mpi *R, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_exp_mod	bignum.c	/^int mbedtls_mpi_exp_mod( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *E, const mbedtls_mpi *N, mbedtls_mpi *_RR )$/;"	f
+mbedtls_mpi_fill_random	bignum.c	/^int mbedtls_mpi_fill_random( mbedtls_mpi *X, size_t size,$/;"	f
+mbedtls_mpi_free	bignum.c	/^void mbedtls_mpi_free( mbedtls_mpi *X )$/;"	f
+mbedtls_mpi_gcd	bignum.c	/^int mbedtls_mpi_gcd( mbedtls_mpi *G, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_gen_prime	bignum.c	/^int mbedtls_mpi_gen_prime( mbedtls_mpi *X, size_t nbits, int dh_flag,$/;"	f
+mbedtls_mpi_get_bit	bignum.c	/^int mbedtls_mpi_get_bit( const mbedtls_mpi *X, size_t pos )$/;"	f
+mbedtls_mpi_grow	bignum.c	/^int mbedtls_mpi_grow( mbedtls_mpi *X, size_t nblimbs )$/;"	f
+mbedtls_mpi_init	bignum.c	/^void mbedtls_mpi_init( mbedtls_mpi *X )$/;"	f
+mbedtls_mpi_inv_mod	bignum.c	/^int mbedtls_mpi_inv_mod( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *N )$/;"	f
+mbedtls_mpi_is_prime	bignum.c	/^int mbedtls_mpi_is_prime( const mbedtls_mpi *X,$/;"	f
+mbedtls_mpi_lsb	bignum.c	/^size_t mbedtls_mpi_lsb( const mbedtls_mpi *X )$/;"	f
+mbedtls_mpi_lset	bignum.c	/^int mbedtls_mpi_lset( mbedtls_mpi *X, mbedtls_mpi_sint z )$/;"	f
+mbedtls_mpi_mod_int	bignum.c	/^int mbedtls_mpi_mod_int( mbedtls_mpi_uint *r, const mbedtls_mpi *A, mbedtls_mpi_sint b )$/;"	f
+mbedtls_mpi_mod_mpi	bignum.c	/^int mbedtls_mpi_mod_mpi( mbedtls_mpi *R, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_mul_int	bignum.c	/^int mbedtls_mpi_mul_int( mbedtls_mpi *X, const mbedtls_mpi *A, mbedtls_mpi_uint b )$/;"	f
+mbedtls_mpi_mul_mpi	bignum.c	/^int mbedtls_mpi_mul_mpi( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_read_binary	bignum.c	/^int mbedtls_mpi_read_binary( mbedtls_mpi *X, const unsigned char *buf, size_t buflen )$/;"	f
+mbedtls_mpi_read_file	bignum.c	/^int mbedtls_mpi_read_file( mbedtls_mpi *X, int radix, FILE *fin )$/;"	f
+mbedtls_mpi_read_string	bignum.c	/^int mbedtls_mpi_read_string( mbedtls_mpi *X, int radix, const char *s )$/;"	f
+mbedtls_mpi_safe_cond_assign	bignum.c	/^int mbedtls_mpi_safe_cond_assign( mbedtls_mpi *X, const mbedtls_mpi *Y, unsigned char assign )$/;"	f
+mbedtls_mpi_safe_cond_swap	bignum.c	/^int mbedtls_mpi_safe_cond_swap( mbedtls_mpi *X, mbedtls_mpi *Y, unsigned char swap )$/;"	f
+mbedtls_mpi_self_test	bignum.c	/^int mbedtls_mpi_self_test( int verbose )$/;"	f
+mbedtls_mpi_set_bit	bignum.c	/^int mbedtls_mpi_set_bit( mbedtls_mpi *X, size_t pos, unsigned char val )$/;"	f
+mbedtls_mpi_shift_l	bignum.c	/^int mbedtls_mpi_shift_l( mbedtls_mpi *X, size_t count )$/;"	f
+mbedtls_mpi_shift_r	bignum.c	/^int mbedtls_mpi_shift_r( mbedtls_mpi *X, size_t count )$/;"	f
+mbedtls_mpi_shrink	bignum.c	/^int mbedtls_mpi_shrink( mbedtls_mpi *X, size_t nblimbs )$/;"	f
+mbedtls_mpi_size	bignum.c	/^size_t mbedtls_mpi_size( const mbedtls_mpi *X )$/;"	f
+mbedtls_mpi_sub_abs	bignum.c	/^int mbedtls_mpi_sub_abs( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_sub_int	bignum.c	/^int mbedtls_mpi_sub_int( mbedtls_mpi *X, const mbedtls_mpi *A, mbedtls_mpi_sint b )$/;"	f
+mbedtls_mpi_sub_mpi	bignum.c	/^int mbedtls_mpi_sub_mpi( mbedtls_mpi *X, const mbedtls_mpi *A, const mbedtls_mpi *B )$/;"	f
+mbedtls_mpi_swap	bignum.c	/^void mbedtls_mpi_swap( mbedtls_mpi *X, mbedtls_mpi *Y )$/;"	f
+mbedtls_mpi_write_binary	bignum.c	/^int mbedtls_mpi_write_binary( const mbedtls_mpi *X, unsigned char *buf, size_t buflen )$/;"	f
+mbedtls_mpi_write_file	bignum.c	/^int mbedtls_mpi_write_file( const char *p, const mbedtls_mpi *X, int radix, FILE *fout )$/;"	f
+mbedtls_mpi_write_string	bignum.c	/^int mbedtls_mpi_write_string( const mbedtls_mpi *X, int radix,$/;"	f
+mbedtls_printf	bignum.c	47;"	d	file:
+mbedtls_printf	rsa.c	44;"	d	file:
+mbedtls_printf	sha1.c	35;"	d	file:
+mbedtls_ripemd160_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_ripemd160_info = {$/;"	v
+mbedtls_rsa_check_privkey	rsa.c	/^int mbedtls_rsa_check_privkey( const mbedtls_rsa_context *ctx )$/;"	f
+mbedtls_rsa_check_pub_priv	rsa.c	/^int mbedtls_rsa_check_pub_priv( const mbedtls_rsa_context *pub, const mbedtls_rsa_context *prv )$/;"	f
+mbedtls_rsa_check_pubkey	rsa.c	/^int mbedtls_rsa_check_pubkey( const mbedtls_rsa_context *ctx )$/;"	f
+mbedtls_rsa_copy	rsa.c	/^int mbedtls_rsa_copy( mbedtls_rsa_context *dst, const mbedtls_rsa_context *src )$/;"	f
+mbedtls_rsa_free	rsa.c	/^void mbedtls_rsa_free( mbedtls_rsa_context *ctx )$/;"	f
+mbedtls_rsa_gen_key	rsa.c	/^int mbedtls_rsa_gen_key( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_init	rsa.c	/^void mbedtls_rsa_init( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_pkcs1_decrypt	rsa.c	/^int mbedtls_rsa_pkcs1_decrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_pkcs1_encrypt	rsa.c	/^int mbedtls_rsa_pkcs1_encrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_pkcs1_sign	rsa.c	/^int mbedtls_rsa_pkcs1_sign( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_pkcs1_verify	rsa.c	/^int mbedtls_rsa_pkcs1_verify( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_private	rsa.c	/^int mbedtls_rsa_private( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_public	rsa.c	/^int mbedtls_rsa_public( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsaes_oaep_decrypt	rsa.c	/^int mbedtls_rsa_rsaes_oaep_decrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsaes_oaep_encrypt	rsa.c	/^int mbedtls_rsa_rsaes_oaep_encrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsaes_pkcs1_v15_decrypt	rsa.c	/^int mbedtls_rsa_rsaes_pkcs1_v15_decrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsaes_pkcs1_v15_encrypt	rsa.c	/^int mbedtls_rsa_rsaes_pkcs1_v15_encrypt( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsassa_pkcs1_v15_sign	rsa.c	/^int mbedtls_rsa_rsassa_pkcs1_v15_sign( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsassa_pkcs1_v15_verify	rsa.c	/^int mbedtls_rsa_rsassa_pkcs1_v15_verify( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsassa_pss_sign	rsa.c	/^int mbedtls_rsa_rsassa_pss_sign( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsassa_pss_verify	rsa.c	/^int mbedtls_rsa_rsassa_pss_verify( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_rsassa_pss_verify_ext	rsa.c	/^int mbedtls_rsa_rsassa_pss_verify_ext( mbedtls_rsa_context *ctx,$/;"	f
+mbedtls_rsa_self_test	rsa.c	/^int mbedtls_rsa_self_test( int verbose )$/;"	f
+mbedtls_rsa_set_padding	rsa.c	/^void mbedtls_rsa_set_padding( mbedtls_rsa_context *ctx, int padding, int hash_id )$/;"	f
+mbedtls_sha1	sha1.c	/^void mbedtls_sha1( const unsigned char *input, size_t ilen, unsigned char output[20] )$/;"	f
+mbedtls_sha1_clone	sha1.c	/^void mbedtls_sha1_clone( mbedtls_sha1_context *dst,$/;"	f
+mbedtls_sha1_finish	sha1.c	/^void mbedtls_sha1_finish( mbedtls_sha1_context *ctx, unsigned char output[20] )$/;"	f
+mbedtls_sha1_free	sha1.c	/^void mbedtls_sha1_free( mbedtls_sha1_context *ctx )$/;"	f
+mbedtls_sha1_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_sha1_info = {$/;"	v
+mbedtls_sha1_init	sha1.c	/^void mbedtls_sha1_init( mbedtls_sha1_context *ctx )$/;"	f
+mbedtls_sha1_process	sha1.c	/^void mbedtls_sha1_process( mbedtls_sha1_context *ctx, const unsigned char data[64] )$/;"	f
+mbedtls_sha1_self_test	sha1.c	/^int mbedtls_sha1_self_test( int verbose )$/;"	f
+mbedtls_sha1_starts	sha1.c	/^void mbedtls_sha1_starts( mbedtls_sha1_context *ctx )$/;"	f
+mbedtls_sha1_update	sha1.c	/^void mbedtls_sha1_update( mbedtls_sha1_context *ctx, const unsigned char *input, size_t ilen )$/;"	f
+mbedtls_sha224_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_sha224_info = {$/;"	v
+mbedtls_sha256_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_sha256_info = {$/;"	v
+mbedtls_sha384_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_sha384_info = {$/;"	v
+mbedtls_sha512_info	md_wrap.c	/^const mbedtls_md_info_t mbedtls_sha512_info = {$/;"	v
+mbedtls_zeroize	bignum.c	/^static void mbedtls_zeroize( void *v, size_t n ) {$/;"	f	file:
+mbedtls_zeroize	md.c	/^static void mbedtls_zeroize( void *v, size_t n ) {$/;"	f	file:
+mbedtls_zeroize	sha1.c	/^static void mbedtls_zeroize( void *v, size_t n ) {$/;"	f	file:
+md2_clone_wrap	md_wrap.c	/^static void md2_clone_wrap( void *dst, const void *src )$/;"	f	file:
+md2_ctx_alloc	md_wrap.c	/^static void *md2_ctx_alloc( void )$/;"	f	file:
+md2_ctx_free	md_wrap.c	/^static void md2_ctx_free( void *ctx )$/;"	f	file:
+md2_finish_wrap	md_wrap.c	/^static void md2_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+md2_process_wrap	md_wrap.c	/^static void md2_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+md2_starts_wrap	md_wrap.c	/^static void md2_starts_wrap( void *ctx )$/;"	f	file:
+md2_update_wrap	md_wrap.c	/^static void md2_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+md4_clone_wrap	md_wrap.c	/^static void md4_clone_wrap( void *dst, const void *src )$/;"	f	file:
+md4_ctx_alloc	md_wrap.c	/^static void *md4_ctx_alloc( void )$/;"	f	file:
+md4_ctx_free	md_wrap.c	/^static void md4_ctx_free( void *ctx )$/;"	f	file:
+md4_finish_wrap	md_wrap.c	/^static void md4_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+md4_process_wrap	md_wrap.c	/^static void md4_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+md4_starts_wrap	md_wrap.c	/^static void md4_starts_wrap( void *ctx )$/;"	f	file:
+md4_update_wrap	md_wrap.c	/^static void md4_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+md5_clone_wrap	md_wrap.c	/^static void md5_clone_wrap( void *dst, const void *src )$/;"	f	file:
+md5_ctx_alloc	md_wrap.c	/^static void *md5_ctx_alloc( void )$/;"	f	file:
+md5_ctx_free	md_wrap.c	/^static void md5_ctx_free( void *ctx )$/;"	f	file:
+md5_finish_wrap	md_wrap.c	/^static void md5_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+md5_process_wrap	md_wrap.c	/^static void md5_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+md5_starts_wrap	md_wrap.c	/^static void md5_starts_wrap( void *ctx )$/;"	f	file:
+md5_update_wrap	md_wrap.c	/^static void md5_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+mgf_mask	rsa.c	/^static void mgf_mask( unsigned char *dst, size_t dlen, unsigned char *src,$/;"	f	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mpi_check_small_factors	bignum.c	/^static int mpi_check_small_factors( const mbedtls_mpi *X )$/;"	f	file:
+mpi_get_digit	bignum.c	/^static int mpi_get_digit( mbedtls_mpi_uint *d, int radix, char c )$/;"	f	file:
+mpi_miller_rabin	bignum.c	/^static int mpi_miller_rabin( const mbedtls_mpi *X,$/;"	f	file:
+mpi_montg_init	bignum.c	/^static void mpi_montg_init( mbedtls_mpi_uint *mm, const mbedtls_mpi *N )$/;"	f	file:
+mpi_montmul	bignum.c	/^static void mpi_montmul( mbedtls_mpi *A, const mbedtls_mpi *B, const mbedtls_mpi *N, mbedtls_mpi_uint mm,$/;"	f	file:
+mpi_montred	bignum.c	/^static void mpi_montred( mbedtls_mpi *A, const mbedtls_mpi *N, mbedtls_mpi_uint mm, const mbedtls_mpi *T )$/;"	f	file:
+mpi_mul_hlp	bignum.c	/^void mpi_mul_hlp( size_t i, mbedtls_mpi_uint *s, mbedtls_mpi_uint *d, mbedtls_mpi_uint b )$/;"	f	file:
+mpi_sub_hlp	bignum.c	/^static void mpi_sub_hlp( size_t n, mbedtls_mpi_uint *s, mbedtls_mpi_uint *d )$/;"	f	file:
+mpi_write_hlp	bignum.c	/^static int mpi_write_hlp( mbedtls_mpi *X, int radix, char **p )$/;"	f	file:
+myrand	AC_DeviceService.c	/^static int myrand( void *rng_state, unsigned char *output, size_t len )$/;"	f	file:
+myrand	rsa.c	/^static int myrand( void *rng_state, unsigned char *output, size_t len )$/;"	f	file:
+offset	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon8	file:
+offset	localtest.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon9	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pFunWriteCallback	AC_DeviceService.c	/^typedef size_t (*pFunWriteCallback)(char *ptr, size_t size, size_t nmemb, void *userdata);$/;"	t	file:
+parseHtml	htmltitle.cpp	/^static void parseHtml(const std::string &html,$/;"	f	file:
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_array	localtest.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_hex4	localtest.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_number	localtest.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_object	localtest.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_string	localtest.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+parse_value	localtest.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/curl$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/curl$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/curl$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/curl$/;"	m
+pow2gt	cJSON.c	/^static int pow2gt (int x)	{	--x;	x|=x>>1;	x|=x>>2;	x|=x>>4;	x|=x>>8;	x|=x>>16;	return x+1;	}$/;"	f	file:
+pow2gt	localtest.c	/^static int pow2gt (int x)	{	--x;	x|=x>>1;	x|=x>>2;	x|=x>>4;	x|=x>>8;	x|=x>>16;	return x+1;	}$/;"	f	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_array	localtest.c	/^static char *print_array(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item,printbuffer *p)$/;"	f	file:
+print_number	localtest.c	/^static char *print_number(cJSON *item,printbuffer *p)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_object	localtest.c	/^static char *print_object(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item,printbuffer *p)	{return print_string_ptr(item->valuestring,p);}$/;"	f	file:
+print_string	localtest.c	/^static char *print_string(cJSON *item,printbuffer *p)	{return print_string_ptr(item->valuestring,p);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str,printbuffer *p)$/;"	f	file:
+print_string_ptr	localtest.c	/^static char *print_string_ptr(const char *str,printbuffer *p)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_value	localtest.c	/^static char *print_value(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+printbuffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	t	typeref:struct:__anon8	file:
+printbuffer	localtest.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	t	typeref:struct:__anon9	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+qiniu_Appenders	qiniu/base.c	/^static Qiniu_FnAppender qiniu_Appenders[128] = {0};$/;"	v	file:
+qiniu_Levels	qiniu/base.c	/^static const char* qiniu_Levels[] = {$/;"	v	file:
+qiniu_defaultExtra	qiniu/io.c	/^static Qiniu_Io_PutExtra qiniu_defaultExtra = { NULL, NULL, 0, 0, NULL };$/;"	v	file:
+qiniu_formatProcs	qiniu/base.c	/^static Qiniu_formatProc qiniu_formatProcs[] = {$/;"	v	file:
+ripemd160_clone_wrap	md_wrap.c	/^static void ripemd160_clone_wrap( void *dst, const void *src )$/;"	f	file:
+ripemd160_ctx_alloc	md_wrap.c	/^static void *ripemd160_ctx_alloc( void )$/;"	f	file:
+ripemd160_ctx_free	md_wrap.c	/^static void ripemd160_ctx_free( void *ctx )$/;"	f	file:
+ripemd160_finish_wrap	md_wrap.c	/^static void ripemd160_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+ripemd160_process_wrap	md_wrap.c	/^static void ripemd160_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+ripemd160_starts_wrap	md_wrap.c	/^static void ripemd160_starts_wrap( void *ctx )$/;"	f	file:
+ripemd160_update_wrap	md_wrap.c	/^static void ripemd160_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+rsa_prepare_blinding	rsa.c	/^static int rsa_prepare_blinding( mbedtls_rsa_context *ctx,$/;"	f	file:
+saxHandler	htmltitle.cpp	/^static htmlSAXHandler saxHandler =$/;"	v	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sha1_clone_wrap	md_wrap.c	/^static void sha1_clone_wrap( void *dst, const void *src )$/;"	f	file:
+sha1_ctx_alloc	md_wrap.c	/^static void *sha1_ctx_alloc( void )$/;"	f	file:
+sha1_ctx_free	md_wrap.c	/^static void sha1_ctx_free( void *ctx )$/;"	f	file:
+sha1_finish_wrap	md_wrap.c	/^static void sha1_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+sha1_padding	sha1.c	/^static const unsigned char sha1_padding[64] =$/;"	v	file:
+sha1_process_wrap	md_wrap.c	/^static void sha1_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+sha1_starts_wrap	md_wrap.c	/^static void sha1_starts_wrap( void *ctx )$/;"	f	file:
+sha1_test_buf	sha1.c	/^static const unsigned char sha1_test_buf[3][57] =$/;"	v	file:
+sha1_test_buflen	sha1.c	/^static const int sha1_test_buflen[3] =$/;"	v	file:
+sha1_test_sum	sha1.c	/^static const unsigned char sha1_test_sum[3][20] =$/;"	v	file:
+sha1_update_wrap	md_wrap.c	/^static void sha1_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+sha224_clone_wrap	md_wrap.c	/^static void sha224_clone_wrap( void *dst, const void *src )$/;"	f	file:
+sha224_ctx_alloc	md_wrap.c	/^static void *sha224_ctx_alloc( void )$/;"	f	file:
+sha224_ctx_free	md_wrap.c	/^static void sha224_ctx_free( void *ctx )$/;"	f	file:
+sha224_finish_wrap	md_wrap.c	/^static void sha224_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+sha224_process_wrap	md_wrap.c	/^static void sha224_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+sha224_starts_wrap	md_wrap.c	/^static void sha224_starts_wrap( void *ctx )$/;"	f	file:
+sha224_update_wrap	md_wrap.c	/^static void sha224_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+sha224_wrap	md_wrap.c	/^static void sha224_wrap( const unsigned char *input, size_t ilen,$/;"	f	file:
+sha256_starts_wrap	md_wrap.c	/^static void sha256_starts_wrap( void *ctx )$/;"	f	file:
+sha256_wrap	md_wrap.c	/^static void sha256_wrap( const unsigned char *input, size_t ilen,$/;"	f	file:
+sha384_clone_wrap	md_wrap.c	/^static void sha384_clone_wrap( void *dst, const void *src )$/;"	f	file:
+sha384_ctx_alloc	md_wrap.c	/^static void *sha384_ctx_alloc( void )$/;"	f	file:
+sha384_ctx_free	md_wrap.c	/^static void sha384_ctx_free( void *ctx )$/;"	f	file:
+sha384_finish_wrap	md_wrap.c	/^static void sha384_finish_wrap( void *ctx, unsigned char *output )$/;"	f	file:
+sha384_process_wrap	md_wrap.c	/^static void sha384_process_wrap( void *ctx, const unsigned char *data )$/;"	f	file:
+sha384_starts_wrap	md_wrap.c	/^static void sha384_starts_wrap( void *ctx )$/;"	f	file:
+sha384_update_wrap	md_wrap.c	/^static void sha384_update_wrap( void *ctx, const unsigned char *input,$/;"	f	file:
+sha384_wrap	md_wrap.c	/^static void sha384_wrap( const unsigned char *input, size_t ilen,$/;"	f	file:
+sha512_starts_wrap	md_wrap.c	/^static void sha512_starts_wrap( void *ctx )$/;"	f	file:
+sha512_wrap	md_wrap.c	/^static void sha512_wrap( const unsigned char *input, size_t ilen,$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+skip	localtest.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+sktSetNonblocking	httpclient/HTTPClient.c	/^int sktSetNonblocking( int socket , int on_off )$/;"	f
+small_prime	bignum.c	/^static const int small_prime[] =$/;"	v	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+str	b64/b64.c	/^    b64_char_t const*   str;    \/*!< The string.        *\/$/;"	m	struct:b64ErrorString_t_	file:
+struFileInfo	AC_DeviceService.c	/^    AC_OtaFileInfo struFileInfo[MAX_OTAFILENUM];$/;"	m	struct:__anon7	file:
+subdir	Makefile	/^subdir = docs\/examples$/;"	m
+subdirs	Makefile	/^subdirs = $/;"	m
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+suffix_object	localtest.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+supported_digests	md.c	/^static const int supported_digests[] = {$/;"	v	file:
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+title	htmltitle.cpp	/^  std::string title;$/;"	m	struct:Context	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+update	cJSON.c	/^static int update(printbuffer *p)$/;"	f	file:
+update	localtest.c	/^static int update(printbuffer *p)$/;"	f	file:
+urlsafe_b64_decode	b64/urlsafe_b64.c	/^size_t urlsafe_b64_decode($/;"	f
+urlsafe_b64_decode2	b64/urlsafe_b64.c	/^size_t urlsafe_b64_decode2($/;"	f
+urlsafe_b64_decode_	b64/urlsafe_b64.c	/^size_t urlsafe_b64_decode_($/;"	f
+urlsafe_b64_encode	b64/urlsafe_b64.c	/^size_t urlsafe_b64_encode($/;"	f
+urlsafe_b64_encode2	b64/urlsafe_b64.c	/^size_t urlsafe_b64_encode2($/;"	f
+urlsafe_b64_encode_	b64/urlsafe_b64.c	/^size_t urlsafe_b64_encode_($/;"	f
+writer	htmltitle.cpp	/^static int writer(char *data, size_t size, size_t nmemb,$/;"	f	file:

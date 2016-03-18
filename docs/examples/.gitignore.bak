@@ -1,0 +1,13 @@
+/projects/output/*
+*.Po
+*.d
+*.ko
+*.obj
+*.elf
+*.rar
+*.zip
+*.bak
+*.tmp
+*.lib
+si/*
+!*.c
