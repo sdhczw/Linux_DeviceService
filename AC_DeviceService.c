@@ -95,6 +95,7 @@ typedef enum
 	    INVLIADBODYFORMAT = 1000,
         UPDATESTATUS_NOTVERSION = 1100,
         UPDATESTATUS_NOTFILIEINFOR,
+        UPDATESTATUS_FILIENUMERROR,
 }AC_RETSTATUS;
 
 #define DEVICE_VERSION "0-0-1" // local device version
@@ -112,6 +113,8 @@ typedef enum
 #define DNS "dev.ablecloud.cn" 
 
 #define VERBOSE (0L)
+
+#define MAX_OTAFILENUM 5
 
 char g_chDomain[32];
 char g_chSubDomain[32];
@@ -153,17 +156,23 @@ AC_Downloadnfo g_struAcDownloadInfo;
 
 typedef struct
 {
-    char chTargetVersion[32];
     char chName[64];
     char chDownloadUrl[512];
-    char chUpgradeLog[128];
-    int IntType;
+    int IntFileType;
     int IntChecksum;
-    int IntOtaMode;
-    int IntStatus;
 }AC_OtaFileInfo;
 
-AC_OtaFileInfo g_struAcOtaFileInfo;
+typedef struct
+{
+    char chTargetVersion[32];
+    char chUpgradeLog[128];
+    int IntOtaMode;
+    int IntStatus;
+    AC_OtaFileInfo struFileInfo[MAX_OTAFILENUM];
+    int IntFileNum; 
+}AC_OtaInfo;
+
+AC_OtaInfo g_struAcOtaFileInfo;
 typedef size_t (*pFunWriteCallback)(char *ptr, size_t size, size_t nmemb, void *userdata);
 
 extern int mbedtls_rsa_self_test( int verbose );
@@ -483,126 +492,6 @@ static size_t HttpHeaderCallback(void *buffer, size_t size, size_t nmemb, void *
          g_int32ErrorCode = -1;
     }
     return nmemb; 
-}
-
-/*************************************************
-* Function: AC_AddHttpHeader
-* Description: 
-* Author: cxy 
-* Returns: 
-* Parameter: 
-* History:
-*************************************************/
-int AC_SendHttpRequest2(const char *body,const char *interface,char *token,pFunWriteCallback funWriteCallback)
-{
-    CURL *curl;
-    CURLcode res;
-    char tempspace[256] = {0};
-    char sha1input[256] = {0};
-    char sha1output[20] = {0};
-    char chaccessKey[17] = {0};
-    int timeout = 3600;
-    int i = 0;
-    time_t timestamp = time(NULL);
-        /* In windows, this will init the winsock stuff */
-    curl_global_init(CURL_GLOBAL_ALL);
-
-    /* get a curl handle */
-    curl = curl_easy_init();
-    if(curl) {
-     struct curl_slist *chunk = NULL;
-    /* First set the URL that is about to receive our POST. This URL can
-       just as well be a https:// URL if that is what should receive the
-       data. */
-    curl_msnprintf(tempspace,256,"http://%s:%d/%s",DNS,HTTP_PORT,interface);
-    curl_easy_setopt(curl, CURLOPT_URL,tempspace);
-    /* Now specify the POST data */
-    
-    if(NULL!=body)
-    {
-    	curl_easy_setopt(curl, CURLOPT_POSTFIELDS,body);
-    }
-
-    /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, "Content-Type:application/x-zc-object");
-
-    curl_msnprintf(tempspace,256,"x-zc-major-domain:%s",g_chDomain);
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-
-    curl_msnprintf(tempspace,256,"x-zc-sub-domain:%s",g_chSubDomain);
-
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-   
-    curl_msnprintf(tempspace,256,"X-Zc-Dev-Id:%s",g_chDeviceId);
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-  
-    /* Sec */
-    chunk = curl_slist_append(chunk, "X-Zc-Content-Sec:noencrypt");
-
-    /*Timestamp*/  
-    curl_msnprintf(tempspace,256,"X-Zc-Timestamp:%ld",timestamp);
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-
-    /*Timeout*/
-    curl_msnprintf(tempspace,256,"X-Zc-Timeout:%d",timeout);
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-    
-    /*random key*/
-    AC_Rand(chaccessKey);
-   
-    curl_msnprintf(tempspace,256,"X-Zc-Nonce:%s",chaccessKey);
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-    
-    /*sha1*/
-    curl_msnprintf(sha1input,256,"%d%ld%s%s",timeout,timestamp,chaccessKey,token);
-   
-
-    SHA1(sha1input,strlen(sha1input),sha1output);
-
-    AC_HexToString(sha1input,sha1output,20);
-
-    
-    curl_msnprintf(tempspace,256,"X-Zc-Dev-Signature:%s",sha1input);
-
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-
-   /* set our custom set of headers */
-    res = curl_easy_setopt(curl, CURLOPT_HTTPHEADER, chunk);
-   
-    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);     
-    /* Perform the request, res will get the return code */
-    if(funWriteCallback!=NULL)
-    {
-    	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, funWriteCallback);
-
-    }
-
-    for(i=0; i<3; i++)
-    {
-        res = curl_easy_perform(curl);
-        /* Check for errors */
-        if(res != CURLE_OK)
-        {
-            fprintf(stderr, "curl_easy_perform() failed: %s\n",
-                  curl_easy_strerror(res));
-            sleep(1);
-        }  
-        else
-        {
-            res = g_int32ErrorCode;
-            break;
-        }
-    }
-
-    /* always cleanup */
-    curl_easy_cleanup(curl);
-  }
-  curl_global_cleanup();
-  
-  return res;  
 }
 
 /*************************************************
@@ -957,136 +846,6 @@ static size_t GetTokenCallback(void *buffer, size_t size, size_t nmemb, void *st
 
     return ret; 
 }
-
-/*************************************************
-* Function: AC_GetToken
-* Description: 
-* Author: cxy 
-* Returns: 
-* Parameter: 
-* History:
-*************************************************/
-int AC_GetToken2()
-{
-    CURL *curl;
-    CURLcode res;
-    char body[256] = {0};
-    char tempspace[256] = {0};
-    char sha1input[256] = {0};
-    char sha1output[33] = {0};
-    time_t timestamp = time(NULL);
-    char chaccessKey[17] = {0};
-    unsigned char rsa_ciphertext[256];
-    int timeout = 3600;
-    int i = 0;
-    /* In windows, this will init the winsock stuff */
-    curl_global_init(CURL_GLOBAL_ALL);
-
-    /* get a curl handle */
-    curl = curl_easy_init();
-    if(curl) {
-  	 struct curl_slist *chunk = NULL;
-    /* First set the URL that is about to receive our POST. This URL can
-       just as well be a https:// URL if that is what should receive the
-       data. */
-    //curl_easy_setopt(curl, CURLOPT_URL, "https://%s:9101/zc-warehouse/v1/activateDevice",DNS);
-
-    /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, "Content-Type:application/x-zc-object");
-
-    curl_msnprintf(tempspace,256,"x-zc-major-domain:%s",g_chDomain);
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-
-    curl_msnprintf(tempspace,256,"x-zc-sub-domain:%s",g_chSubDomain);
-
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-   
-    curl_msnprintf(tempspace,256,"X-Zc-Dev-Id:%s",g_chDeviceId);
-   /* Remove a header curl would otherwise add by itself */
-    chunk = curl_slist_append(chunk, (const char *)tempspace);
-
-   /* set our custom set of headers */
-    res = curl_easy_setopt(curl, CURLOPT_HTTPHEADER, chunk);
-   
-    curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);     
-    /* Perform the request, res will get the return code */
-    
-    curl_easy_setopt(curl, CURLOPT_HEADERFUNCTION, HttpHeaderCallback);   
-    
-    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, GetTokenCallback);
-      
-    /* Now specify the POST data */
-    AC_Rand(chaccessKey);
-
-    /*sha1*/
-    curl_msnprintf(sha1input,256,"%d%ld%s%s",timeout,timestamp,chaccessKey,g_chDeviceId);
-
-     printf("sha1:%s\n", sha1input);
-     SHA1(sha1input,strlen(sha1input),sha1output);
-    res = AC_RsaPssSign(20,sha1output,rsa_ciphertext);
-    if(res!=0)
-    {
-        printf("rsa pss sign fail= %d\n",res);
-        return res;
-    }
-    res = AC_RsaPssVerify(20,sha1output,rsa_ciphertext);
-        if(res!=0)
-    {
-        printf("rsa pss vefify fail= %d\n",res);
-        return res;
-    }
-    AC_HexToString(sha1input,rsa_ciphertext,KEY_LEN >> 3);
-   
-    printf("rsa sign:%s\r\n", sha1input);
-    
-    curl_msnprintf(body,256,"{\"physicalDeviceId\":\"%s\",\"timestamp\":\"%ld\",\"timeout\":\"%ld\",\"nonce\":\"%s\", \"signature\":\"%s\"}",g_chDeviceId,timestamp,timeout,chaccessKey,sha1input);
- 
-    curl_easy_setopt(curl, CURLOPT_POSTFIELDS,(const char *)body);
-     /*
-     * If you want to connect to a site who isn't using a certificate that is
-     * signed by one of the certs in the CA bundle you have, you can skip the
-     * verification of the server's certificate. This makes the connection
-     * A LOT LESS SECURE.
-     *
-     * If you have a CA cert for the server stored someplace else than in the
-     * default bundle, then the CURLOPT_CAPATH option might come handy for
-     * you.
-     */
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-      /*
-     * If the site you're connecting to uses a different host name that what
-     * they have mentioned in their server certificate's commonName (or
-     * subjectAltName) fields, libcurl will refuse to connect. You can skip
-     * this check, but this will make the connection less secure.
-     */ 
-    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-    
-    for(i = 0;i < 3;i++)
-    {
-        res = curl_easy_perform(curl);
-        /* Check for errors */
-        if(res != CURLE_OK)
-        {
-            fprintf(stderr, "curl_easy_perform() failed: %s\n",
-                  curl_easy_strerror(res));
-            sleep(1);
-        }  
-        else
-        {
-            res = g_int32ErrorCode;
-            break;
-        }
-    }
-    /* always cleanup */
-    curl_easy_cleanup(curl);
-  }
-  curl_global_cleanup();
-  
-  return res; 
-}
-
 /*************************************************
 * Function: AC_GetToken
 * Description: 
@@ -1293,7 +1052,7 @@ static size_t AC_CheckOtaFileInfoCallback(void *buffer, size_t size, size_t nmem
     size_t ret = 0;
     cJSON *format;
     cJSON *OtaFileMeta;
-
+    int i = 0;
     if(NULL == root)
     {
         g_int32ErrorCode = 0;
@@ -1320,20 +1079,33 @@ static size_t AC_CheckOtaFileInfoCallback(void *buffer, size_t size, size_t nmem
         OtaFileMeta = cJSON_GetObjectItem(root,"files");
         if(NULL == OtaFileMeta)
         {
-        	g_int32ErrorCode = UPDATESTATUS_NOTFILIEINFOR;
-            printf("Ota File Info error\r\n");
+        	g_int32ErrorCode = UPDATESTATUS_FILIENUMERROR;
+            printf("Ota File num error\r\n");
             return nmemb;
         }
-        
+            g_struAcOtaFileInfo.IntFileNum = cJSON_GetArraySize(OtaFileMeta);
+            if(g_struAcOtaFileInfo.IntFileNum > MAX_OTAFILENUM)
+            {
+                g_int32ErrorCode = UPDATESTATUS_NOTFILIEINFOR;
+                printf("Ota File Info error\r\n");
+                return nmemb;
+            }
+             printf("ote file num = %d\n",g_struAcOtaFileInfo.IntFileNum);
             g_struAcOtaFileInfo.IntStatus = cJSON_GetObjectItem(root,"status")->valueint;
             strcpy(g_struAcOtaFileInfo.chTargetVersion, cJSON_GetObjectItem(root,"targetVersion")->valuestring);                 
             g_struAcOtaFileInfo.IntOtaMode = cJSON_GetObjectItem(root,"otaMode")->valueint;
             strcpy(g_struAcOtaFileInfo.chUpgradeLog,cJSON_GetObjectItem(root,"upgradeLog")->valuestring);
-             
-            strcpy(g_struAcOtaFileInfo.chName,cJSON_GetObjectItem(OtaFileMeta->child,"name")->valuestring);
-            strcpy(g_struAcOtaFileInfo.chDownloadUrl,cJSON_GetObjectItem(OtaFileMeta->child,"downloadUrl")->valuestring);
-            g_struAcOtaFileInfo.IntType = cJSON_GetObjectItem(OtaFileMeta->child,"type")->valueint;  
-            g_struAcOtaFileInfo.IntChecksum = cJSON_GetObjectItem(OtaFileMeta->child,"checksum")->valueint;  
+
+            for(i=0; i<g_struAcOtaFileInfo.IntFileNum; i++)
+            {
+
+                strcpy(g_struAcOtaFileInfo.struFileInfo[i].chName,cJSON_GetObjectItem(cJSON_GetArrayItem(OtaFileMeta, i),"name")->valuestring);
+
+                strcpy(g_struAcOtaFileInfo.struFileInfo[i].chDownloadUrl,cJSON_GetObjectItem(cJSON_GetArrayItem(OtaFileMeta, i),"downloadUrl")->valuestring);
+                g_struAcOtaFileInfo.struFileInfo[i].IntFileType = cJSON_GetObjectItem(cJSON_GetArrayItem(OtaFileMeta, i),"type")->valueint;  
+                g_struAcOtaFileInfo.struFileInfo[i].IntChecksum = cJSON_GetObjectItem(cJSON_GetArrayItem(OtaFileMeta, i),"checksum")->valueint;             
+            } 
+
             g_int32ErrorCode = 0;
 
             ret = nmemb;
@@ -1353,7 +1125,7 @@ static size_t AC_CheckOtaFileInfoCallback(void *buffer, size_t size, size_t nmem
 * Parameter: 
 * History:
 *************************************************/
-int AC_CheckOtaFileInfo()
+int AC_CheckOtaFileInfo(int otaMode)
 {
     cJSON *root = NULL;
     char *out = NULL;
@@ -1363,7 +1135,7 @@ int AC_CheckOtaFileInfo()
     cJSON_AddStringToObject(root,"version",g_chModuleVersion);
     cJSON_AddStringToObject(root,"physicalDeviceId",g_chDeviceId);
     /*system update*/
-    cJSON_AddNumberToObject(root,"otaType",2);
+    cJSON_AddNumberToObject(root,"otaType",otaMode);
     //cJSON_AddStringToObject(root,"metaData",g_struAcTokenInfo.chrefreshTokenExpire);
    // cJSON_AddStringToObject(root,"acl",g_struAcTokenInfo.chrefreshTokenExpire);
     
@@ -1384,7 +1156,7 @@ int AC_CheckOtaFileInfo()
 * Parameter: 
 * History:
 *************************************************/
-int AC_OtaUpdateFileEnd()
+int AC_OtaUpdateFileEnd(int otaMode)
 {
     cJSON *root = NULL;
     char *out = NULL;
@@ -1394,7 +1166,7 @@ int AC_OtaUpdateFileEnd()
     cJSON_AddStringToObject(root,"currentVersion",g_chModuleVersion);
     cJSON_AddStringToObject(root,"physicalDeviceId",g_chDeviceId);
     /*system update*/
-    cJSON_AddNumberToObject(root,"otaType",g_struAcOtaFileInfo.IntType);
+    cJSON_AddNumberToObject(root,"otaType",otaMode);
     //cJSON_AddStringToObject(root,"metaData",g_struAcTokenInfo.chrefreshTokenExpire);
    // cJSON_AddStringToObject(root,"acl",g_struAcTokenInfo.chrefreshTokenExpire);
     
@@ -1420,24 +1192,38 @@ int AC_OtaUpdateFileEnd()
 * Parameter: 
 * History:
 *************************************************/
-int AC_OtaUpdate(char *DonwloadOtaFilePath,char *DonwloadOtaFileName)
+int AC_OtaUpdate(int otaMode, char *DonwloadOtaFilePath,AC_OtaFileInfo *DonwloadOtaFileInfo, int *FileNum, char *OtaDescription)
 {
     int ret = 0;
+    int i =0;
     char DownloadfileName[64] = {0};
-    ret = AC_CheckOtaFileInfo();
+    ret = AC_CheckOtaFileInfo(otaMode);
     if(ret != 0)
     {
         return ret;
     }
-    curl_msnprintf(DownloadfileName,"%s\\%s",DonwloadOtaFilePath,g_struAcOtaFileInfo.chName);
-    ret = AC_GetFile(g_struAcOtaFileInfo.chDownloadUrl,FirmwarePath,(pFunWriteCallback)AC_WriteFileCallback);
 
-    if(ret != 0)
+    for(i=0; i<g_struAcOtaFileInfo.IntFileNum;i++)
     {
-        return ret;
+        curl_msnprintf(DownloadfileName,"%s\\%s",DonwloadOtaFilePath,g_struAcOtaFileInfo.struFileInfo[i].chName);
+        ret = AC_GetFile(g_struAcOtaFileInfo.struFileInfo[i].chDownloadUrl,FirmwarePath,(pFunWriteCallback)AC_WriteFileCallback);
+
+        if(ret != 0)
+        {
+            return ret;
+        }
     }
-    strcpy(DonwloadOtaFileName,g_struAcOtaFileInfo.chName);
-    ret = AC_OtaUpdateFileEnd();
+    
+    strcpy(OtaDescription,g_struAcOtaFileInfo.chUpgradeLog);
+    #if 1
+    for(i = 0; i<g_struAcOtaFileInfo.IntFileNum;i++)
+    {
+        DonwloadOtaFileInfo[i] = g_struAcOtaFileInfo.struFileInfo[i];
+    }
+    #endif
+    *FileNum = g_struAcOtaFileInfo.IntFileNum;
+ 
+    ret = AC_OtaUpdateFileEnd(otaMode);
 
     return ret;
 }
@@ -1630,6 +1416,7 @@ int AC_Init(char *domain, char *subdomain, char *devid, char *version)
     if(0 != ret)
     {
         ret = AC_GetToken();
+        
     }
     else
     {
@@ -1642,208 +1429,6 @@ int AC_Init(char *domain, char *subdomain, char *devid, char *version)
    return ret; 
 }
 
-#if 0
-/*************************************************
-* Function: AC_RsaPssSign
-* Description: 
-* Author: cxy 
-* Returns: 
-* Parameter: 
-* History:
-*************************************************/
-int AC_RsaTest( int verbose )
-{
-       int ret = 0;
-    size_t len;
-    mbedtls_rsa_context rsa;
-    unsigned char rsa_plaintext[PT_LEN];
-    unsigned char rsa_decrypted[PT_LEN*3];
-    unsigned char rsa_ciphertext[KEY_LEN];
-    unsigned char sha1sum[20];
-    memcpy( rsa_plaintext, RSA_PT, PT_LEN );
-   SHA1( rsa_plaintext, PT_LEN, sha1sum );
-   ret = AC_RsaPssSign(20,sha1sum,rsa_ciphertext);
-
-     AC_HexToString(rsa_decrypted,rsa_ciphertext,20);
-    printf("%s\r\n", rsa_decrypted);
-   if(ret==0)
-   {   printf("rsa_ciphertext=%s\n", rsa_decrypted);}
-else
-{
-    printf("ret fail=%d\n", ret);
-}
-
-}
-
-int mbedtls_rsa_self_test2( int verbose )
-{
-    int ret = 0;
-
-    size_t len;
-    mbedtls_rsa_context rsa;
-    mbedtls_rsa_context rsa1;
-    unsigned char rsa_plaintext[32];
-    unsigned char rsa_decrypted[PT_LEN];
-    unsigned char rsa_ciphertext[KEY_LEN]={0};
-    unsigned char buf[1024];
-    unsigned char sha1sum[20];
-    unsigned char rawsig[] = { 0x4c, 0x87, 0xb4, 0x28, 0x92, 0xa9,
-        0xc1, 0x18, 0xcc, 0x3d, 0xbf, 0x7d,
-        0x26, 0xdc, 0x86, 0x2f, 0xdc, 0x3f,
-        0xf6, 0x3c, 0x35, 0xd3, 0x13, 0xad,
-        0xb5, 0x6b, 0x4c, 0x2c, 0xdb, 0x3f,
-        0x15, 0xbc };
-#if 0
-    mbedtls_rsa_init( &rsa, MBEDTLS_RSA_PKCS_V21, MBEDTLS_MD_SHA1  );
-
-    rsa.len = KEY_LEN;
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.N , 16, RSA_N  ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.E , 16, RSA_E  ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.D , 16, RSA_D  ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.P , 16, RSA_P  ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.Q , 16, RSA_Q  ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.DP, 16, RSA_DP ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.DQ, 16, RSA_DQ ) );
-    MBEDTLS_MPI_CHK( mbedtls_mpi_read_string( &rsa.QP, 16, RSA_QP ) );
-#endif 
-    AC_InitRsaContextWithPulicKey(&rsa1,g_chPublicKey);
-    AC_InitRsaContextWithPrivateKey(&rsa,g_chPrivateKey);
-    mbedtls_rsa_private(&rsa, NULL,NULL,rawsig, buf);
-
-     {
-    int i =0 ;
-    printf("rsa_private::");
- for(i =0 ;i<32;i++)
- {
-     printf("0x%x ", buf[i]);
- }
-printf("\n");
-}
-
-
-   //memcpy( rsa_plaintext, RSA_PT, PT_LEN );
-#if 0
-    memcpy( rsa_plaintext, RSA_PT, PT_LEN );
-    
-    ret = mbedtls_rsa_pkcs1_encrypt( &rsa, myrand, NULL, MBEDTLS_RSA_PUBLIC, PT_LEN,
-                           rsa_plaintext, rsa_ciphertext );
-    if( ret != 0 )
-    {
-        if( verbose != 0 )
-             printf( "failed, ret = %d\n",ret );
-
-        return( 1 );
-    }
-
-    if( verbose != 0 )
-        printf( "passed\n  PKCS#1 decryption : " );
-
-    ret = mbedtls_rsa_pkcs1_decrypt( &rsa, myrand, NULL, MBEDTLS_RSA_PRIVATE, &len,
-                           rsa_ciphertext, rsa_decrypted,
-                           sizeof(rsa_decrypted) );
-    if( ret != 0 )
-    {
-        if( verbose != 0 )
-            printf( "failed, ret = %d\n",ret );
-
-        return( 1 );
-    }
-
-    if( memcmp( rsa_decrypted, rsa_plaintext, len ) != 0 )
-    {
-        if( verbose != 0 )
-            printf( "failed\n" );
-
-        return( 1 );
-    }
-
-    if( verbose != 0 )
-        printf( "passed\n" );
- #endif   
-    memset( rsa_plaintext, 0, 32 );
-#if 0
-   if( verbose != 0 )
-        printf( "  RSA key validation: " );
-
-    if( mbedtls_rsa_check_pubkey(  &rsa ) != 0 ||
-        mbedtls_rsa_check_privkey( &rsa ) != 0 )
-    {
-        if( verbose != 0 )
-            printf( "failed\n" );
-
-        return( 1 );
-    }
-    #endif
-    if( verbose != 0 )
-        printf( "PKCS#1 data sign  : " );
-
-    SHA1( rsa_plaintext, 32, sha1sum );
- {
-    int i =0 ;
-    printf("sha1::");
- for(i =0 ;i<20;i++)
- {
-     printf("0x%x ", sha1sum[i]);
- }
-  printf("\n");
- }
- //AC_InitRsaContextWithPrivateKey(&rsa,g_chPrivateKey);
-    ret = mbedtls_rsa_pkcs1_sign( &rsa, myrand, NULL, MBEDTLS_RSA_PRIVATE, MBEDTLS_MD_SHA1, 20,
-                        sha1sum, rsa_ciphertext ) ;
-    #if 1
-        mbedtls_rsa_private(&rsa, NULL,NULL,rsa_ciphertext, rsa_ciphertext);
-
-     {
-    int i =0 ;
-    printf("rsa_private2::");
- for(i =0 ;i<32;i++)
- {
-     printf("0x%x ", buf[i]);
- }
-printf("\n");
-}
-#endif
-    if(  ret!= 0 )
-    {
-        if( verbose != 0 )
-            printf( "failed ret =%04x\n",ret );
-
-        return( 1 );
-    }
-
- {
-    int i =0 ;
-    printf("mbedtls_rsa_pkcs1_sign::");
- for(i =0 ;i<32;i++)
- {
-     printf("0x%02x ", rsa_ciphertext[i]);
- }
-  printf("\n");
- }
-    if( verbose != 0 )
-        printf( "passed\n  PKCS#1 sig. verify: " );
-ret = mbedtls_rsa_pkcs1_verify( &rsa1, NULL, NULL, MBEDTLS_RSA_PUBLIC, MBEDTLS_MD_SHA1, 0,
-                          sha1sum, rsa_ciphertext );
-    if( ret!= 0 )
-    {
-        if( verbose != 0 )
-            printf( "failed ret =%d\n",ret );
-        return( 1 );
-    }
-
-    if( verbose != 0 )
-        printf( "passed\n" );
-
-
-    if( verbose != 0 )
-        printf( "\n" );
-
-cleanup:
-    mbedtls_rsa_free( &rsa );
-/* MBEDTLS_PKCS1_V15 */
-    return( ret );
-}
-#endif
 /*************************************************
 * Function: main
 * Description: 
@@ -1856,7 +1441,11 @@ void main()
 {
        
     int ret =0;
-     char filename[64] = {0};
+    AC_OtaFileInfo fileInfo[MAX_OTAFILENUM];
+    char otadescription[64];
+    int otamode = 2;//system update
+    int otadowloadfilenum = 0;
+    int  i= 0;
     ret = AC_Init(MAJOR_DOMAIN,SUB_DOMAIN,DEVICE_ID,DEVICE_VERSION); 
 
     if(0 != ret)
@@ -1866,9 +1455,19 @@ void main()
     else
     {
         //AC_UploadFile("test2","cJSON.c");
-        //AC_DownloadFile("test","localtest.c");
-        AC_OtaUpdate("//tmp",filename);
-        printf("ota filename =%s\n",filename);
+       // AC_DownloadFile("test2","localtest.c");
+        ret = AC_OtaUpdate(otamode,"//tmp",fileInfo,&otadowloadfilenum,otadescription);
+        if(CURLE_OK == ret)
+        {
+            for(i=0; i<otadowloadfilenum ;i++)
+            {
+                printf("ota filename =%s\n",fileInfo[i].chName);
+                printf("ota IntFileType =%d\n",fileInfo[i].IntFileType);
+                printf("ota IntChecksum =%d\n",fileInfo[i].IntChecksum);
+            }
+            printf("ota Description = %s\n",otadescription);
+        }
+
     }
  
    //mbedtls_rsa_self_test2(1);
