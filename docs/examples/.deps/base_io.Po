@@ -1,5 +1,5 @@
-base_io.o: qiniu/base_io.c ../../include/qiniu/base.h \
- /usr/include/stdio.h /usr/include/features.h /usr/include/stdc-predef.h \
+base_io.o: qiniu/base_io.c include/qiniu/base.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/predefs.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
@@ -45,7 +45,7 @@ base_io.o: qiniu/base_io.c ../../include/qiniu/base.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/i386-linux-gnu/bits/unistd.h
 
-../../include/qiniu/base.h:
+include/qiniu/base.h:
 
 /usr/include/stdio.h:
 

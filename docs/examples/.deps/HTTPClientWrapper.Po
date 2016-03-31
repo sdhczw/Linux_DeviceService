@@ -1,5 +1,5 @@
 HTTPClientWrapper.o: httpclient/HTTPClientWrapper.c \
- ../../include/httpclient/HTTPClientWrapper.h /usr/include/unistd.h \
+ include/httpclient/HTTPClientWrapper.h /usr/include/unistd.h \
  /usr/include/features.h /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/predefs.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -67,7 +67,7 @@ HTTPClientWrapper.o: httpclient/HTTPClientWrapper.c \
  /usr/include/i386-linux-gnu/bits/ioctl-types.h \
  /usr/include/i386-linux-gnu/sys/ttydefaults.h
 
-../../include/httpclient/HTTPClientWrapper.h:
+include/httpclient/HTTPClientWrapper.h:
 
 /usr/include/unistd.h:
 

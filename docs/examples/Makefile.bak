@@ -1,0 +1,52 @@
+# Copyright (C) 2009 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#CC = /home/noel/mroot/openwrt/trunk/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-uclibc-gcc
+CC = gcc
+LOCAL_PATH := $(shell pwd)
+include $(CLEAR_VARS)
+LOCAL_C_INCLUDES := -I$(LOCAL_PATH)/include/
+
+LOCAL_MODULE    := http-Device
+LOCAL_SRC_FILES :=  AC_DeviceService.o \
+                    cJSON.o \
+                    rsa.o \
+                    bignum.o \
+                    md.o \
+                    sha1.o \
+                    md_wrap.o \
+                    httpclient/HTTPClient.o \
+                    httpclient/HTTPClientAuth.o \
+                    httpclient/HTTPClientString.o \
+                    httpclient/HTTPClientWrapper.o \
+                    qiniu/base.o \
+                    qiniu/conf.o \
+                    qiniu/http.o \
+                    qiniu/base_io.o \
+                    b64/b64.o \
+                    b64/urlsafe_b64.o \
+                    io.o
+#LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -L$(SYSROOT)/usr/ssl/lib -lpthread
+LOCAL_LDLIBS :=  -L$(LOCAL_PATH)/../../lib/.libs/ -lcurl
+
+include $(BUILD_SHARED_LIBRARY)
+LOCAL_PROGUARD_ENABLED:= disabled
+all: Makefile $(LOCAL_MODULE)
+$(LOCAL_MODULE): $(LOCAL_SRC_FILES)
+	$(CC) $(LOCAL_CFLAGS) $(LOCAL_SRC_FILES) $(LOCAL_LDLIBS) -o $(LOCAL_MODULE) -static
+%.o: %.o
+	$(CC) -c $(LOCAL_C_INCLUDES) $^ -o $@ -static
+
+clean:
+	rm -f *.o $(LOCAL_MODULE)

@@ -45,7 +45,7 @@ cJSON.o: cJSON.c /usr/include/string.h /usr/include/features.h \
  /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
  /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/i386-linux-gnu/bits/posix2_lim.h /usr/include/ctype.h \
- ../../include/cJSON/cJSON.h
+ include/cJSON/cJSON.h
 
 /usr/include/string.h:
 
@@ -169,4 +169,4 @@ cJSON.o: cJSON.c /usr/include/string.h /usr/include/features.h \
 
 /usr/include/ctype.h:
 
-../../include/cJSON/cJSON.h:
+include/cJSON/cJSON.h:

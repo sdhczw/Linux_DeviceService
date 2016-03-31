@@ -31,8 +31,8 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
  /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/string.h \
  /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
  /usr/include/i386-linux-gnu/bits/string2.h \
- /usr/include/i386-linux-gnu/bits/string3.h ../../include/curl/curl.h \
- ../../include/curl/curlver.h ../../include/curl/curlbuild.h \
+ /usr/include/i386-linux-gnu/bits/string3.h include/curl/curl.h \
+ include/curl/curlver.h include/curl/curlbuild.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include/stdint.h /usr/include/stdint.h \
  /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/inttypes.h \
  /usr/include/i386-linux-gnu/sys/socket.h \
@@ -45,51 +45,28 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
  /usr/include/asm-generic/socket.h \
  /usr/include/i386-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
- /usr/include/i386-linux-gnu/bits/socket2.h \
- ../../include/curl/curlrules.h \
+ /usr/include/i386-linux-gnu/bits/socket2.h include/curl/curlrules.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
  /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/i386-linux-gnu/bits/posix2_lim.h \
- /usr/include/i386-linux-gnu/sys/time.h ../../include/curl/easy.h \
- ../../include/curl/multi.h ../../include/curl/curl.h \
- ../../include/curl/typecheck-gcc.h ../../include/cJSON/cJSON.h \
- ../../include/curl/base64.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/sys/time.h include/curl/easy.h \
+ include/curl/multi.h include/curl/curl.h include/curl/typecheck-gcc.h \
+ include/cJSON/cJSON.h include/curl/base64.h /usr/include/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h \
- /usr/include/i386-linux-gnu/bits/fcntl2.h ../../include/mbedtls/rsa.h \
- ../../include/mbedtls/config.h ../../include/mbedtls/check_config.h \
- ../../include/mbedtls/bignum.h ../../include/mbedtls/md.h \
- /usr/local/ssl/include/openssl/sha.h \
- /usr/local/ssl/include/openssl/e_os2.h \
- /usr/local/ssl/include/openssl/opensslconf.h \
- ../../include/mbedtls/config.h ../../include/httpclient/HTTPClient.h \
- ../../include/httpclient/HTTPClientWrapper.h /usr/include/unistd.h \
- /usr/include/i386-linux-gnu/bits/posix_opt.h \
- /usr/include/i386-linux-gnu/bits/environments.h \
- /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /usr/include/i386-linux-gnu/bits/unistd.h /usr/include/errno.h \
- /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/pthread.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h include/mbedtls/rsa.h \
+ include/mbedtls/config.h include/mbedtls/check_config.h \
+ include/mbedtls/bignum.h include/mbedtls/md.h \
+ /usr/local/include/openssl/sha.h /usr/local/include/openssl/e_os2.h \
+ /usr/local/include/openssl/opensslconf.h include/mbedtls/config.h \
+ include/qiniu/base.h include/qiniu/io.h include/qiniu/http.h \
+ include/qiniu/base.h include/qiniu/conf.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/i386-linux-gnu/bits/sched.h \
- /usr/include/i386-linux-gnu/bits/setjmp.h /usr/include/ctype.h \
- /usr/include/i386-linux-gnu/sys/un.h /usr/include/netinet/in.h \
- /usr/include/i386-linux-gnu/bits/in.h /usr/include/netinet/tcp.h \
- /usr/include/netdb.h /usr/include/rpc/netdb.h \
- /usr/include/i386-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
- /usr/include/i386-linux-gnu/sys/ioctl.h \
- /usr/include/i386-linux-gnu/bits/ioctls.h \
- /usr/include/i386-linux-gnu/asm/ioctls.h \
- /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
- /usr/include/i386-linux-gnu/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
- /usr/include/i386-linux-gnu/bits/ioctl-types.h \
- /usr/include/i386-linux-gnu/sys/ttydefaults.h \
- ../../include/httpclient/HTTPClientCommon.h ../../include/qiniu/base.h \
- ../../include/qiniu/io.h ../../include/qiniu/http.h \
- ../../include/qiniu/base.h ../../include/qiniu/conf.h
+ /usr/include/i386-linux-gnu/bits/setjmp.h include/AC_DeviceService.h \
+ include/AC_CFG.h
 
 /usr/include/stdio.h:
 
@@ -177,11 +154,11 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/bits/string3.h:
 
-../../include/curl/curl.h:
+include/curl/curl.h:
 
-../../include/curl/curlver.h:
+include/curl/curlver.h:
 
-../../include/curl/curlbuild.h:
+include/curl/curlbuild.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include/stdint.h:
 
@@ -213,7 +190,7 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/bits/socket2.h:
 
-../../include/curl/curlrules.h:
+include/curl/curlrules.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h:
 
@@ -231,17 +208,17 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/sys/time.h:
 
-../../include/curl/easy.h:
+include/curl/easy.h:
 
-../../include/curl/multi.h:
+include/curl/multi.h:
 
-../../include/curl/curl.h:
+include/curl/curl.h:
 
-../../include/curl/typecheck-gcc.h:
+include/curl/typecheck-gcc.h:
 
-../../include/cJSON/cJSON.h:
+include/cJSON/cJSON.h:
 
-../../include/curl/base64.h:
+include/curl/base64.h:
 
 /usr/include/fcntl.h:
 
@@ -253,51 +230,33 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/bits/fcntl2.h:
 
-../../include/mbedtls/rsa.h:
+include/mbedtls/rsa.h:
 
-../../include/mbedtls/config.h:
+include/mbedtls/config.h:
 
-../../include/mbedtls/check_config.h:
+include/mbedtls/check_config.h:
 
-../../include/mbedtls/bignum.h:
+include/mbedtls/bignum.h:
 
-../../include/mbedtls/md.h:
+include/mbedtls/md.h:
 
-/usr/local/ssl/include/openssl/sha.h:
+/usr/local/include/openssl/sha.h:
 
-/usr/local/ssl/include/openssl/e_os2.h:
+/usr/local/include/openssl/e_os2.h:
 
-/usr/local/ssl/include/openssl/opensslconf.h:
+/usr/local/include/openssl/opensslconf.h:
 
-../../include/mbedtls/config.h:
+include/mbedtls/config.h:
 
-../../include/httpclient/HTTPClient.h:
+include/qiniu/base.h:
 
-../../include/httpclient/HTTPClientWrapper.h:
+include/qiniu/io.h:
 
-/usr/include/unistd.h:
+include/qiniu/http.h:
 
-/usr/include/i386-linux-gnu/bits/posix_opt.h:
+include/qiniu/base.h:
 
-/usr/include/i386-linux-gnu/bits/environments.h:
-
-/usr/include/i386-linux-gnu/bits/confname.h:
-
-/usr/include/getopt.h:
-
-/usr/include/i386-linux-gnu/bits/unistd.h:
-
-/usr/include/errno.h:
-
-/usr/include/i386-linux-gnu/bits/errno.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/i386-linux-gnu/asm/errno.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
+include/qiniu/conf.h:
 
 /usr/include/pthread.h:
 
@@ -307,50 +266,6 @@ AC_DeviceService.o: AC_DeviceService.c /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/bits/setjmp.h:
 
-/usr/include/ctype.h:
+include/AC_DeviceService.h:
 
-/usr/include/i386-linux-gnu/sys/un.h:
-
-/usr/include/netinet/in.h:
-
-/usr/include/i386-linux-gnu/bits/in.h:
-
-/usr/include/netinet/tcp.h:
-
-/usr/include/netdb.h:
-
-/usr/include/rpc/netdb.h:
-
-/usr/include/i386-linux-gnu/bits/netdb.h:
-
-/usr/include/arpa/inet.h:
-
-/usr/include/i386-linux-gnu/sys/ioctl.h:
-
-/usr/include/i386-linux-gnu/bits/ioctls.h:
-
-/usr/include/i386-linux-gnu/asm/ioctls.h:
-
-/usr/include/asm-generic/ioctls.h:
-
-/usr/include/linux/ioctl.h:
-
-/usr/include/i386-linux-gnu/asm/ioctl.h:
-
-/usr/include/asm-generic/ioctl.h:
-
-/usr/include/i386-linux-gnu/bits/ioctl-types.h:
-
-/usr/include/i386-linux-gnu/sys/ttydefaults.h:
-
-../../include/httpclient/HTTPClientCommon.h:
-
-../../include/qiniu/base.h:
-
-../../include/qiniu/io.h:
-
-../../include/qiniu/http.h:
-
-../../include/qiniu/base.h:
-
-../../include/qiniu/conf.h:
+include/AC_CFG.h:

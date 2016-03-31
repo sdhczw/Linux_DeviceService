@@ -1,0 +1,1146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ADD	tool_setopt.c	164;"	d	file:
+ADDF	tool_setopt.c	169;"	d	file:
+ALG_SID_SHA_256	tool_metalink.c	83;"	d	file:
+ALWAYS_FALSE	tool_doswin.c	45;"	d	file:
+ALWAYS_FALSE	tool_doswin.c	49;"	d	file:
+ALWAYS_FALSE	tool_doswin.c	52;"	d	file:
+ALWAYS_FALSE	tool_doswin.c	59;"	d	file:
+ALWAYS_TRUE	tool_doswin.c	44;"	d	file:
+ALWAYS_TRUE	tool_doswin.c	48;"	d	file:
+ALWAYS_TRUE	tool_doswin.c	51;"	d	file:
+ALWAYS_TRUE	tool_doswin.c	54;"	d	file:
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I$(top_builddir)\/include\/curl -I$(top_builddir)\/include \\$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = \/usr\/bin\/ar$/;"	m
+AS	Makefile	/^AS = as$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign nostdinc$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+AddMultiFiles	tool_mfiles.c	/^struct multi_files *AddMultiFiles(const char *file_name,$/;"	f
+AppendNode	tool_mfiles.c	/^static void AppendNode(struct multi_files **first,$/;"	f	file:
+BLANK_AT_MAKETIME	Makefile	/^BLANK_AT_MAKETIME = $/;"	m
+BUF_SIZE	tool_hugehelp.c	8730;"	d	file:
+BUILT_SOURCES	Makefile	/^BUILT_SOURCES = tool_hugehelp.c$/;"	m
+CALG_SHA_256	tool_metalink.c	86;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -Wno-system-headers $/;"	m
+CFLAG_CURL_SYMBOL_HIDING	Makefile	/^CFLAG_CURL_SYMBOL_HIDING = -fvisibility=hidden$/;"	m
+CHKRET	tool_easysrc.c	126;"	d	file:
+CLEAN0	tool_setopt.c	188;"	d	file:
+CLEAN1	tool_setopt.c	189;"	d	file:
+CLEANFILES	Makefile	/^CLEANFILES = tool_hugehelp.c$/;"	m
+CODE0	tool_setopt.c	183;"	d	file:
+CODE1	tool_setopt.c	184;"	d	file:
+CODE2	tool_setopt.c	185;"	d	file:
+CODE3	tool_setopt.c	186;"	d	file:
+COMMON_DIGEST_FOR_OPENSSL	tool_metalink.c	70;"	d	file:
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIGURE_OPTIONS	Makefile	/^CONFIGURE_OPTIONS = ""$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/lib\/curl_config.h \\$/;"	m
+CONF_DEFAULT	tool_setup.h	57;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAG_CURL_STATICLIB	Makefile	/^CPPFLAG_CURL_STATICLIB = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CURLRC	tool_parsecfg.c	37;"	d	file:
+CURLVERSION	Makefile	/^CURLVERSION = 7.47.0$/;"	m
+CURLX_CFILES	Makefile	/^CURLX_CFILES = \\$/;"	m
+CURLX_HFILES	Makefile	/^CURLX_HFILES = \\$/;"	m
+CURL_CA_BUNDLE	Makefile	/^CURL_CA_BUNDLE = "\/etc\/ssl\/certs\/ca-certificates.crt"$/;"	m
+CURL_CA_CERT_ERRORMSG1	tool_operate.c	100;"	d	file:
+CURL_CA_CERT_ERRORMSG2	tool_operate.c	108;"	d	file:
+CURL_CFILES	Makefile	/^CURL_CFILES = \\$/;"	m
+CURL_CFLAG_EXTRAS	Makefile	/^CURL_CFLAG_EXTRAS = $/;"	m
+CURL_COPYRIGHT	tool_version.h	27;"	d
+CURL_DISABLE_DICT	Makefile	/^CURL_DISABLE_DICT = $/;"	m
+CURL_DISABLE_FILE	Makefile	/^CURL_DISABLE_FILE = $/;"	m
+CURL_DISABLE_FTP	Makefile	/^CURL_DISABLE_FTP = $/;"	m
+CURL_DISABLE_GOPHER	Makefile	/^CURL_DISABLE_GOPHER = $/;"	m
+CURL_DISABLE_HTTP	Makefile	/^CURL_DISABLE_HTTP = $/;"	m
+CURL_DISABLE_IMAP	Makefile	/^CURL_DISABLE_IMAP = $/;"	m
+CURL_DISABLE_LDAP	Makefile	/^CURL_DISABLE_LDAP = 1$/;"	m
+CURL_DISABLE_LDAPS	Makefile	/^CURL_DISABLE_LDAPS = 1$/;"	m
+CURL_DISABLE_POP3	Makefile	/^CURL_DISABLE_POP3 = $/;"	m
+CURL_DISABLE_PROXY	Makefile	/^CURL_DISABLE_PROXY = $/;"	m
+CURL_DISABLE_RTSP	Makefile	/^CURL_DISABLE_RTSP = $/;"	m
+CURL_DISABLE_SMB	Makefile	/^CURL_DISABLE_SMB = $/;"	m
+CURL_DISABLE_SMTP	Makefile	/^CURL_DISABLE_SMTP = $/;"	m
+CURL_DISABLE_TELNET	Makefile	/^CURL_DISABLE_TELNET = $/;"	m
+CURL_DISABLE_TFTP	Makefile	/^CURL_DISABLE_TFTP = $/;"	m
+CURL_FILES	Makefile	/^CURL_FILES = $(CURL_CFILES) $(CURLX_CFILES) $(CURL_HFILES)$/;"	m
+CURL_HFILES	Makefile	/^CURL_HFILES = \\$/;"	m
+CURL_ICONV_CODESET_OF_NETWORK	tool_convert.c	42;"	d	file:
+CURL_ID	tool_version.h	32;"	d
+CURL_LT_SHLIB_VERSIONED_FLAVOUR	Makefile	/^CURL_LT_SHLIB_VERSIONED_FLAVOUR = $/;"	m
+CURL_NAME	tool_version.h	26;"	d
+CURL_NETWORK_AND_TIME_LIBS	Makefile	/^CURL_NETWORK_AND_TIME_LIBS = $/;"	m
+CURL_NETWORK_LIBS	Makefile	/^CURL_NETWORK_LIBS = $/;"	m
+CURL_NO_OLDIES	tool_setup.h	25;"	d
+CURL_PROGRESS_BAR	tool_cb_prg.h	27;"	d
+CURL_PROGRESS_STATS	tool_cb_prg.h	26;"	d
+CURL_RCFILES	Makefile	/^CURL_RCFILES = curl.rc$/;"	m
+CURL_REQ_LIBMETALINK_MAJOR	tool_metalink.h	89;"	d
+CURL_REQ_LIBMETALINK_MINOR	tool_metalink.h	90;"	d
+CURL_REQ_LIBMETALINK_PATCH	tool_metalink.h	91;"	d
+CURL_REQ_LIBMETALINK_VERS	tool_metalink.h	93;"	d
+CURL_VERSION	tool_version.h	28;"	d
+CURL_VERSION_MAJOR	tool_version.h	29;"	d
+CURL_VERSION_MINOR	tool_version.h	30;"	d
+CURL_VERSION_PATCH	tool_version.h	31;"	d
+CURLseparator	tool_operate.c	92;"	d	file:
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CharRange	tool_urlglob.h	/^    } CharRange;$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon14
+Curl_digest_final	tool_metalink.c	/^int Curl_digest_final(digest_context *context, unsigned char *result)$/;"	f
+Curl_digest_final_func	tool_metalink.h	/^typedef void (* Curl_digest_final_func)(unsigned char *result, void *context);$/;"	t
+Curl_digest_init	tool_metalink.c	/^digest_context *Curl_digest_init(const digest_params *dparams)$/;"	f
+Curl_digest_init_func	tool_metalink.h	/^typedef int (* Curl_digest_init_func)(void *context);$/;"	t
+Curl_digest_update	tool_metalink.c	/^int Curl_digest_update(digest_context *context,$/;"	f
+Curl_digest_update_func	tool_metalink.h	/^typedef void (* Curl_digest_update_func)(void *context,$/;"	t
+DATA0	tool_setopt.c	178;"	d	file:
+DATA1	tool_setopt.c	179;"	d	file:
+DATA2	tool_setopt.c	180;"	d	file:
+DATA3	tool_setopt.c	181;"	d	file:
+DECL0	tool_setopt.c	175;"	d	file:
+DECL1	tool_setopt.c	176;"	d	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = $/;"	m
+DEFAULT_MAXREDIRS	tool_main.h	26;"	d
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(am__libcurltool_la_SOURCES_DIST) $(curl_SOURCES)$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DONE	tool_getpass.c	132;"	d	file:
+DONE	tool_getpass.c	171;"	d	file:
+DONE	tool_getpass.c	96;"	d	file:
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_CURLX_PRINTF	tool_cb_dbg.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_cb_hdr.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_cb_prg.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_cb_rea.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_cb_see.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_cb_wrt.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_dirhie.c	30;"	d	file:
+ENABLE_CURLX_PRINTF	tool_easysrc.c	28;"	d	file:
+ENABLE_CURLX_PRINTF	tool_formparse.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_getparam.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_helpers.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_libinfo.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_main.c	35;"	d	file:
+ENABLE_CURLX_PRINTF	tool_metalink.c	97;"	d	file:
+ENABLE_CURLX_PRINTF	tool_msgs.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_operate.c	48;"	d	file:
+ENABLE_CURLX_PRINTF	tool_operhlp.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_paramhlp.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_parsecfg.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_setopt.c	26;"	d	file:
+ENABLE_CURLX_PRINTF	tool_urlglob.c	24;"	d	file:
+ENABLE_CURLX_PRINTF	tool_vms.c	31;"	d	file:
+ENABLE_CURLX_PRINTF	tool_writeout.c	23;"	d	file:
+ENABLE_SHARED	Makefile	/^ENABLE_SHARED = yes$/;"	m
+ENABLE_STATIC	Makefile	/^ENABLE_STATIC = yes$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = mkhelp.pl makefile.dj Makefile.vc6 Makefile.b32		\\$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+F_OK	tool_dirhie.c	47;"	d	file:
+FindWin32CACert	tool_doswin.c	/^CURLcode FindWin32CACert(struct OperationConfig *config,$/;"	f
+FreeMultiInfo	tool_mfiles.c	/^void FreeMultiInfo(struct multi_files **multi_first,$/;"	f
+GETOUT_METALINK	tool_sdecls.h	116;"	d
+GETOUT_NOUPLOAD	tool_sdecls.h	115;"	d
+GETOUT_OUTFILE	tool_sdecls.h	111;"	d
+GETOUT_UPLOAD	tool_sdecls.h	114;"	d
+GETOUT_URL	tool_sdecls.h	112;"	d
+GETOUT_USEREMOTE	tool_sdecls.h	113;"	d
+GLOBERROR	tool_urlglob.c	32;"	d	file:
+GLOB_PATTERN_NUM	tool_urlglob.h	59;"	d
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GUSISetupConfig	macos/src/curl_GUSIConfig.cpp	/^\/**************** BEGIN GUSI CONFIGURATION ****************************$/;"	f
+GUSISetupDevices	macos/src/curl_GUSIConfig.cpp	/^\/**************** BEGIN GUSI CONFIGURATION ****************************$/;"	f
+GUSISetupFactories	macos/src/curl_GUSIConfig.cpp	/^\/**************** BEGIN GUSI CONFIGURATION ****************************$/;"	f
+GetEnv	tool_homedir.c	/^static char *GetEnv(const char *variable, char do_expand)$/;"	f	file:
+GetStr	tool_getparam.c	48;"	d	file:
+GetStr	tool_metalink.c	110;"	d	file:
+GlobalConfig	tool_cfgable.h	/^struct GlobalConfig {$/;"	s
+HAVE_FTRUNCATE	tool_cb_see.h	34;"	d
+HAVE_GNUTLS_SRP	Makefile	/^HAVE_GNUTLS_SRP = $/;"	m
+HAVE_LDAP_SSL	Makefile	/^HAVE_LDAP_SSL = 1$/;"	m
+HAVE_LIBZ	Makefile	/^HAVE_LIBZ = $/;"	m
+HAVE_OPENSSL_SRP	Makefile	/^HAVE_OPENSSL_SRP = $/;"	m
+HEADER_CURL_SLIST_WC_H	slist_wc.h	2;"	d
+HEADER_CURL_TOOL_BINMODE_H	tool_binmode.h	2;"	d
+HEADER_CURL_TOOL_BNAME_H	tool_bname.h	2;"	d
+HEADER_CURL_TOOL_CB_DBG_H	tool_cb_dbg.h	2;"	d
+HEADER_CURL_TOOL_CB_HDR_H	tool_cb_hdr.h	2;"	d
+HEADER_CURL_TOOL_CB_PRG_H	tool_cb_prg.h	2;"	d
+HEADER_CURL_TOOL_CB_REA_H	tool_cb_rea.h	2;"	d
+HEADER_CURL_TOOL_CB_SEE_H	tool_cb_see.h	2;"	d
+HEADER_CURL_TOOL_CB_WRT_H	tool_cb_wrt.h	2;"	d
+HEADER_CURL_TOOL_CFGABLE_H	tool_cfgable.h	2;"	d
+HEADER_CURL_TOOL_CONVERT_H	tool_convert.h	2;"	d
+HEADER_CURL_TOOL_DIRHIE_H	tool_dirhie.h	2;"	d
+HEADER_CURL_TOOL_DOSWIN_H	tool_doswin.h	2;"	d
+HEADER_CURL_TOOL_EASYSRC_H	tool_easysrc.h	2;"	d
+HEADER_CURL_TOOL_FORMPARSE_H	tool_formparse.h	2;"	d
+HEADER_CURL_TOOL_GETPARAM_H	tool_getparam.h	2;"	d
+HEADER_CURL_TOOL_GETPASS_H	tool_getpass.h	2;"	d
+HEADER_CURL_TOOL_HELPERS_H	tool_helpers.h	2;"	d
+HEADER_CURL_TOOL_HELP_H	tool_help.h	2;"	d
+HEADER_CURL_TOOL_HOMEDIR_H	tool_homedir.h	2;"	d
+HEADER_CURL_TOOL_HUGEHELP_H	tool_hugehelp.h	2;"	d
+HEADER_CURL_TOOL_LIBINFO_H	tool_libinfo.h	2;"	d
+HEADER_CURL_TOOL_MAIN_H	tool_main.h	2;"	d
+HEADER_CURL_TOOL_METALINK_H	tool_metalink.h	2;"	d
+HEADER_CURL_TOOL_MFILES_H	tool_mfiles.h	2;"	d
+HEADER_CURL_TOOL_MSGS_H	tool_msgs.h	2;"	d
+HEADER_CURL_TOOL_OPERATE_H	tool_operate.h	2;"	d
+HEADER_CURL_TOOL_OPERHLP_H	tool_operhlp.h	2;"	d
+HEADER_CURL_TOOL_PANYKEY_H	tool_panykey.h	2;"	d
+HEADER_CURL_TOOL_PARAMHLP_H	tool_paramhlp.h	2;"	d
+HEADER_CURL_TOOL_PARSECFG_H	tool_parsecfg.h	2;"	d
+HEADER_CURL_TOOL_SDECLS_H	tool_sdecls.h	2;"	d
+HEADER_CURL_TOOL_SETOPT_H	tool_setopt.h	2;"	d
+HEADER_CURL_TOOL_SETUP_H	tool_setup.h	2;"	d
+HEADER_CURL_TOOL_SLEEP_H	tool_sleep.h	2;"	d
+HEADER_CURL_TOOL_URLGLOB_H	tool_urlglob.h	2;"	d
+HEADER_CURL_TOOL_UTIL_H	tool_util.h	2;"	d
+HEADER_CURL_TOOL_VERSION_H	tool_version.h	2;"	d
+HEADER_CURL_TOOL_VMS_H	tool_vms.h	2;"	d
+HEADER_CURL_TOOL_WRITEENV_H	tool_writeenv.h	2;"	d
+HEADER_CURL_TOOL_WRITEOUT_H	tool_writeout.h	2;"	d
+HEADER_CURL_TOOL_XATTR_H	tool_xattr.h	2;"	d
+HEADER_TOOL_STRDUP_H	tool_strdup.h	2;"	d
+HTTPREQ_FORMPOST	tool_sdecls.h	/^  HTTPREQ_FORMPOST,$/;"	e	enum:__anon7
+HTTPREQ_GET	tool_sdecls.h	/^  HTTPREQ_GET,$/;"	e	enum:__anon7
+HTTPREQ_HEAD	tool_sdecls.h	/^  HTTPREQ_HEAD,$/;"	e	enum:__anon7
+HTTPREQ_SIMPLEPOST	tool_sdecls.h	/^  HTTPREQ_SIMPLEPOST$/;"	e	enum:__anon7
+HTTPREQ_UNSPEC	tool_sdecls.h	/^  HTTPREQ_UNSPEC,  \/* first in list *\/$/;"	e	enum:__anon7
+HUGE	Makefile	/^HUGE = tool_hugehelp.c$/;"	m
+HdrCbData	tool_cb_hdr.h	/^struct HdrCbData {$/;"	s
+HttpReq	tool_sdecls.h	/^} HttpReq;$/;"	t	typeref:enum:__anon7
+IDN_ENABLED	Makefile	/^IDN_ENABLED = $/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+IPV6_ENABLED	Makefile	/^IPV6_ENABLED = 1$/;"	m
+ISSEP	tool_parsecfg.c	41;"	d	file:
+InStruct	tool_sdecls.h	/^struct InStruct {$/;"	s
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBCURL_LIBS	Makefile	/^LIBCURL_LIBS = $/;"	m
+LIBMETALINK_CPPFLAGS	Makefile	/^LIBMETALINK_CPPFLAGS = $/;"	m
+LIBMETALINK_LDFLAGS	Makefile	/^LIBMETALINK_LDFLAGS = $/;"	m
+LIBMETALINK_LIBS	Makefile	/^LIBMETALINK_LIBS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $(BLANK_AT_MAKETIME)$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = cp -pR$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LongShort	tool_getparam.c	/^struct LongShort {$/;"	s	file:
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/missing --run makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANOPT	Makefile	/^MANOPT = -man$/;"	m
+MANPAGE	Makefile	/^MANPAGE = $(top_srcdir)\/docs\/curl.1$/;"	m
+MAX_BARLENGTH	tool_cb_prg.c	38;"	d	file:
+MD5_CTX	tool_metalink.c	38;"	d	file:
+MD5_CTX	tool_metalink.c	43;"	d	file:
+MD5_CTX	tool_metalink.c	49;"	d	file:
+MD5_CTX	tool_metalink.c	57;"	d	file:
+MD5_CTX	tool_metalink.c	88;"	d	file:
+MD5_DIGEST_DEF	tool_metalink.c	/^static const metalink_digest_def MD5_DIGEST_DEF[] = {$/;"	v	file:
+MD5_DIGEST_PARAMS	tool_metalink.c	/^const digest_params MD5_DIGEST_PARAMS[] = {$/;"	v
+MD5_Final	tool_metalink.c	/^static void MD5_Final(unsigned char digest[16], MD5_CTX *ctx)$/;"	f	file:
+MD5_Final	tool_metalink.c	/^static void MD5_Final(unsigned char digest[16], MD5_CTX *pctx)$/;"	f	file:
+MD5_Init	tool_metalink.c	/^static int MD5_Init(MD5_CTX *ctx)$/;"	f	file:
+MD5_Init	tool_metalink.c	/^static int MD5_Init(MD5_CTX *pctx)$/;"	f	file:
+MD5_Update	tool_metalink.c	/^static void MD5_Update(MD5_CTX *ctx,$/;"	f	file:
+MD5_Update	tool_metalink.c	/^static void MD5_Update(MD5_CTX *pctx,$/;"	f	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKHELP	Makefile	/^MKHELP = $(top_srcdir)\/src\/mkhelp.pl$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOTE_PREFIX	tool_msgs.c	34;"	d	file:
+NROFF	Makefile	/^NROFF = env LC_ALL=C \/usr\/bin\/nroff -man # figured out by the configure script$/;"	m
+NSS_LIBS	Makefile	/^NSS_LIBS = $/;"	m
+NV	tool_setopt.c	41;"	d	file:
+NV1	tool_setopt.c	42;"	d	file:
+NVEND	tool_setopt.c	43;"	d	file:
+NameValue	tool_setopt.h	/^} NameValue;$/;"	t	typeref:struct:__anon8
+NameValueUnsigned	tool_setopt.h	/^} NameValueUnsigned;$/;"	t	typeref:struct:__anon9
+NumRange	tool_urlglob.h	/^    } NumRange;$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon15
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OS	tool_setup.h	61;"	d
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OUR_MAX_SEEK_L	tool_cb_see.c	37;"	d	file:
+OUR_MAX_SEEK_O	tool_cb_see.c	38;"	d	file:
+O_BINARY	tool_operate.c	97;"	d	file:
+OperationConfig	tool_cfgable.h	/^struct OperationConfig {$/;"	s
+OutStruct	tool_sdecls.h	/^struct OutStruct {$/;"	s
+PACKAGE	Makefile	/^PACKAGE = curl$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = a suitable curl mailing list: http:\/\/curl.haxx.se\/mail\/$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = curl$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = curl -$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = curl$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = -$/;"	m
+PARAM_BAD_NUMERIC	tool_getparam.h	/^  PARAM_BAD_NUMERIC,$/;"	e	enum:__anon1
+PARAM_BAD_USE	tool_getparam.h	/^  PARAM_BAD_USE,$/;"	e	enum:__anon1
+PARAM_ENGINES_REQUESTED	tool_getparam.h	/^  PARAM_ENGINES_REQUESTED,$/;"	e	enum:__anon1
+PARAM_GOT_EXTRA_PARAMETER	tool_getparam.h	/^  PARAM_GOT_EXTRA_PARAMETER,$/;"	e	enum:__anon1
+PARAM_HELP_REQUESTED	tool_getparam.h	/^  PARAM_HELP_REQUESTED,$/;"	e	enum:__anon1
+PARAM_LAST	tool_getparam.h	/^  PARAM_LAST$/;"	e	enum:__anon1
+PARAM_LIBCURL_DOESNT_SUPPORT	tool_getparam.h	/^  PARAM_LIBCURL_DOESNT_SUPPORT,$/;"	e	enum:__anon1
+PARAM_LIBCURL_UNSUPPORTED_PROTOCOL	tool_getparam.h	/^  PARAM_LIBCURL_UNSUPPORTED_PROTOCOL,$/;"	e	enum:__anon1
+PARAM_MANUAL_REQUESTED	tool_getparam.h	/^  PARAM_MANUAL_REQUESTED,$/;"	e	enum:__anon1
+PARAM_NEGATIVE_NUMERIC	tool_getparam.h	/^  PARAM_NEGATIVE_NUMERIC,$/;"	e	enum:__anon1
+PARAM_NEXT_OPERATION	tool_getparam.h	/^  PARAM_NEXT_OPERATION,$/;"	e	enum:__anon1
+PARAM_NO_MEM	tool_getparam.h	/^  PARAM_NO_MEM,$/;"	e	enum:__anon1
+PARAM_OK	tool_getparam.h	/^  PARAM_OK = 0,$/;"	e	enum:__anon1
+PARAM_OPTION_AMBIGUOUS	tool_getparam.h	/^  PARAM_OPTION_AMBIGUOUS,$/;"	e	enum:__anon1
+PARAM_OPTION_UNKNOWN	tool_getparam.h	/^  PARAM_OPTION_UNKNOWN,$/;"	e	enum:__anon1
+PARAM_REQUIRES_PARAMETER	tool_getparam.h	/^  PARAM_REQUIRES_PARAMETER,$/;"	e	enum:__anon1
+PARAM_VERSION_INFO_REQUESTED	tool_getparam.h	/^  PARAM_VERSION_INFO_REQUESTED,$/;"	e	enum:__anon1
+PATH_MAX	tool_doswin.c	68;"	d	file:
+PATH_MAX	tool_doswin.c	69;"	d	file:
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PERL	Makefile	/^PERL = \/usr\/bin\/perl$/;"	m
+PKGADD_NAME	Makefile	/^PKGADD_NAME = cURL - a client that groks URLs$/;"	m
+PKGADD_PKG	Makefile	/^PKGADD_PKG = HAXXcurl$/;"	m
+PKGADD_VENDOR	Makefile	/^PKGADD_VENDOR = curl.haxx.se$/;"	m
+PKGCONFIG	Makefile	/^PKGCONFIG = no$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINT_LINES_PAUSE	tool_help.c	254;"	d	file:
+PRINT_LINES_PAUSE	tool_help.c	258;"	d	file:
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+ParameterError	tool_getparam.h	/^} ParameterError;$/;"	t	typeref:enum:__anon1
+ProgressData	tool_cb_prg.h	/^struct ProgressData {$/;"	s
+RANDOM_FILE	Makefile	/^RANDOM_FILE = $/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+README	Makefile	/^README = $(top_srcdir)\/docs\/MANUAL$/;"	m
+REM0	tool_setopt.c	191;"	d	file:
+REM1	tool_setopt.c	192;"	d	file:
+REM2	tool_setopt.c	193;"	d	file:
+REQUIRE_LIB_DEPS	Makefile	/^REQUIRE_LIB_DEPS = no$/;"	m
+RETRY_SLEEP_DEFAULT	tool_main.h	28;"	d
+RETRY_SLEEP_MAX	tool_main.h	29;"	d
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SETOPT_CHECK	tool_setopt.h	30;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHA1_DIGEST_DEF	tool_metalink.c	/^static const metalink_digest_def SHA1_DIGEST_DEF[] = {$/;"	v	file:
+SHA1_DIGEST_PARAMS	tool_metalink.c	/^const digest_params SHA1_DIGEST_PARAMS[] = {$/;"	v
+SHA1_Final	tool_metalink.c	/^static void SHA1_Final(unsigned char digest[20], SHA_CTX *ctx)$/;"	f	file:
+SHA1_Final	tool_metalink.c	/^static void SHA1_Final(unsigned char digest[20], SHA_CTX *pctx)$/;"	f	file:
+SHA1_Init	tool_metalink.c	/^static int SHA1_Init(SHA_CTX *ctx)$/;"	f	file:
+SHA1_Init	tool_metalink.c	/^static int SHA1_Init(SHA_CTX *pctx)$/;"	f	file:
+SHA1_Update	tool_metalink.c	/^static void SHA1_Update(SHA_CTX *ctx,$/;"	f	file:
+SHA1_Update	tool_metalink.c	/^static void SHA1_Update(SHA_CTX *pctx,$/;"	f	file:
+SHA256_CTX	tool_metalink.c	40;"	d	file:
+SHA256_CTX	tool_metalink.c	45;"	d	file:
+SHA256_CTX	tool_metalink.c	51;"	d	file:
+SHA256_CTX	tool_metalink.c	59;"	d	file:
+SHA256_CTX	tool_metalink.c	90;"	d	file:
+SHA256_DIGEST_DEF	tool_metalink.c	/^static const metalink_digest_def SHA256_DIGEST_DEF[] = {$/;"	v	file:
+SHA256_DIGEST_PARAMS	tool_metalink.c	/^const digest_params SHA256_DIGEST_PARAMS[] = {$/;"	v
+SHA256_Final	tool_metalink.c	/^static void SHA256_Final(unsigned char digest[32], SHA256_CTX *ctx)$/;"	f	file:
+SHA256_Final	tool_metalink.c	/^static void SHA256_Final(unsigned char digest[32], SHA256_CTX *pctx)$/;"	f	file:
+SHA256_Init	tool_metalink.c	/^static int SHA256_Init(SHA256_CTX *ctx)$/;"	f	file:
+SHA256_Init	tool_metalink.c	/^static int SHA256_Init(SHA256_CTX *pctx)$/;"	f	file:
+SHA256_Update	tool_metalink.c	/^static void SHA256_Update(SHA256_CTX *ctx,$/;"	f	file:
+SHA256_Update	tool_metalink.c	/^static void SHA256_Update(SHA256_CTX *pctx,$/;"	f	file:
+SHA_CTX	tool_metalink.c	39;"	d	file:
+SHA_CTX	tool_metalink.c	44;"	d	file:
+SHA_CTX	tool_metalink.c	50;"	d	file:
+SHA_CTX	tool_metalink.c	58;"	d	file:
+SHA_CTX	tool_metalink.c	89;"	d	file:
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(libcurltool_la_SOURCES) $(curl_SOURCES)$/;"	m
+SSL_ENABLED	Makefile	/^SSL_ENABLED = $/;"	m
+SSL_LIBS	Makefile	/^SSL_LIBS = $/;"	m
+STDERR_FILENO	tool_main.h	40;"	d
+STDIN_FILENO	tool_main.h	32;"	d
+STDOUT_FILENO	tool_main.h	36;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SUPPORT_FEATURES	Makefile	/^SUPPORT_FEATURES = IPv6 UnixSockets$/;"	m
+SUPPORT_PROTOCOLS	Makefile	/^SUPPORT_PROTOCOLS = DICT FILE FTP GOPHER HTTP IMAP POP3 RTSP SMTP TELNET TFTP$/;"	m
+S_ISCHR	tool_doswin.c	74;"	d	file:
+S_ISCHR	tool_doswin.c	76;"	d	file:
+Set	tool_urlglob.h	/^    } Set;$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon13
+SetHTTPrequest	tool_helpers.c	/^int SetHTTPrequest(struct OperationConfig *config, HttpReq req, HttpReq *store)$/;"	f
+TRACE_ASCII	tool_sdecls.h	/^  TRACE_ASCII, \/* like *BIN but without the hex output *\/$/;"	e	enum:__anon6
+TRACE_BIN	tool_sdecls.h	/^  TRACE_BIN,   \/* tcpdump inspired look *\/$/;"	e	enum:__anon6
+TRACE_NONE	tool_sdecls.h	/^  TRACE_NONE,  \/* no trace\/verbose output at all *\/$/;"	e	enum:__anon6
+TRACE_PLAIN	tool_sdecls.h	/^  TRACE_PLAIN  \/* -v\/--verbose type *\/$/;"	e	enum:__anon6
+UNPRINTABLE_CHAR	tool_setup.h	66;"	d
+UPTCharRange	tool_urlglob.h	/^  UPTCharRange,$/;"	e	enum:__anon10
+UPTNumRange	tool_urlglob.h	/^  UPTNumRange$/;"	e	enum:__anon10
+UPTSet	tool_urlglob.h	/^  UPTSet = 1,$/;"	e	enum:__anon10
+URLGlob	tool_urlglob.h	/^} URLGlob;$/;"	t	typeref:struct:__anon16
+URLPattern	tool_urlglob.h	/^} URLPattern;$/;"	t	typeref:struct:__anon11
+URLPatternType	tool_urlglob.h	/^} URLPatternType;$/;"	t	typeref:enum:__anon10
+USE_ARES	Makefile	/^USE_ARES = $/;"	m
+USE_AXTLS	Makefile	/^USE_AXTLS = $/;"	m
+USE_CYASSL	Makefile	/^USE_CYASSL = $/;"	m
+USE_DARWINSSL	Makefile	/^USE_DARWINSSL = $/;"	m
+USE_GNUTLS	Makefile	/^USE_GNUTLS = $/;"	m
+USE_GNUTLS_NETTLE	Makefile	/^USE_GNUTLS_NETTLE = $/;"	m
+USE_LIBRTMP	Makefile	/^USE_LIBRTMP = $/;"	m
+USE_LIBSSH2	Makefile	/^USE_LIBSSH2 = $/;"	m
+USE_MBEDTLS	Makefile	/^USE_MBEDTLS = $/;"	m
+USE_NGHTTP2	Makefile	/^USE_NGHTTP2 = $/;"	m
+USE_NSS	Makefile	/^USE_NSS = $/;"	m
+USE_OPENLDAP	Makefile	/^USE_OPENLDAP = $/;"	m
+USE_POLARSSL	Makefile	/^USE_POLARSSL = $/;"	m
+USE_SCHANNEL	Makefile	/^USE_SCHANNEL = $/;"	m
+USE_UNIX_SOCKETS	Makefile	/^USE_UNIX_SOCKETS = 1$/;"	m
+USE_WATT32	tool_getparam.c	45;"	d	file:
+USE_WATT32	tool_help.c	32;"	d	file:
+USE_WINDOWS_SSPI	Makefile	/^USE_WINDOWS_SSPI = $/;"	m
+USE_XATTR	tool_xattr.c	26;"	d	file:
+USE_XATTR	tool_xattr.c	30;"	d	file:
+VAR_APPCONNECT_TIME	tool_writeout.c	/^  VAR_APPCONNECT_TIME,$/;"	e	enum:__anon20	file:
+VAR_CONNECT_TIME	tool_writeout.c	/^  VAR_CONNECT_TIME,$/;"	e	enum:__anon20	file:
+VAR_CONTENT_TYPE	tool_writeout.c	/^  VAR_CONTENT_TYPE,$/;"	e	enum:__anon20	file:
+VAR_EFFECTIVE_FILENAME	tool_writeout.c	/^  VAR_EFFECTIVE_FILENAME,$/;"	e	enum:__anon20	file:
+VAR_EFFECTIVE_URL	tool_writeout.c	/^  VAR_EFFECTIVE_URL,$/;"	e	enum:__anon20	file:
+VAR_FTP_ENTRY_PATH	tool_writeout.c	/^  VAR_FTP_ENTRY_PATH,$/;"	e	enum:__anon20	file:
+VAR_HEADER_SIZE	tool_writeout.c	/^  VAR_HEADER_SIZE,$/;"	e	enum:__anon20	file:
+VAR_HTTP_CODE	tool_writeout.c	/^  VAR_HTTP_CODE,$/;"	e	enum:__anon20	file:
+VAR_HTTP_CODE_PROXY	tool_writeout.c	/^  VAR_HTTP_CODE_PROXY,$/;"	e	enum:__anon20	file:
+VAR_LOCAL_IP	tool_writeout.c	/^  VAR_LOCAL_IP,$/;"	e	enum:__anon20	file:
+VAR_LOCAL_PORT	tool_writeout.c	/^  VAR_LOCAL_PORT,$/;"	e	enum:__anon20	file:
+VAR_NAMELOOKUP_TIME	tool_writeout.c	/^  VAR_NAMELOOKUP_TIME,$/;"	e	enum:__anon20	file:
+VAR_NONE	tool_writeout.c	/^  VAR_NONE,       \/* must be the first *\/$/;"	e	enum:__anon20	file:
+VAR_NUM_CONNECTS	tool_writeout.c	/^  VAR_NUM_CONNECTS,$/;"	e	enum:__anon20	file:
+VAR_NUM_OF_VARS	tool_writeout.c	/^  VAR_NUM_OF_VARS \/* must be the last *\/$/;"	e	enum:__anon20	file:
+VAR_PRETRANSFER_TIME	tool_writeout.c	/^  VAR_PRETRANSFER_TIME,$/;"	e	enum:__anon20	file:
+VAR_PRIMARY_IP	tool_writeout.c	/^  VAR_PRIMARY_IP,$/;"	e	enum:__anon20	file:
+VAR_PRIMARY_PORT	tool_writeout.c	/^  VAR_PRIMARY_PORT,$/;"	e	enum:__anon20	file:
+VAR_REDIRECT_COUNT	tool_writeout.c	/^  VAR_REDIRECT_COUNT,$/;"	e	enum:__anon20	file:
+VAR_REDIRECT_TIME	tool_writeout.c	/^  VAR_REDIRECT_TIME,$/;"	e	enum:__anon20	file:
+VAR_REDIRECT_URL	tool_writeout.c	/^  VAR_REDIRECT_URL,$/;"	e	enum:__anon20	file:
+VAR_REQUEST_SIZE	tool_writeout.c	/^  VAR_REQUEST_SIZE,$/;"	e	enum:__anon20	file:
+VAR_SIZE_DOWNLOAD	tool_writeout.c	/^  VAR_SIZE_DOWNLOAD,$/;"	e	enum:__anon20	file:
+VAR_SIZE_UPLOAD	tool_writeout.c	/^  VAR_SIZE_UPLOAD,$/;"	e	enum:__anon20	file:
+VAR_SPEED_DOWNLOAD	tool_writeout.c	/^  VAR_SPEED_DOWNLOAD,$/;"	e	enum:__anon20	file:
+VAR_SPEED_UPLOAD	tool_writeout.c	/^  VAR_SPEED_UPLOAD,$/;"	e	enum:__anon20	file:
+VAR_SSL_VERIFY_RESULT	tool_writeout.c	/^  VAR_SSL_VERIFY_RESULT,$/;"	e	enum:__anon20	file:
+VAR_STARTTRANSFER_TIME	tool_writeout.c	/^  VAR_STARTTRANSFER_TIME,$/;"	e	enum:__anon20	file:
+VAR_TOTAL_TIME	tool_writeout.c	/^  VAR_TOTAL_TIME,$/;"	e	enum:__anon20	file:
+VERSION	Makefile	/^VERSION = -$/;"	m
+VERSIONNUM	Makefile	/^VERSIONNUM = 072f00$/;"	m
+VMSSTS_HIDE	tool_vms.h	42;"	d
+VMS_STS	tool_vms.h	41;"	d
+VmsSpecialSize	tool_operate.c	/^static curl_off_t VmsSpecialSize(const char * name,$/;"	f	file:
+WARN_PREFIX	tool_msgs.c	33;"	d	file:
+ZLIB_LIBS	Makefile	/^ZLIB_LIBS = $/;"	m
+ZSH_FUNCTIONS_DIR	Makefile	/^ZSH_FUNCTIONS_DIR = ${prefix}\/share\/zsh\/site-functions$/;"	m
+__crt0_glob_function	tool_doswin.c	/^char **__crt0_glob_function(char *arg)$/;"	f
+_get_osfhandle	tool_cb_see.c	111;"	d	file:
+_get_osfhandle	tool_cb_see.c	112;"	d	file:
+_lseeki64	tool_cb_see.c	101;"	d	file:
+_lseeki64	tool_cb_see.c	103;"	d	file:
+_lseeki64	tool_cb_see.c	109;"	d	file:
+_lseeki64	tool_cb_see.c	110;"	d	file:
+_lseeki64	tool_cb_see.c	95;"	d	file:
+_use_lfn	tool_doswin.c	81;"	d	file:
+_use_lfn	tool_doswin.c	83;"	d	file:
+abs_builddir	Makefile	/^abs_builddir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = $/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+add2list	tool_paramhlp.c	/^ParameterError add2list(struct curl_slist **list, const char *ptr)$/;"	f
+add_file_name_to_url	tool_operhlp.c	/^char *add_file_name_to_url(CURL *curl, char *url, const char *filename)$/;"	f
+alias_name	tool_metalink.h	/^  const char *alias_name;$/;"	m	struct:__anon5
+aliases	tool_getparam.c	/^static const struct LongShort aliases[]= {$/;"	v	typeref:struct:LongShort	file:
+alivetime	tool_cfgable.h	/^  long alivetime;$/;"	m	struct:OperationConfig
+alloc_filename	tool_sdecls.h	/^  bool alloc_filename;$/;"	m	struct:OutStruct
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/curl-compilers.m4 \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__libcurltool_la_SOURCES_DIST	Makefile	/^am__libcurltool_la_SOURCES_DIST = slist_wc.c tool_binmode.c \\$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__objects_1	Makefile	/^am__objects_1 = libcurltool_la-slist_wc.lo \\$/;"	m
+am__objects_2	Makefile	/^am__objects_2 = libcurltool_la-strtoofft.lo libcurltool_la-rawstr.lo \\$/;"	m
+am__objects_3	Makefile	/^am__objects_3 =$/;"	m
+am__objects_4	Makefile	/^am__objects_4 = $(am__objects_1) $(am__objects_2) $(am__objects_3)$/;"	m
+am__objects_5	Makefile	/^am__objects_5 = $(am__objects_4)$/;"	m
+am__objects_6	Makefile	/^am__objects_6 = curl-slist_wc.$(OBJEXT) curl-tool_binmode.$(OBJEXT) \\$/;"	m
+am__objects_7	Makefile	/^am__objects_7 = curl-strtoofft.$(OBJEXT) curl-rawstr.$(OBJEXT) \\$/;"	m
+am__objects_8	Makefile	/^am__objects_8 = $(am__objects_6) $(am__objects_7) $(am__objects_3)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am_curl_OBJECTS	Makefile	/^am_curl_OBJECTS = $(am__objects_8)$/;"	m
+attr	tool_xattr.c	/^  const char *attr; \/* name of the xattr *\/$/;"	m	struct:xattr_mapping	file:
+authtype	tool_cfgable.h	/^  unsigned long authtype;   \/* auth bitmask *\/$/;"	m	struct:OperationConfig
+autoreferer	tool_cfgable.h	/^  bool autoreferer;         \/* automatically set referer *\/$/;"	m	struct:OperationConfig
+basename	tool_bname.h	30;"	d
+beenhere	tool_urlglob.h	/^  char beenhere;$/;"	m	struct:__anon16
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = curl$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bitmask	tool_help.c	/^  int bitmask;$/;"	m	struct:feat	file:
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+built_in_protos	tool_libinfo.c	/^long built_in_protos = 0;$/;"	v
+bytes	tool_sdecls.h	/^  curl_off_t bytes;$/;"	m	struct:OutStruct
+c_escape	tool_setopt.c	/^static char *c_escape(const char *str)$/;"	f	file:
+cacert	tool_cfgable.h	/^  char *cacert;$/;"	m	struct:OperationConfig
+calls	tool_cb_prg.h	/^  int         calls;$/;"	m	struct:ProgressData
+capath	tool_cfgable.h	/^  char *capath;$/;"	m	struct:OperationConfig
+cert	tool_cfgable.h	/^  char *cert;$/;"	m	struct:OperationConfig
+cert_type	tool_cfgable.h	/^  char *cert_type;$/;"	m	struct:OperationConfig
+check_content_type	tool_metalink.c	/^static int check_content_type(const char *content_type, const char *media_type)$/;"	f	file:
+check_hash	tool_metalink.c	/^static int check_hash(const char *filename,$/;"	f	file:
+check_hex_digest	tool_metalink.c	/^static int check_hex_digest(const char *hex_digest,$/;"	f	file:
+check_metalink_content_type	tool_metalink.c	/^int check_metalink_content_type(const char *content_type)$/;"	f
+check_protocol	tool_paramhlp.c	/^int check_protocol(const char *str)$/;"	f
+checkpasswd	tool_paramhlp.c	/^static CURLcode checkpasswd(const char *kind, \/* for what purpose *\/$/;"	f	file:
+checksum	tool_metalink.h	/^  metalink_checksum *checksum;$/;"	m	struct:metalinkfile
+cipher_list	tool_cfgable.h	/^  char *cipher_list;$/;"	m	struct:OperationConfig
+clean_getout	tool_operhlp.c	/^void clean_getout(struct OperationConfig *config)$/;"	f
+clean_metalink	tool_metalink.c	/^void clean_metalink(struct OperationConfig *config)$/;"	f
+clean_metalink	tool_metalink.h	160;"	d
+cleanarg	tool_paramhlp.c	/^void cleanarg(char *str)$/;"	f
+condtime	tool_cfgable.h	/^  time_t condtime;$/;"	m	struct:OperationConfig
+config	tool_sdecls.h	/^  struct OperationConfig *config;$/;"	m	struct:InStruct	typeref:struct:InStruct::OperationConfig
+config	tool_sdecls.h	/^  struct OperationConfig *config;$/;"	m	struct:OutStruct	typeref:struct:OutStruct::OperationConfig
+config_free	tool_cfgable.c	/^void config_free(struct OperationConfig *config)$/;"	f
+config_init	tool_cfgable.c	/^void config_init(struct OperationConfig* config)$/;"	f
+connecttimeout	tool_cfgable.h	/^  double connecttimeout;$/;"	m	struct:OperationConfig
+content	tool_urlglob.h	/^  } content;$/;"	m	struct:__anon11	typeref:union:__anon11::__anon12
+content_disposition	tool_cfgable.h	/^  bool content_disposition; \/* use Content-disposition filename *\/$/;"	m	struct:OperationConfig
+convert_char	tool_convert.c	/^char convert_char(curl_infotype infotype, char this_char)$/;"	f
+convert_cleanup	tool_convert.c	/^void convert_cleanup(void)$/;"	f
+convert_cleanup	tool_convert.h	41;"	d
+convert_from_network	tool_convert.c	/^CURLcode convert_from_network(char *buffer, size_t length)$/;"	f
+convert_to_network	tool_convert.c	/^CURLcode convert_to_network(char *buffer, size_t length)$/;"	f
+cookie	tool_cfgable.h	/^  char *cookie;             \/* single line with specified cookies *\/$/;"	m	struct:OperationConfig
+cookiefile	tool_cfgable.h	/^  char *cookiefile;         \/* read from this file *\/$/;"	m	struct:OperationConfig
+cookiejar	tool_cfgable.h	/^  char *cookiejar;          \/* write to this file *\/$/;"	m	struct:OperationConfig
+cookiesession	tool_cfgable.h	/^  bool cookiesession;       \/* new session? *\/$/;"	m	struct:OperationConfig
+count_next_metalink_resource	tool_metalink.c	/^int count_next_metalink_resource(metalinkfile *mlfile)$/;"	f
+count_next_metalink_resource	tool_metalink.h	159;"	d
+create_dir_hierarchy	tool_dirhie.c	/^CURLcode create_dir_hierarchy(const char *outfile, FILE *errors)$/;"	f
+create_dirs	tool_cfgable.h	/^  bool create_dirs;$/;"	m	struct:OperationConfig
+crlf	tool_cfgable.h	/^  bool crlf;$/;"	m	struct:OperationConfig
+crlfile	tool_cfgable.h	/^  char *crlfile;$/;"	m	struct:OperationConfig
+curl_CPPFLAGS	Makefile	/^curl_CPPFLAGS = $(AM_CPPFLAGS) $(LIBMETALINK_CPPFLAGS)$/;"	m
+curl_DEPENDENCIES	Makefile	/^curl_DEPENDENCIES = $(top_builddir)\/lib\/libcurl.la$/;"	m
+curl_LDADD	Makefile	/^curl_LDADD = $(top_builddir)\/lib\/libcurl.la     $/;"	m
+curl_LDFLAGS	Makefile	/^curl_LDFLAGS = $/;"	m
+curl_LINK	Makefile	/^curl_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+curl_OBJECTS	Makefile	/^curl_OBJECTS = $(am_curl_OBJECTS)$/;"	m
+curl_SOURCES	Makefile	/^curl_SOURCES = $(CURL_FILES)$/;"	m
+curlinfo	tool_libinfo.c	/^curl_version_info_data *curlinfo = NULL;$/;"	v
+current	tool_cfgable.h	/^  struct OperationConfig *current;$/;"	m	struct:GlobalConfig	typeref:struct:GlobalConfig::OperationConfig
+customrequest	tool_cfgable.h	/^  char *customrequest;$/;"	m	struct:OperationConfig
+customrequest_helper	tool_helpers.c	/^void customrequest_helper(struct OperationConfig *config, HttpReq req,$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+decc_feat_array	tool_vms.c	/^static decc_feat_t decc_feat_array[] = {$/;"	v	file:
+decc_feat_t	tool_vms.c	/^} decc_feat_t;$/;"	t	typeref:struct:__anon17	file:
+decc_init	tool_vms.c	/^static void decc_init(void)$/;"	f	file:
+decc_init_done	tool_vms.c	/^static int decc_init_done = -1;$/;"	v	file:
+default_node_flags	tool_cfgable.h	/^  int default_node_flags;   \/* default flags to search for each 'node', which$/;"	m	struct:OperationConfig
+delegation	tool_paramhlp.c	/^long delegation(struct OperationConfig *config, char *str)$/;"	f
+delete_metalink_checksum	tool_metalink.c	/^static void delete_metalink_checksum(metalink_checksum *chksum)$/;"	f	file:
+delete_metalink_resource	tool_metalink.c	/^static void delete_metalink_resource(metalink_resource *res)$/;"	f	file:
+delete_metalinkfile	tool_metalink.c	/^static void delete_metalinkfile(metalinkfile *mlfile)$/;"	f	file:
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+digest	tool_metalink.h	/^  unsigned char *digest;$/;"	m	struct:metalink_checksum
+digest_aliases	tool_metalink.c	/^static const metalink_digest_alias digest_aliases[] = {$/;"	v	file:
+digest_context	tool_metalink.h	/^} digest_context;$/;"	t	typeref:struct:__anon3
+digest_ctxtsize	tool_metalink.h	/^  unsigned int           digest_ctxtsize;  \/* Context structure size *\/$/;"	m	struct:__anon2
+digest_def	tool_metalink.h	/^  const metalink_digest_def *digest_def;$/;"	m	struct:__anon5
+digest_def	tool_metalink.h	/^  const metalink_digest_def *digest_def;$/;"	m	struct:metalink_checksum
+digest_final	tool_metalink.h	/^  Curl_digest_final_func    digest_final;  \/* Get final result procedure *\/$/;"	m	struct:__anon2
+digest_hash	tool_metalink.h	/^  const digest_params   *digest_hash;      \/* Hash function definition *\/$/;"	m	struct:__anon3
+digest_hashctx	tool_metalink.h	/^  void                  *digest_hashctx;   \/* Hash function context *\/$/;"	m	struct:__anon3
+digest_init	tool_metalink.h	/^  Curl_digest_init_func     digest_init;   \/* Initialize context procedure *\/$/;"	m	struct:__anon2
+digest_params	tool_metalink.h	/^} digest_params;$/;"	t	typeref:struct:__anon2
+digest_resultlen	tool_metalink.h	/^  unsigned int           digest_resultlen; \/* Result length (bytes) *\/$/;"	m	struct:__anon2
+digest_update	tool_metalink.h	/^  Curl_digest_update_func   digest_update; \/* Update context with data *\/$/;"	m	struct:__anon2
+dirlistonly	tool_cfgable.h	/^  bool dirlistonly;         \/* only get the FTP dir list *\/$/;"	m	struct:OperationConfig
+disable_eprt	tool_cfgable.h	/^  bool disable_eprt;$/;"	m	struct:OperationConfig
+disable_epsv	tool_cfgable.h	/^  bool disable_epsv;$/;"	m	struct:OperationConfig
+disable_sessionid	tool_cfgable.h	/^  bool disable_sessionid;$/;"	m	struct:OperationConfig
+dmy_lib$initialize	tool_vms.c	/^int dmy_lib$initialize = (int) LIB$INITIALIZE;$/;"	v
+dns_interface	tool_cfgable.h	/^  char *dns_interface; \/* interface name *\/$/;"	m	struct:OperationConfig
+dns_ipv4_addr	tool_cfgable.h	/^  char *dns_ipv4_addr; \/* dot notation *\/$/;"	m	struct:OperationConfig
+dns_ipv6_addr	tool_cfgable.h	/^  char *dns_ipv6_addr; \/* dot notation *\/$/;"	m	struct:OperationConfig
+dns_servers	tool_cfgable.h	/^  char *dns_servers;   \/* dot notation: 1.1.1.1;2.2.2.2 *\/$/;"	m	struct:OperationConfig
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dparams	tool_metalink.h	/^  const digest_params *dparams;$/;"	m	struct:__anon4
+dump	tool_cb_dbg.c	/^static void dump(const char *timebuf, const char *text,$/;"	f	file:
+dumpeasysrc	tool_easysrc.c	/^void dumpeasysrc(struct GlobalConfig *config)$/;"	f
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+easy	tool_cfgable.h	/^  CURL *easy;                     \/* Once we have one, we keep it here *\/$/;"	m	struct:GlobalConfig
+easy	tool_cfgable.h	/^  CURL *easy;               \/* A copy of the handle from GlobalConfig *\/$/;"	m	struct:OperationConfig
+easysrc_add	tool_easysrc.c	/^CURLcode easysrc_add(struct slist_wc **plist, const char *line)$/;"	f
+easysrc_addf	tool_easysrc.c	/^CURLcode easysrc_addf(struct slist_wc **plist, const char *fmt, ...)$/;"	f
+easysrc_clean	tool_easysrc.c	/^struct slist_wc *easysrc_clean = NULL;  \/* Clean up allocated data *\/$/;"	v	typeref:struct:slist_wc
+easysrc_cleanup	tool_easysrc.c	/^CURLcode easysrc_cleanup(void)$/;"	f
+easysrc_code	tool_easysrc.c	/^struct slist_wc *easysrc_code = NULL; \/* Setopt calls *\/$/;"	v	typeref:struct:slist_wc
+easysrc_data	tool_easysrc.c	/^struct slist_wc *easysrc_data = NULL; \/* Build slists, forms etc. *\/$/;"	v	typeref:struct:slist_wc
+easysrc_decl	tool_easysrc.c	/^struct slist_wc *easysrc_decl = NULL; \/* Variable declarations *\/$/;"	v	typeref:struct:slist_wc
+easysrc_form_count	tool_easysrc.c	/^int easysrc_form_count = 0;$/;"	v
+easysrc_free	tool_easysrc.c	/^static void easysrc_free(void)$/;"	f	file:
+easysrc_init	tool_easysrc.c	/^CURLcode easysrc_init(void)$/;"	f
+easysrc_perform	tool_easysrc.c	/^CURLcode easysrc_perform(void)$/;"	f
+easysrc_slist_count	tool_easysrc.c	/^int easysrc_slist_count = 0;$/;"	v
+easysrc_toohard	tool_easysrc.c	/^struct slist_wc *easysrc_toohard = NULL; \/* Unconvertible setopt *\/$/;"	v	typeref:struct:slist_wc
+egd_file	tool_cfgable.h	/^  char *egd_file;$/;"	m	struct:OperationConfig
+elements	tool_urlglob.h	/^      char **elements;$/;"	m	struct:__anon11::__anon12::__anon13
+encoding	tool_cfgable.h	/^  bool encoding;            \/* Accept-Encoding please *\/$/;"	m	struct:OperationConfig
+engine	tool_cfgable.h	/^  char *engine;$/;"	m	struct:OperationConfig
+error	tool_urlglob.h	/^  const char *error; \/* error message *\/$/;"	m	struct:__anon16
+errors	tool_cfgable.h	/^  FILE *errors;                   \/* Error stream, defaults to stderr *\/$/;"	m	struct:GlobalConfig
+errors_fopened	tool_cfgable.h	/^  bool errors_fopened;            \/* Whether error stream isn't stderr *\/$/;"	m	struct:GlobalConfig
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exit	tool_vms.h	38;"	d
+exit	tool_vms.h	39;"	d
+expect100timeout	tool_cfgable.h	/^  double expect100timeout;$/;"	m	struct:OperationConfig
+extraparam	tool_getparam.c	/^  bool extraparam;    \/* whether it takes an additional argument *\/$/;"	m	struct:LongShort	file:
+failonerror	tool_cfgable.h	/^  bool failonerror;         \/* fail on (HTTP) errors *\/$/;"	m	struct:OperationConfig
+falsestart	tool_cfgable.h	/^  bool falsestart;$/;"	m	struct:OperationConfig
+fd	tool_sdecls.h	/^  int fd;$/;"	m	struct:InStruct
+feat	tool_help.c	/^struct feat {$/;"	s	file:
+feats	tool_help.c	/^static const struct feat feats[] = {$/;"	v	typeref:struct:feat	file:
+file2memory	tool_paramhlp.c	/^ParameterError file2memory(char **bufp, size_t *size, FILE *file)$/;"	f
+file2string	tool_paramhlp.c	/^ParameterError file2string(char **bufp, FILE *file)$/;"	f
+filename	tool_metalink.h	/^  char *filename;$/;"	m	struct:metalinkfile
+filename	tool_sdecls.h	/^  char *filename;$/;"	m	struct:OutStruct
+first	slist_wc.h	/^  struct curl_slist *first;$/;"	m	struct:slist_wc	typeref:struct:slist_wc::curl_slist
+first	tool_cfgable.h	/^  struct OperationConfig *first;$/;"	m	struct:GlobalConfig	typeref:struct:GlobalConfig::OperationConfig
+flags	tool_sdecls.h	/^  int            flags;     \/* options - composed of GETOUT_* bits *\/$/;"	m	struct:getout
+followlocation	tool_cfgable.h	/^  bool followlocation;      \/* follow http redirects *\/$/;"	m	struct:OperationConfig
+foot	mkhelp.pl	/^sub foot {$/;"	s
+fopened	tool_sdecls.h	/^  bool fopened;$/;"	m	struct:OutStruct
+form	tool_mfiles.h	/^  struct curl_forms   form;$/;"	m	struct:multi_files	typeref:struct:multi_files::curl_forms
+formparse	tool_formparse.c	/^int formparse(struct OperationConfig *config,$/;"	f
+free_config_fields	tool_cfgable.c	/^static void free_config_fields(struct OperationConfig *config)$/;"	f	file:
+free_config_fields	tool_main.c	/^static void free_config_fields(struct GlobalConfig *config)$/;"	f	file:
+ftp_account	tool_cfgable.h	/^  char *ftp_account;        \/* for ACCT *\/$/;"	m	struct:OperationConfig
+ftp_alternative_to_user	tool_cfgable.h	/^  char *ftp_alternative_to_user;  \/* send command if USER\/PASS fails *\/$/;"	m	struct:OperationConfig
+ftp_append	tool_cfgable.h	/^  bool ftp_append;          \/* APPE on ftp *\/$/;"	m	struct:OperationConfig
+ftp_create_dirs	tool_cfgable.h	/^  bool ftp_create_dirs;$/;"	m	struct:OperationConfig
+ftp_filemethod	tool_cfgable.h	/^  int ftp_filemethod;$/;"	m	struct:OperationConfig
+ftp_pret	tool_cfgable.h	/^  bool ftp_pret;$/;"	m	struct:OperationConfig
+ftp_skip_ip	tool_cfgable.h	/^  bool ftp_skip_ip;$/;"	m	struct:OperationConfig
+ftp_ssl	tool_cfgable.h	/^  bool ftp_ssl;$/;"	m	struct:OperationConfig
+ftp_ssl_ccc	tool_cfgable.h	/^  bool ftp_ssl_ccc;$/;"	m	struct:OperationConfig
+ftp_ssl_ccc_mode	tool_cfgable.h	/^  int ftp_ssl_ccc_mode;$/;"	m	struct:OperationConfig
+ftp_ssl_control	tool_cfgable.h	/^  bool ftp_ssl_control;$/;"	m	struct:OperationConfig
+ftp_ssl_reqd	tool_cfgable.h	/^  bool ftp_ssl_reqd;$/;"	m	struct:OperationConfig
+ftpcccmethod	tool_paramhlp.c	/^int ftpcccmethod(struct OperationConfig *config, const char *str)$/;"	f
+ftpfilemethod	tool_paramhlp.c	/^int ftpfilemethod(struct OperationConfig *config, const char *str)$/;"	f
+ftpport	tool_cfgable.h	/^  char *ftpport;$/;"	m	struct:OperationConfig
+ftruncate	tool_cb_see.h	30;"	d
+ftruncate	tool_cb_see.h	31;"	d
+func_exec_program	curl	/^func_exec_program ()$/;"	f
+func_exec_program_core	curl	/^func_exec_program_core ()$/;"	f
+func_fallback_echo	curl	/^func_fallback_echo ()$/;"	f
+func_lt_dump_args	curl	/^func_lt_dump_args ()$/;"	f
+func_parse_lt_options	curl	/^func_parse_lt_options ()$/;"	f
+fwrite_xattr	tool_xattr.c	/^int fwrite_xattr(CURL *curl, int fd)$/;"	f
+get_args	tool_paramhlp.c	/^CURLcode get_args(struct OperationConfig *config, const size_t i)$/;"	f
+get_libcurl_info	tool_libinfo.c	/^CURLcode get_libcurl_info(void)$/;"	f
+get_param_word	tool_formparse.c	/^static char *get_param_word(char **str, char **end_pos)$/;"	f	file:
+get_url_file_name	tool_operhlp.c	/^CURLcode get_url_file_name(char **filename, const char *url)$/;"	f
+getch	tool_getpass.c	100;"	d	file:
+getout	tool_sdecls.h	/^struct getout {$/;"	s
+getparameter	tool_getparam.c	/^ParameterError getparameter(char *flag,    \/* f or -long-flag *\/$/;"	f
+getpass_r	tool_getpass.c	/^char *getpass_r(const char *prompt, \/* prompt to display *\/$/;"	f
+getpass_r	tool_getpass.c	/^char *getpass_r(const char *prompt, char *buffer, size_t buflen)$/;"	f
+glob_buffer	tool_urlglob.h	/^  char *glob_buffer;$/;"	m	struct:__anon16
+glob_cleanup	tool_urlglob.c	/^void glob_cleanup(URLGlob* glob)$/;"	f
+glob_fixed	tool_urlglob.c	/^static CURLcode glob_fixed(URLGlob *glob, char *fixed, size_t len)$/;"	f	file:
+glob_match_url	tool_urlglob.c	/^CURLcode glob_match_url(char **result, char *filename, URLGlob *glob)$/;"	f
+glob_next_url	tool_urlglob.c	/^CURLcode glob_next_url(char **globbed, URLGlob *glob)$/;"	f
+glob_parse	tool_urlglob.c	/^static CURLcode glob_parse(URLGlob *glob, char *pattern,$/;"	f	file:
+glob_range	tool_urlglob.c	/^static CURLcode glob_range(URLGlob *glob, char **patternp,$/;"	f	file:
+glob_set	tool_urlglob.c	/^static CURLcode glob_set(URLGlob *glob, char **patternp,$/;"	f	file:
+glob_url	tool_urlglob.c	/^CURLcode glob_url(URLGlob** glob, char* url, unsigned long *urlnum,$/;"	f
+global	tool_cfgable.h	/^  struct GlobalConfig *global;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::GlobalConfig
+globindex	tool_urlglob.h	/^  int globindex; \/* the number of this particular glob or -1 if not used$/;"	m	struct:__anon11
+globoff	tool_cfgable.h	/^  bool globoff;$/;"	m	struct:OperationConfig
+gssapi_delegation	tool_cfgable.h	/^  long gssapi_delegation;$/;"	m	struct:OperationConfig
+hCryptProv	tool_metalink.c	/^  HCRYPTPROV hCryptProv;$/;"	m	struct:win32_crypto_hash	file:
+hHash	tool_metalink.c	/^  HCRYPTHASH hHash;$/;"	m	struct:win32_crypto_hash	file:
+hash_name	tool_metalink.h	/^  const char *hash_name;$/;"	m	struct:__anon4
+headerfile	tool_cfgable.h	/^  char *headerfile;$/;"	m	struct:OperationConfig
+headers	tool_cfgable.h	/^  struct curl_slist *headers;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+heads	tool_cb_hdr.h	/^  struct OutStruct *heads;$/;"	m	struct:HdrCbData	typeref:struct:HdrCbData::OutStruct
+helpf	tool_msgs.c	/^void helpf(FILE *errors, const char *fmt, ...)$/;"	f
+helptext	tool_help.c	/^static const char *const helptext[] = {$/;"	v	file:
+hex_to_uint	tool_metalink.c	/^static unsigned char hex_to_uint(const char *s)$/;"	f	file:
+homedir	tool_homedir.c	/^char *homedir(void)$/;"	f
+honor_cd_filename	tool_cb_hdr.h	/^  bool honor_cd_filename;$/;"	m	struct:HdrCbData
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+hostpubmd5	tool_cfgable.h	/^  char *hostpubmd5;$/;"	m	struct:OperationConfig
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+httppost	tool_cfgable.h	/^  struct curl_httppost *httppost;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_httppost
+httpreq	tool_cfgable.h	/^  HttpReq httpreq;$/;"	m	struct:OperationConfig
+httpversion	tool_cfgable.h	/^  long httpversion;$/;"	m	struct:OperationConfig
+hugehelp	tool_hugehelp.c	/^void hugehelp(void) {}$/;"	f
+hugehelp	tool_hugehelp.c	/^void hugehelp(void)$/;"	f
+hugehelpgz	tool_hugehelp.c	/^static const unsigned char hugehelpgz[] = {$/;"	v	file:
+id	tool_writeenv.c	/^  CURLINFO id;$/;"	m	struct:__anon18	file:
+id	tool_writeout.c	/^  replaceid id;$/;"	m	struct:variable	file:
+iface	tool_cfgable.h	/^  char *iface;$/;"	m	struct:OperationConfig
+ignorecl	tool_cfgable.h	/^  bool ignorecl;            \/* --ignore-content-length *\/$/;"	m	struct:OperationConfig
+inbound_cd	tool_convert.c	/^static iconv_t inbound_cd  = (iconv_t)-1;$/;"	v	file:
+include_headers	tool_cfgable.h	/^  bool include_headers;     \/* send headers to data output *\/$/;"	m	struct:OperationConfig
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infile	tool_sdecls.h	/^  char          *infile;    \/* file to upload, if GETOUT_UPLOAD is set *\/$/;"	m	struct:getout
+info	tool_xattr.c	/^  CURLINFO info;$/;"	m	struct:xattr_mapping	file:
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	tool_sdecls.h	/^  curl_off_t init;$/;"	m	struct:OutStruct
+initial_size	tool_cb_prg.h	/^  curl_off_t  initial_size;$/;"	m	struct:ProgressData
+insecure_ok	tool_cfgable.h	/^  bool insecure_ok;         \/* set TRUE to allow insecure SSL connects *\/$/;"	m	struct:OperationConfig
+install_sh	Makefile	/^install_sh = ${SHELL} \/mnt\/hgfs\/curl-7.47.0\/curl-7.47.0\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+internalSetEnv	tool_writeenv.c	/^static void internalSetEnv(const char * name, char * value)$/;"	f	file:
+ip_version	tool_cfgable.h	/^  long ip_version;$/;"	m	struct:OperationConfig
+is_cd_filename	tool_sdecls.h	/^  bool is_cd_filename;$/;"	m	struct:OutStruct
+is_fatal_error	tool_operate.c	/^static bool is_fatal_error(CURLcode code)$/;"	f	file:
+is_vms_shell	tool_vms.c	/^int is_vms_shell(void)$/;"	f
+isatty	tool_cfgable.h	/^  bool isatty;                    \/* Updated internally if output is a tty *\/$/;"	m	struct:GlobalConfig
+key	tool_cfgable.h	/^  char *key;$/;"	m	struct:OperationConfig
+key_passwd	tool_cfgable.h	/^  char *key_passwd;$/;"	m	struct:OperationConfig
+key_type	tool_cfgable.h	/^  char *key_type;$/;"	m	struct:OperationConfig
+krblevel	tool_cfgable.h	/^  char *krblevel;$/;"	m	struct:OperationConfig
+last	slist_wc.h	/^  struct curl_slist *last;$/;"	m	struct:slist_wc	typeref:struct:slist_wc::curl_slist
+last	tool_cfgable.h	/^  struct OperationConfig *last;   \/* Always last in the struct *\/$/;"	m	struct:GlobalConfig	typeref:struct:GlobalConfig::OperationConfig
+last_post	tool_cfgable.h	/^  struct curl_httppost *last_post;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_httppost
+letter	tool_getparam.c	/^  const char *letter; \/* short name option *\/$/;"	m	struct:LongShort	file:
+libcurl	tool_cfgable.h	/^  char *libcurl;                  \/* Output libcurl code to this file name *\/$/;"	m	struct:GlobalConfig
+libcurltool_la_LIBADD	Makefile	/^libcurltool_la_LIBADD =$/;"	m
+libcurltool_la_LINK	Makefile	/^libcurltool_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+libcurltool_la_OBJECTS	Makefile	/^libcurltool_la_OBJECTS = $(am_libcurltool_la_OBJECTS)$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libext	Makefile	/^libext = a$/;"	m
+lname	tool_getparam.c	/^  const char *lname;  \/* long name option *\/$/;"	m	struct:LongShort	file:
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localport	tool_cfgable.h	/^  int localport;$/;"	m	struct:OperationConfig
+localportrange	tool_cfgable.h	/^  int localportrange;$/;"	m	struct:OperationConfig
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+login_options	tool_cfgable.h	/^  char *login_options;$/;"	m	struct:OperationConfig
+low_speed_limit	tool_cfgable.h	/^  long low_speed_limit;$/;"	m	struct:OperationConfig
+low_speed_time	tool_cfgable.h	/^  long low_speed_time;$/;"	m	struct:OperationConfig
+mail_auth	tool_cfgable.h	/^  char *mail_auth;$/;"	m	struct:OperationConfig
+mail_from	tool_cfgable.h	/^  char *mail_from;$/;"	m	struct:OperationConfig
+mail_rcpt	tool_cfgable.h	/^  struct curl_slist *mail_rcpt;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+main	macos/src/macos_main.cpp	/^\/* =========================================================================$/;"	f
+main	tool_main.c	/^int main(int argc, char *argv[])$/;"	f
+main	tool_setup.h	49;"	d
+main_checkfds	tool_main.c	/^static void main_checkfds(void)$/;"	f	file:
+main_free	tool_main.c	/^static void main_free(struct GlobalConfig *config)$/;"	f	file:
+main_init	tool_main.c	/^static CURLcode main_init(struct GlobalConfig *config)$/;"	f	file:
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mappings	tool_xattr.c	/^} mappings[] = {$/;"	v	typeref:struct:xattr_mapping	file:
+max_c	tool_urlglob.h	/^      char max_c;$/;"	m	struct:__anon11::__anon12::__anon14
+max_filesize	tool_cfgable.h	/^  curl_off_t max_filesize;$/;"	m	struct:OperationConfig
+max_n	tool_urlglob.h	/^      unsigned long max_n;$/;"	m	struct:__anon11::__anon12::__anon15
+maxredirs	tool_cfgable.h	/^  long maxredirs;$/;"	m	struct:OperationConfig
+memory_tracking_init	tool_main.c	/^static void memory_tracking_init(void)$/;"	f	file:
+memory_tracking_init	tool_main.c	121;"	d	file:
+metalink_check_hash	tool_metalink.c	/^int metalink_check_hash(struct GlobalConfig *config,$/;"	f
+metalink_checksum	tool_metalink.h	/^typedef struct metalink_checksum {$/;"	s
+metalink_checksum	tool_metalink.h	/^} metalink_checksum;$/;"	t	typeref:struct:metalink_checksum
+metalink_cleanup	tool_metalink.c	/^void metalink_cleanup(void)$/;"	f
+metalink_cleanup	tool_metalink.h	163;"	d
+metalink_digest_alias	tool_metalink.h	/^} metalink_digest_alias;$/;"	t	typeref:struct:__anon5
+metalink_digest_def	tool_metalink.h	/^} metalink_digest_def;$/;"	t	typeref:struct:__anon4
+metalink_parser	tool_sdecls.h	/^  metalink_parser_context_t *metalink_parser;$/;"	m	struct:OutStruct
+metalink_resource	tool_metalink.h	/^typedef struct metalink_resource {$/;"	s
+metalink_resource	tool_metalink.h	/^} metalink_resource;$/;"	t	typeref:struct:metalink_resource
+metalink_write_cb	tool_metalink.c	/^size_t metalink_write_cb(void *buffer, size_t sz, size_t nmemb,$/;"	f
+metalinkfile	tool_metalink.h	/^typedef struct metalinkfile {$/;"	s
+metalinkfile	tool_metalink.h	/^} metalinkfile;$/;"	t	typeref:struct:metalinkfile
+metalinkfile_last	tool_cfgable.h	/^  metalinkfile *metalinkfile_last; \/* point to the last\/current node *\/$/;"	m	struct:OperationConfig
+metalinkfile_list	tool_cfgable.h	/^  metalinkfile *metalinkfile_list; \/* point to the first node *\/$/;"	m	struct:OperationConfig
+min_c	tool_urlglob.h	/^      char min_c;$/;"	m	struct:__anon11::__anon12::__anon14
+min_n	tool_urlglob.h	/^      unsigned long min_n;$/;"	m	struct:__anon11::__anon12::__anon15
+mkdir	tool_dirhie.c	40;"	d	file:
+mkdir	tool_dirhie.c	45;"	d	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+msdosify	tool_doswin.c	/^static char *msdosify(const char *file_name)$/;"	f	file:
+multi_files	tool_mfiles.h	/^struct multi_files {$/;"	s
+multiply	tool_urlglob.c	/^static int multiply(unsigned long *amount, long with)$/;"	f	file:
+mute	tool_cfgable.h	/^  bool mute;                      \/* don't show messages, --silent given *\/$/;"	m	struct:GlobalConfig
+my_get_line	tool_parsecfg.c	/^static char *my_get_line(FILE *fp)$/;"	f	file:
+my_setopt	tool_setopt.h	123;"	d
+my_setopt	tool_setopt.h	94;"	d
+my_setopt_bitmask	tool_setopt.h	106;"	d
+my_setopt_bitmask	tool_setopt.h	135;"	d
+my_setopt_enum	tool_setopt.h	100;"	d
+my_setopt_enum	tool_setopt.h	129;"	d
+my_setopt_flags	tool_setopt.h	103;"	d
+my_setopt_flags	tool_setopt.h	132;"	d
+my_setopt_httppost	tool_setopt.h	109;"	d
+my_setopt_httppost	tool_setopt.h	138;"	d
+my_setopt_slist	tool_setopt.h	112;"	d
+my_setopt_slist	tool_setopt.h	141;"	d
+my_setopt_str	tool_setopt.h	126;"	d
+my_setopt_str	tool_setopt.h	97;"	d
+my_useragent	tool_paramhlp.c	/^static char *my_useragent(void)$/;"	f	file:
+name	tool_help.c	/^  const char *name;$/;"	m	struct:feat	file:
+name	tool_setopt.h	/^  const char *name;$/;"	m	struct:__anon8
+name	tool_setopt.h	/^  const char *name;$/;"	m	struct:__anon9
+name	tool_vms.c	/^  char *name;$/;"	m	struct:__anon17	file:
+name	tool_writeenv.c	/^  const char * name;$/;"	m	struct:__anon18	file:
+name	tool_writeout.c	/^  const char *name;$/;"	m	struct:variable	file:
+netrc	tool_cfgable.h	/^  bool netrc;$/;"	m	struct:OperationConfig
+netrc_file	tool_cfgable.h	/^  char *netrc_file;$/;"	m	struct:OperationConfig
+netrc_opt	tool_cfgable.h	/^  bool netrc_opt;$/;"	m	struct:OperationConfig
+new_getout	tool_paramhlp.c	/^struct getout *new_getout(struct OperationConfig *config)$/;"	f
+new_metalink_checksum_from_hex_digest	tool_metalink.c	/^static metalink_checksum *new_metalink_checksum_from_hex_digest$/;"	f	file:
+new_metalink_resource	tool_metalink.c	/^static metalink_resource *new_metalink_resource(const char *url)$/;"	f	file:
+new_metalinkfile	tool_metalink.c	/^static metalinkfile *new_metalinkfile(metalink_file_t *fileinfo)$/;"	f	file:
+next	tool_cfgable.h	/^  struct OperationConfig *next;   \/* Always last in the struct *\/$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::OperationConfig
+next	tool_metalink.h	/^  struct metalink_resource *next;$/;"	m	struct:metalink_resource	typeref:struct:metalink_resource::metalink_resource
+next	tool_metalink.h	/^  struct metalinkfile *next;$/;"	m	struct:metalinkfile	typeref:struct:metalinkfile::metalinkfile
+next	tool_mfiles.h	/^  struct multi_files *next;$/;"	m	struct:multi_files	typeref:struct:multi_files::multi_files
+next	tool_sdecls.h	/^  struct getout *next;      \/* next one *\/$/;"	m	struct:getout	typeref:struct:getout::getout
+no_body	tool_cfgable.h	/^  bool no_body;             \/* don't get the body *\/$/;"	m	struct:OperationConfig
+noalpn	tool_cfgable.h	/^  bool noalpn;                    \/* enable\/disable TLS ALPN extension *\/$/;"	m	struct:OperationConfig
+nobuffer	tool_cfgable.h	/^  bool nobuffer;$/;"	m	struct:OperationConfig
+nokeepalive	tool_cfgable.h	/^  bool nokeepalive;         \/* for keepalive needs *\/$/;"	m	struct:OperationConfig
+nonpn	tool_cfgable.h	/^  bool nonpn;                     \/* enable\/disable TLS NPN extension *\/$/;"	m	struct:OperationConfig
+noprogress	tool_cfgable.h	/^  bool noprogress;                \/* don't show progress bar --silent given *\/$/;"	m	struct:GlobalConfig
+noproxy	tool_cfgable.h	/^  char *noproxy;$/;"	m	struct:OperationConfig
+notef	tool_msgs.c	/^void notef(struct GlobalConfig *config, const char *fmt, ...)$/;"	f
+nss_context	tool_metalink.c	/^   static NSSInitContext *nss_context;$/;"	v	file:
+nss_hash_final	tool_metalink.c	/^static void nss_hash_final(void **pctx, unsigned char *out, unsigned int len)$/;"	f	file:
+nss_hash_init	tool_metalink.c	/^static int nss_hash_init(void **pctx, SECOidTag hash_alg)$/;"	f	file:
+oauth_bearer	tool_cfgable.h	/^  char *oauth_bearer;             \/* OAuth 2.0 bearer token *\/$/;"	m	struct:OperationConfig
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operate	tool_operate.c	/^CURLcode operate(struct GlobalConfig *config, int argc, argv_item_t argv[])$/;"	f
+operate_do	tool_operate.c	/^static CURLcode operate_do(struct GlobalConfig *global,$/;"	f	file:
+ourWriteEnv	tool_writeenv.c	/^void ourWriteEnv(CURL *curl)$/;"	f
+ourWriteEnv	tool_writeenv.h	31;"	d
+ourWriteOut	tool_writeout.c	/^void ourWriteOut(CURL *curl, struct OutStruct *outs, const char *writeinfo)$/;"	f
+out	tool_cb_prg.h	/^  FILE       *out;  \/* where to write everything to *\/$/;"	m	struct:ProgressData
+outbound_cd	tool_convert.c	/^static iconv_t outbound_cd = (iconv_t)-1;$/;"	v	file:
+outfile	tool_sdecls.h	/^  char          *outfile;   \/* where to store the output *\/$/;"	m	struct:getout
+output_expected	tool_operhlp.c	/^bool output_expected(const char *url, const char *uploadfile)$/;"	f
+outs	tool_cb_hdr.h	/^  struct OutStruct *outs;$/;"	m	struct:HdrCbData	typeref:struct:HdrCbData::OutStruct
+padlength	tool_urlglob.h	/^      int padlength;$/;"	m	struct:__anon11::__anon12::__anon15
+param2text	tool_helpers.c	/^const char *param2text(int res)$/;"	f
+parse_args	tool_getparam.c	/^ParameterError parse_args(struct GlobalConfig *config, int argc,$/;"	f
+parse_cert_parameter	tool_getparam.c	/^void parse_cert_parameter(const char *cert_parameter,$/;"	f	file:
+parse_filename	tool_cb_hdr.c	/^static char *parse_filename(const char *ptr, size_t len)$/;"	f	file:
+parse_metalink	tool_metalink.c	/^int parse_metalink(struct OperationConfig *config, struct OutStruct *outs,$/;"	f
+parseconfig	tool_parsecfg.c	/^int parseconfig(const char *filename, struct GlobalConfig *global)$/;"	f
+path_as_is	tool_cfgable.h	/^  bool path_as_is;$/;"	m	struct:OperationConfig
+pattern	tool_urlglob.h	/^  URLPattern pattern[GLOB_PATTERN_NUM];$/;"	m	struct:__anon16
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+peek_ipv6	tool_urlglob.c	/^static bool peek_ipv6(const char *str, size_t *skip)$/;"	f	file:
+pinnedpubkey	tool_cfgable.h	/^  char *pinnedpubkey;$/;"	m	struct:OperationConfig
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/curl$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/curl$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/curl$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/curl$/;"	m
+porttouse	tool_cfgable.h	/^  unsigned short porttouse;$/;"	m	struct:OperationConfig
+pos	tool_urlglob.h	/^  size_t pos;        \/* column position of error or 0 *\/$/;"	m	struct:__anon16
+post301	tool_cfgable.h	/^  bool post301;$/;"	m	struct:OperationConfig
+post302	tool_cfgable.h	/^  bool post302;$/;"	m	struct:OperationConfig
+post303	tool_cfgable.h	/^  bool post303;$/;"	m	struct:OperationConfig
+postfields	tool_cfgable.h	/^  char *postfields;$/;"	m	struct:OperationConfig
+postfieldsize	tool_cfgable.h	/^  curl_off_t postfieldsize;$/;"	m	struct:OperationConfig
+postquote	tool_cfgable.h	/^  struct curl_slist *postquote;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prequote	tool_cfgable.h	/^  struct curl_slist *prequote;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+prev	tool_cb_prg.h	/^  curl_off_t  prev;$/;"	m	struct:ProgressData
+prev	tool_cfgable.h	/^  struct OperationConfig *prev;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::OperationConfig
+prevtime	tool_cb_prg.h	/^  struct timeval prevtime;$/;"	m	struct:ProgressData	typeref:struct:ProgressData::timeval
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+progressbarinit	tool_cb_prg.c	/^void progressbarinit(struct ProgressData *bar,$/;"	f
+progressmode	tool_cfgable.h	/^  int progressmode;               \/* CURL_PROGRESS_BAR \/ CURL_PROGRESS_STATS *\/$/;"	m	struct:GlobalConfig
+proto	tool_cfgable.h	/^  long proto;$/;"	m	struct:OperationConfig
+proto2num	tool_paramhlp.c	/^long proto2num(struct OperationConfig *config, long *val, const char *str)$/;"	f
+proto_default	tool_cfgable.h	/^  char *proto_default;$/;"	m	struct:OperationConfig
+proto_present	tool_cfgable.h	/^  bool proto_present;$/;"	m	struct:OperationConfig
+proto_redir	tool_cfgable.h	/^  long proto_redir;$/;"	m	struct:OperationConfig
+proto_redir_present	tool_cfgable.h	/^  bool proto_redir_present;$/;"	m	struct:OperationConfig
+proxy	tool_cfgable.h	/^  char *proxy;$/;"	m	struct:OperationConfig
+proxy_service_name	tool_cfgable.h	/^  char *proxy_service_name; \/* set service name for proxy negotiation$/;"	m	struct:OperationConfig
+proxyanyauth	tool_cfgable.h	/^  bool proxyanyauth;$/;"	m	struct:OperationConfig
+proxybasic	tool_cfgable.h	/^  bool proxybasic;$/;"	m	struct:OperationConfig
+proxydigest	tool_cfgable.h	/^  bool proxydigest;$/;"	m	struct:OperationConfig
+proxyheaders	tool_cfgable.h	/^  struct curl_slist *proxyheaders;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+proxynegotiate	tool_cfgable.h	/^  bool proxynegotiate;$/;"	m	struct:OperationConfig
+proxyntlm	tool_cfgable.h	/^  bool proxyntlm;$/;"	m	struct:OperationConfig
+proxytunnel	tool_cfgable.h	/^  bool proxytunnel;$/;"	m	struct:OperationConfig
+proxyuserpwd	tool_cfgable.h	/^  char *proxyuserpwd;$/;"	m	struct:OperationConfig
+proxyver	tool_cfgable.h	/^  int proxyver;             \/* set to CURLPROXY_HTTP* define *\/$/;"	m	struct:OperationConfig
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+ptr_c	tool_urlglob.h	/^      char ptr_c;$/;"	m	struct:__anon11::__anon12::__anon14
+ptr_n	tool_urlglob.h	/^      unsigned long ptr_n;$/;"	m	struct:__anon11::__anon12::__anon15
+ptr_s	tool_urlglob.h	/^      int ptr_s;$/;"	m	struct:__anon11::__anon12::__anon13
+pubkey	tool_cfgable.h	/^  char *pubkey;$/;"	m	struct:OperationConfig
+quote	tool_cfgable.h	/^  struct curl_slist *quote;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+random_file	tool_cfgable.h	/^  char *random_file;$/;"	m	struct:OperationConfig
+range	tool_cfgable.h	/^  char *range;$/;"	m	struct:OperationConfig
+raw	tool_cfgable.h	/^  bool raw;$/;"	m	struct:OperationConfig
+readbusy	tool_cfgable.h	/^  bool readbusy;            \/* set when reading input returns EAGAIN *\/$/;"	m	struct:OperationConfig
+recvpersecond	tool_cfgable.h	/^  curl_off_t recvpersecond; \/* receive from peer *\/$/;"	m	struct:OperationConfig
+referer	tool_cfgable.h	/^  char *referer;$/;"	m	struct:OperationConfig
+remote_time	tool_cfgable.h	/^  bool remote_time;$/;"	m	struct:OperationConfig
+rename_if_dos_device_name	tool_doswin.c	/^static char *rename_if_dos_device_name(const char *file_name)$/;"	f	file:
+replaceid	tool_writeout.c	/^} replaceid;$/;"	t	typeref:enum:__anon20	file:
+replacements	tool_writeout.c	/^static const struct variable replacements[]={$/;"	v	typeref:struct:variable	file:
+req_retry	tool_cfgable.h	/^  long req_retry;           \/* number of retries *\/$/;"	m	struct:OperationConfig
+res_setopt	tool_setopt.h	115;"	d
+res_setopt	tool_setopt.h	144;"	d
+res_setopt_str	tool_setopt.h	117;"	d
+res_setopt_str	tool_setopt.h	146;"	d
+resolve	tool_cfgable.h	/^  struct curl_slist *resolve;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+resource	tool_metalink.h	/^  metalink_resource *resource;$/;"	m	struct:metalinkfile
+resume_from	tool_cfgable.h	/^  curl_off_t resume_from;$/;"	m	struct:OperationConfig
+resume_from_current	tool_cfgable.h	/^  bool resume_from_current;$/;"	m	struct:OperationConfig
+retry_delay	tool_cfgable.h	/^  long retry_delay;         \/* delay between retries (in seconds) *\/$/;"	m	struct:OperationConfig
+retry_maxtime	tool_cfgable.h	/^  long retry_maxtime;       \/* maximum time to keep retrying *\/$/;"	m	struct:OperationConfig
+sSuffices	macos/src/curl_GUSIConfig.cpp	/^\/**************** BEGIN GUSI CONFIGURATION ****************************$/;"	v
+s_isreg	tool_sdecls.h	/^  bool s_isreg;$/;"	m	struct:OutStruct
+sanitize_file_name	tool_doswin.c	/^CURLcode sanitize_file_name(char **file_name)$/;"	f
+sasl_ir	tool_cfgable.h	/^  bool sasl_ir;             \/* Enable\/disable SASL initial response *\/$/;"	m	struct:OperationConfig
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+select	tool_setup.h	53;"	d
+select	tool_setup.h	55;"	d
+sendpersecond	tool_cfgable.h	/^  curl_off_t sendpersecond; \/* send to peer *\/$/;"	m	struct:OperationConfig
+service_name	tool_cfgable.h	/^  char *service_name;       \/* set negotiation service name$/;"	m	struct:OperationConfig
+set_binmode	tool_binmode.c	/^void set_binmode(FILE *stream)$/;"	f
+set_binmode	tool_binmode.h	32;"	d
+setopt_nv_CURLAUTH	tool_setopt.c	/^const NameValueUnsigned setopt_nv_CURLAUTH[] = {$/;"	v
+setopt_nv_CURLFTPSSL_CCC	tool_setopt.c	/^const NameValue setopt_nv_CURLFTPSSL_CCC[] = {$/;"	v
+setopt_nv_CURLNONZERODEFAULTS	tool_setopt.c	/^static const NameValue setopt_nv_CURLNONZERODEFAULTS[] = {$/;"	v	file:
+setopt_nv_CURLOPT_FTP_SSL_CCC	tool_setopt.h	65;"	d
+setopt_nv_CURLOPT_HTTPAUTH	tool_setopt.h	62;"	d
+setopt_nv_CURLOPT_HTTP_VERSION	tool_setopt.h	61;"	d
+setopt_nv_CURLOPT_NETRC	tool_setopt.h	68;"	d
+setopt_nv_CURLOPT_PROTOCOLS	tool_setopt.h	69;"	d
+setopt_nv_CURLOPT_PROXYAUTH	tool_setopt.h	72;"	d
+setopt_nv_CURLOPT_PROXYTYPE	tool_setopt.h	71;"	d
+setopt_nv_CURLOPT_REDIR_PROTOCOLS	tool_setopt.h	70;"	d
+setopt_nv_CURLOPT_SSLVERSION	tool_setopt.h	63;"	d
+setopt_nv_CURLOPT_SSL_OPTIONS	tool_setopt.h	67;"	d
+setopt_nv_CURLOPT_TIMECONDITION	tool_setopt.h	64;"	d
+setopt_nv_CURLOPT_USE_SSL	tool_setopt.h	66;"	d
+setopt_nv_CURLPROTO	tool_setopt.c	/^const NameValue setopt_nv_CURLPROTO[] = {$/;"	v
+setopt_nv_CURLPROXY	tool_setopt.c	/^const NameValue setopt_nv_CURLPROXY[] = {$/;"	v
+setopt_nv_CURLSSLOPT	tool_setopt.c	/^const NameValueUnsigned setopt_nv_CURLSSLOPT[] = {$/;"	v
+setopt_nv_CURLUSESSL	tool_setopt.c	/^const NameValue setopt_nv_CURLUSESSL[] = {$/;"	v
+setopt_nv_CURL_HTTP_VERSION	tool_setopt.c	/^const NameValue setopt_nv_CURL_HTTP_VERSION[] = {$/;"	v
+setopt_nv_CURL_NETRC	tool_setopt.c	/^const NameValue setopt_nv_CURL_NETRC[] = {$/;"	v
+setopt_nv_CURL_SSLVERSION	tool_setopt.c	/^const NameValue setopt_nv_CURL_SSLVERSION[] = {$/;"	v
+setopt_nv_CURL_TIMECOND	tool_setopt.c	/^const NameValue setopt_nv_CURL_TIMECOND[] = {$/;"	v
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show_dir_errno	tool_dirhie.c	/^static void show_dir_errno(FILE *errors, const char *name)$/;"	f	file:
+showerror	tool_cfgable.h	/^  int showerror;                  \/* -1 == unset, default => show errors$/;"	m	struct:GlobalConfig
+size	tool_urlglob.h	/^      int size;$/;"	m	struct:__anon11::__anon12::__anon13
+size	tool_urlglob.h	/^  size_t size;$/;"	m	struct:__anon16
+slist_wc	slist_wc.h	/^struct slist_wc {$/;"	s
+slist_wc_append	slist_wc.c	/^struct slist_wc *slist_wc_append(struct slist_wc *list,$/;"	f
+slist_wc_free_all	slist_wc.c	/^void slist_wc_free_all(struct slist_wc *list)$/;"	f
+socks5_gssapi_nec	tool_cfgable.h	/^  int socks5_gssapi_nec ;   \/* The NEC reference server does not protect$/;"	m	struct:OperationConfig
+socks5_gssapi_service	tool_cfgable.h	/^  char *socks5_gssapi_service;  \/* set service name for gssapi principal$/;"	m	struct:OperationConfig
+socksproxy	tool_cfgable.h	/^  char *socksproxy;         \/* set to server string *\/$/;"	m	struct:OperationConfig
+socksver	tool_cfgable.h	/^  int socksver;             \/* set to CURLPROXY_SOCKS* define *\/$/;"	m	struct:OperationConfig
+spare	tool_vms.c	/^const int spare[8] = {0};$/;"	v
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcend	tool_easysrc.c	/^static const char *const srcend[]={$/;"	v	file:
+srchard	tool_easysrc.c	/^static const char *const srchard[]={$/;"	v	file:
+srchead	tool_easysrc.c	/^static const char *const srchead[]={$/;"	v	file:
+ssl_allow_beast	tool_cfgable.h	/^  bool ssl_allow_beast;     \/* allow this SSL vulnerability *\/$/;"	m	struct:OperationConfig
+ssl_no_revoke	tool_cfgable.h	/^  bool ssl_no_revoke;       \/* disable SSL certificate revocation checks *\/$/;"	m	struct:OperationConfig
+ssl_version	tool_cfgable.h	/^  long ssl_version;$/;"	m	struct:OperationConfig
+stdin_upload	tool_operhlp.c	/^bool stdin_upload(const char *uploadfile)$/;"	f
+step	tool_urlglob.h	/^      int step;$/;"	m	struct:__anon11::__anon12::__anon14
+step	tool_urlglob.h	/^      unsigned long step;$/;"	m	struct:__anon11::__anon12::__anon15
+str2double	tool_paramhlp.c	/^ParameterError str2double(double *val, const char *str)$/;"	f
+str2num	tool_paramhlp.c	/^ParameterError str2num(long *val, const char *str)$/;"	f
+str2offset	tool_paramhlp.c	/^ParameterError str2offset(curl_off_t *val, const char *str)$/;"	f
+str2udouble	tool_paramhlp.c	/^ParameterError str2udouble(double *val, const char *str)$/;"	f
+str2unum	tool_paramhlp.c	/^ParameterError str2unum(long *val, const char *str)$/;"	f
+strdup	tool_strdup.c	/^char *strdup(const char *str)$/;"	f
+stream	tool_sdecls.h	/^  FILE *stream;$/;"	m	struct:OutStruct
+struct_term	tool_getpass.c	177;"	d	file:
+struct_term	tool_getpass.c	179;"	d	file:
+struct_term	tool_getpass.c	181;"	d	file:
+subdir	Makefile	/^subdir = src$/;"	m
+subdirs	Makefile	/^subdirs = $/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+tcp_nodelay	tool_cfgable.h	/^  bool tcp_nodelay;$/;"	m	struct:OperationConfig
+telnet_options	tool_cfgable.h	/^  struct curl_slist *telnet_options;$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::curl_slist
+test_event_based	tool_cfgable.h	/^  bool test_event_based;$/;"	m	struct:OperationConfig
+tftp_blksize	tool_cfgable.h	/^  long tftp_blksize;        \/* TFTP BLKSIZE option *\/$/;"	m	struct:OperationConfig
+timecond	tool_cfgable.h	/^  curl_TimeCond timecond;$/;"	m	struct:OperationConfig
+timeout	tool_cfgable.h	/^  double timeout;$/;"	m	struct:OperationConfig
+tls_authtype	tool_cfgable.h	/^  char *tls_authtype;$/;"	m	struct:OperationConfig
+tls_password	tool_cfgable.h	/^  char *tls_password;$/;"	m	struct:OperationConfig
+tls_username	tool_cfgable.h	/^  char *tls_username;$/;"	m	struct:OperationConfig
+tool_basename	tool_bname.c	/^char *tool_basename(char *path)$/;"	f
+tool_create_output_file	tool_cb_wrt.c	/^bool tool_create_output_file(struct OutStruct *outs)$/;"	f
+tool_debug_cb	tool_cb_dbg.c	/^int tool_debug_cb(CURL *handle, curl_infotype type,$/;"	f
+tool_ftruncate64	tool_cb_see.c	/^int tool_ftruncate64(int fd, curl_off_t where)$/;"	f
+tool_go_sleep	tool_sleep.c	/^void tool_go_sleep(long ms)$/;"	f
+tool_header_cb	tool_cb_hdr.c	/^size_t tool_header_cb(void *ptr, size_t size, size_t nmemb, void *userdata)$/;"	f
+tool_help	tool_help.c	/^void tool_help(void)$/;"	f
+tool_list_engines	tool_help.c	/^void tool_list_engines(CURL *curl)$/;"	f
+tool_pressanykey	tool_panykey.c	/^void tool_pressanykey(void)$/;"	f
+tool_pressanykey	tool_panykey.h	32;"	d
+tool_progress_cb	tool_cb_prg.c	/^int tool_progress_cb(void *clientp,$/;"	f
+tool_read_cb	tool_cb_rea.c	/^size_t tool_read_cb(void *buffer, size_t sz, size_t nmemb, void *userdata)$/;"	f
+tool_seek_cb	tool_cb_see.c	/^int tool_seek_cb(void *userdata, curl_off_t offset, int whence)$/;"	f
+tool_setopt	tool_setopt.c	/^CURLcode tool_setopt(CURL *curl, bool str, struct GlobalConfig *config,$/;"	f
+tool_setopt_bitmask	tool_setopt.c	/^CURLcode tool_setopt_bitmask(CURL *curl, struct GlobalConfig *config,$/;"	f
+tool_setopt_enum	tool_setopt.c	/^CURLcode tool_setopt_enum(CURL *curl, struct GlobalConfig *config,$/;"	f
+tool_setopt_flags	tool_setopt.c	/^CURLcode tool_setopt_flags(CURL *curl, struct GlobalConfig *config,$/;"	f
+tool_setopt_httppost	tool_setopt.c	/^CURLcode tool_setopt_httppost(CURL *curl, struct GlobalConfig *config,$/;"	f
+tool_setopt_slist	tool_setopt.c	/^CURLcode tool_setopt_slist(CURL *curl, struct GlobalConfig *config,$/;"	f
+tool_tvdiff	tool_util.c	/^long tool_tvdiff(struct timeval newer, struct timeval older)$/;"	f
+tool_tvdiff_secs	tool_util.c	/^double tool_tvdiff_secs(struct timeval newer, struct timeval older)$/;"	f
+tool_tvlong	tool_util.c	/^long tool_tvlong(struct timeval t1)$/;"	f
+tool_tvnow	tool_util.c	/^struct timeval tool_tvnow(void)$/;"	f
+tool_version_info	tool_help.c	/^void tool_version_info(void)$/;"	f
+tool_write_cb	tool_cb_wrt.c	/^size_t tool_write_cb(void *buffer, size_t sz, size_t nmemb, void *userdata)$/;"	f
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+tr_encoding	tool_cfgable.h	/^  bool tr_encoding;         \/* Transfer-Encoding please *\/$/;"	m	struct:OperationConfig
+trace	tool_sdecls.h	/^} trace;$/;"	t	typeref:enum:__anon6
+trace_dump	tool_cfgable.h	/^  char *trace_dump;               \/* file to dump the network trace to *\/$/;"	m	struct:GlobalConfig
+trace_fopened	tool_cfgable.h	/^  bool trace_fopened;$/;"	m	struct:GlobalConfig
+trace_stream	tool_cfgable.h	/^  FILE *trace_stream;$/;"	m	struct:GlobalConfig
+tracetime	tool_cfgable.h	/^  bool tracetime;                 \/* include timestamp? *\/$/;"	m	struct:GlobalConfig
+tracetype	tool_cfgable.h	/^  trace tracetype;$/;"	m	struct:GlobalConfig
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+ttyecho	tool_getpass.c	/^static bool ttyecho(bool enable, int fd)$/;"	f	file:
+tvdiff	tool_util.h	46;"	d
+tvdiff	tool_util.h	51;"	d
+tvdiff_secs	tool_util.h	47;"	d
+tvdiff_secs	tool_util.h	52;"	d
+tvlong	tool_util.h	48;"	d
+tvlong	tool_util.h	53;"	d
+tvnow	tool_util.h	45;"	d
+tvnow	tool_util.h	50;"	d
+type	tool_urlglob.h	/^  URLPatternType type;$/;"	m	struct:__anon11
+type	tool_writeenv.c	/^  } type;$/;"	m	struct:__anon18	typeref:enum:__anon18::__anon19	file:
+unix_socket_path	tool_cfgable.h	/^  char *unix_socket_path;         \/* path to Unix domain socket *\/$/;"	m	struct:OperationConfig
+unrestricted_auth	tool_cfgable.h	/^  bool unrestricted_auth;   \/* Continue to send authentication (user+password)$/;"	m	struct:OperationConfig
+unslashquote	tool_parsecfg.c	/^static const char *unslashquote(const char *line, char *param)$/;"	f	file:
+url	tool_metalink.h	/^  char *url;$/;"	m	struct:metalink_resource
+url	tool_sdecls.h	/^  char          *url;       \/* the URL we deal with *\/$/;"	m	struct:getout
+url_get	tool_cfgable.h	/^  struct getout *url_get;   \/* point to the node to fill in URL *\/$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::getout
+url_last	tool_cfgable.h	/^  struct getout *url_last;  \/* point to the last\/current node *\/$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::getout
+url_list	tool_cfgable.h	/^  struct getout *url_list;  \/* point to the first node *\/$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::getout
+url_out	tool_cfgable.h	/^  struct getout *url_out;   \/* point to the node to fill in outfile *\/$/;"	m	struct:OperationConfig	typeref:struct:OperationConfig::getout
+urllen	tool_urlglob.h	/^  size_t urllen;$/;"	m	struct:__anon16
+use_ascii	tool_cfgable.h	/^  bool use_ascii;           \/* select ascii or text transfer *\/$/;"	m	struct:OperationConfig
+use_httpget	tool_cfgable.h	/^  bool use_httpget;$/;"	m	struct:OperationConfig
+use_metalink	tool_cfgable.h	/^  bool use_metalink;        \/* process given URLs as metalink XML file *\/$/;"	m	struct:OperationConfig
+use_resume	tool_cfgable.h	/^  bool use_resume;$/;"	m	struct:OperationConfig
+useragent	tool_cfgable.h	/^  char *useragent;$/;"	m	struct:OperationConfig
+userpwd	tool_cfgable.h	/^  char *userpwd;$/;"	m	struct:OperationConfig
+value	tool_setopt.h	/^  long value;$/;"	m	struct:__anon8
+value	tool_setopt.h	/^  unsigned long value;$/;"	m	struct:__anon9
+value	tool_vms.c	/^  int value;$/;"	m	struct:__anon17	file:
+variable	tool_writeout.c	/^struct variable {$/;"	s	file:
+variables	tool_writeenv.c	/^} variables[14] =$/;"	v	typeref:struct:__anon18	file:
+verifystatus	tool_cfgable.h	/^  bool verifystatus;$/;"	m	struct:OperationConfig
+vms_realfilesize	tool_operate.c	/^static curl_off_t vms_realfilesize(const char * name,$/;"	f	file:
+vms_shell	tool_vms.c	/^static int vms_shell = -1;$/;"	v	file:
+vms_show	tool_main.c	/^int vms_show = 0;$/;"	v
+vms_special_exit	tool_vms.c	/^void vms_special_exit(int code, int vms_show)$/;"	f
+voutf	tool_msgs.c	/^static void voutf(struct GlobalConfig *config,$/;"	f	file:
+warnf	tool_msgs.c	/^void warnf(struct GlobalConfig *config, const char *fmt, ...)$/;"	f
+width	tool_cb_prg.h	/^  int         width;$/;"	m	struct:ProgressData
+win32_crypto_final	tool_metalink.c	/^static void win32_crypto_final(struct win32_crypto_hash *ctx,$/;"	f	file:
+win32_crypto_hash	tool_metalink.c	/^struct win32_crypto_hash {$/;"	s	file:
+writeenv	tool_cfgable.h	/^  bool writeenv;            \/* write results to environment, if available *\/$/;"	m	struct:OperationConfig
+writeenv_DOUBLE	tool_writeenv.c	/^    writeenv_DOUBLE,$/;"	e	enum:__anon18::__anon19	file:
+writeenv_LONG	tool_writeenv.c	/^    writeenv_LONG,$/;"	e	enum:__anon18::__anon19	file:
+writeenv_NONE	tool_writeenv.c	/^    writeenv_NONE,$/;"	e	enum:__anon18::__anon19	file:
+writeenv_STRING	tool_writeenv.c	/^    writeenv_STRING$/;"	e	enum:__anon18::__anon19	file:
+writeout	tool_cfgable.h	/^  char *writeout;           \/* %-styled format string to output *\/$/;"	m	struct:OperationConfig
+x_decc_init	tool_vms.c	/^void (*const x_decc_init)() = decc_init;$/;"	v
+xattr	tool_cfgable.h	/^  bool xattr;               \/* store metadata in extended attributes *\/$/;"	m	struct:OperationConfig
+xattr_mapping	tool_xattr.c	/^static const struct xattr_mapping {$/;"	s	file:
+zalloc_func	tool_hugehelp.c	/^static voidpf zalloc_func(voidpf opaque, unsigned int items, unsigned int size)$/;"	f	file:
+zfree_func	tool_hugehelp.c	/^static void zfree_func(voidpf opaque, voidpf ptr)$/;"	f	file:

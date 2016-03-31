@@ -1,4 +1,4 @@
-base.o: qiniu/base.c ../../include/qiniu/base.h /usr/include/stdio.h \
+base.o: qiniu/base.c include/qiniu/base.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/predefs.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -31,14 +31,13 @@ base.o: qiniu/base.c ../../include/qiniu/base.h /usr/include/stdio.h \
  /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/string.h \
  /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
  /usr/include/i386-linux-gnu/bits/string2.h \
- /usr/include/i386-linux-gnu/bits/string3.h \
- ../../include/b64/urlsafe_b64.h ../../include/b64/b64.h \
- /usr/include/assert.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/string3.h include/b64/urlsafe_b64.h \
+ include/b64/b64.h /usr/include/assert.h /usr/include/errno.h \
  /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h
 
-../../include/qiniu/base.h:
+include/qiniu/base.h:
 
 /usr/include/stdio.h:
 
@@ -126,9 +125,9 @@ base.o: qiniu/base.c ../../include/qiniu/base.h /usr/include/stdio.h \
 
 /usr/include/i386-linux-gnu/bits/string3.h:
 
-../../include/b64/urlsafe_b64.h:
+include/b64/urlsafe_b64.h:
 
-../../include/b64/b64.h:
+include/b64/b64.h:
 
 /usr/include/assert.h:
 

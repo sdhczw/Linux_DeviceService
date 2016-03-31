@@ -65,6 +65,8 @@ endif
 #include Makefile.inc
 
 #all: $(check_PROGRAMS)
+#noinst_LIBRARIES = libACDeviceService.a
+#libACDeviceService_a_SOURCES = AC_DeviceService.c
 bin_PROGRAMS = AC_DeviceService
 AC_DeviceService_SOURCES = AC_DeviceService.c \
                     cJSON.c \

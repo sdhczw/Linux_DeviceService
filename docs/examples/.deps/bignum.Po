@@ -1,5 +1,5 @@
-bignum.o: bignum.c ../../include/mbedtls/config.h \
- ../../include/mbedtls/check_config.h \
+bignum.o: bignum.c include/mbedtls/config.h \
+ include/mbedtls/check_config.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/stdc-predef.h \
@@ -10,8 +10,8 @@ bignum.o: bignum.c ../../include/mbedtls/config.h \
  /usr/include/i386-linux-gnu/gnu/stubs-32.h \
  /usr/include/i386-linux-gnu/bits/posix1_lim.h \
  /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/i386-linux-gnu/bits/posix2_lim.h \
- ../../include/mbedtls/bignum.h ../../include/mbedtls/config.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h include/mbedtls/bignum.h \
+ include/mbedtls/config.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include/stdint.h /usr/include/stdint.h \
  /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/stdio.h \
@@ -22,9 +22,9 @@ bignum.o: bignum.c ../../include/mbedtls/config.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h \
  /usr/include/i386-linux-gnu/bits/stdio.h \
- /usr/include/i386-linux-gnu/bits/stdio2.h ../../include/mbedtls/bn_mul.h \
- ../../include/mbedtls/bignum.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h include/mbedtls/bn_mul.h \
+ include/mbedtls/bignum.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/string.h \
  /usr/include/i386-linux-gnu/bits/string2.h /usr/include/endian.h \
  /usr/include/i386-linux-gnu/bits/endian.h \
  /usr/include/i386-linux-gnu/bits/byteswap.h \
@@ -43,9 +43,9 @@ bignum.o: bignum.c ../../include/mbedtls/config.h \
  /usr/include/i386-linux-gnu/bits/stdlib-float.h \
  /usr/include/i386-linux-gnu/bits/stdlib.h
 
-../../include/mbedtls/config.h:
+include/mbedtls/config.h:
 
-../../include/mbedtls/check_config.h:
+include/mbedtls/check_config.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h:
 
@@ -75,9 +75,9 @@ bignum.o: bignum.c ../../include/mbedtls/config.h \
 
 /usr/include/i386-linux-gnu/bits/posix2_lim.h:
 
-../../include/mbedtls/bignum.h:
+include/mbedtls/bignum.h:
 
-../../include/mbedtls/config.h:
+include/mbedtls/config.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h:
 
@@ -109,9 +109,9 @@ bignum.o: bignum.c ../../include/mbedtls/config.h \
 
 /usr/include/i386-linux-gnu/bits/stdio2.h:
 
-../../include/mbedtls/bn_mul.h:
+include/mbedtls/bn_mul.h:
 
-../../include/mbedtls/bignum.h:
+include/mbedtls/bignum.h:
 
 /usr/include/string.h:
 

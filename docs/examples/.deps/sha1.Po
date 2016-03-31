@@ -1,5 +1,5 @@
-sha1.o: sha1.c ../../include/mbedtls/sha1.h \
- ../../include/mbedtls/config.h ../../include/mbedtls/check_config.h \
+sha1.o: sha1.c include/mbedtls/sha1.h include/mbedtls/config.h \
+ include/mbedtls/check_config.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h \
  /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/stdc-predef.h \
@@ -29,11 +29,11 @@ sha1.o: sha1.c ../../include/mbedtls/sha1.h \
  /usr/include/i386-linux-gnu/bits/stdio.h \
  /usr/include/i386-linux-gnu/bits/stdio2.h
 
-../../include/mbedtls/sha1.h:
+include/mbedtls/sha1.h:
 
-../../include/mbedtls/config.h:
+include/mbedtls/config.h:
 
-../../include/mbedtls/check_config.h:
+include/mbedtls/check_config.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include-fixed/limits.h:
 

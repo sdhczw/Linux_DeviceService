@@ -1,5 +1,5 @@
-urlsafe_b64.o: b64/urlsafe_b64.c ../../include/b64/urlsafe_b64.h \
- ../../include/b64/b64.h /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h \
+urlsafe_b64.o: b64/urlsafe_b64.c include/b64/urlsafe_b64.h \
+ include/b64/b64.h /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h \
  /usr/include/assert.h /usr/include/features.h /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/predefs.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -15,9 +15,9 @@ urlsafe_b64.o: b64/urlsafe_b64.c ../../include/b64/urlsafe_b64.h \
  /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
  /usr/include/i386-linux-gnu/bits/string3.h
 
-../../include/b64/urlsafe_b64.h:
+include/b64/urlsafe_b64.h:
 
-../../include/b64/b64.h:
+include/b64/b64.h:
 
 /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h:
 
